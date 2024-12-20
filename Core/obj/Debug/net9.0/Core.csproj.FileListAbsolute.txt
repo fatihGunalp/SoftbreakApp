@@ -1,0 +1,11 @@
+/Users/fatih/Desktop/Softbreak/SoftbreakApp/Core/bin/Debug/net9.0/Core.deps.json
+/Users/fatih/Desktop/Softbreak/SoftbreakApp/Core/bin/Debug/net9.0/Core.dll
+/Users/fatih/Desktop/Softbreak/SoftbreakApp/Core/bin/Debug/net9.0/Core.pdb
+/Users/fatih/Desktop/Softbreak/SoftbreakApp/Core/obj/Debug/net9.0/Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fatih/Desktop/Softbreak/SoftbreakApp/Core/obj/Debug/net9.0/Core.AssemblyInfoInputs.cache
+/Users/fatih/Desktop/Softbreak/SoftbreakApp/Core/obj/Debug/net9.0/Core.AssemblyInfo.cs
+/Users/fatih/Desktop/Softbreak/SoftbreakApp/Core/obj/Debug/net9.0/Core.csproj.CoreCompileInputs.cache
+/Users/fatih/Desktop/Softbreak/SoftbreakApp/Core/obj/Debug/net9.0/Core.dll
+/Users/fatih/Desktop/Softbreak/SoftbreakApp/Core/obj/Debug/net9.0/refint/Core.dll
+/Users/fatih/Desktop/Softbreak/SoftbreakApp/Core/obj/Debug/net9.0/Core.pdb
+/Users/fatih/Desktop/Softbreak/SoftbreakApp/Core/obj/Debug/net9.0/ref/Core.dll
