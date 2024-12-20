@@ -16,6 +16,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddDbContext<SoftbreakContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("PostgreSQLConnection"), b => b.MigrationsAssembly("WebApi")));
 
+//OpenAI_ApiKey
+var apiKey = Environment.GetEnvironmentVariable("OpenAI_ApiKey");
+
 // Dependency Injection
 builder.Services.AddScoped<IDatabaseInitializer, DatabaseInitializer>();
 builder.Services.AddScoped<IYoutubeDataService, YoutubeDataService>();
