@@ -129,10 +129,10 @@ C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\obj\Debug\net9
 C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
 C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.WebApi.props
 C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\obj\Debug\net9.0\staticwebassets.pack.json
-C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\obj\Debug\net9.0\WebApi.csproj.Up2Date
 C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\obj\Debug\net9.0\WebApi.dll
 C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\obj\Debug\net9.0\refint\WebApi.dll
 C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\obj\Debug\net9.0\WebApi.pdb
 C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\obj\Debug\net9.0\WebApi.genruntimeconfig.cache
 C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\obj\Debug\net9.0\ref\WebApi.dll
+C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

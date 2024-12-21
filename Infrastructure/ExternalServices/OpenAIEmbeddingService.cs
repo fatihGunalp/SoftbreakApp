@@ -59,6 +59,8 @@ namespace Infrastructure.ExternalServices
 
         public async Task<string> GenerateChatResponseAsync(string userInput, string videoId)
         {
+            const double SimilarityThreshold = 0.9; // Alaka eşiği (0 ile 1 arasında)
+
             // 1. Videoyu ve yorumları veritabanından çek
             var video = await _context.YoutubeVideos
                 .Include(v => v.Comments)
@@ -81,6 +83,16 @@ namespace Infrastructure.ExternalServices
                     Similarity = CalculateCosineSimilarity(userEmbedding.ToArray(), c.Vector)
                 })
                 .OrderByDescending(x => x.Similarity)
+                .ToList();
+
+            // Alaka kontrolü
+            if (!relevantComments.Any() || relevantComments.First().Similarity < SimilarityThreshold)
+            {
+                return "Sorduğunuz soru bu video içeriğiyle alakalı değil. Lütfen ilgili bir konu hakkında daha fazla bilgi verirseniz size daha iyi yardımcı olabilirim.";
+            }
+
+            // En alakalı yorumları seç
+            var topComments = relevantComments
                 .Take(5) // İlk 5 en alakalı yorumu seç
                 .Select(x => x.Comment)
                 .ToList();
@@ -90,20 +102,18 @@ namespace Infrastructure.ExternalServices
             contextBuilder.AppendLine($"Video: {video.Title}");
             contextBuilder.AppendLine($"Açıklama: {video.Description}");
             contextBuilder.AppendLine("En Alakalı Yorumlar:");
-            foreach (var comment in relevantComments)
+            foreach (var comment in topComments)
             {
                 contextBuilder.AppendLine($"- {comment}");
             }
 
-            
-
             // ChatGPT için mesaj listesi oluştur
             var messages = new List<Message>
-            {
-                new Message(Role.System, _prompt),
-                new Message(Role.User, userInput),
-                new Message(Role.Assistant, contextBuilder.ToString())
-            };
+    {
+        new Message(Role.System, _prompt),
+        new Message(Role.User, userInput),
+        new Message(Role.Assistant, contextBuilder.ToString())
+    };
 
             // 5. Chat API isteği gönder
             var chatRequest = new ChatRequest(
@@ -124,5 +134,6 @@ namespace Infrastructure.ExternalServices
             var magnitude2 = Math.Sqrt(vector2.Sum(v => v * v));
             return dotProduct / (magnitude1 * magnitude2);
         }
+
     }
 }

@@ -16,10 +16,12 @@ namespace Infrastructure.ExternalServices
     {
         private readonly YouTubeService _youTubeService;
         private readonly IConfiguration _configuration;
+        private readonly IOpenAIEmbeddingService _openAIEmbeddingService;
 
-        public YoutubeDataService(IConfiguration configuration)
+        public YoutubeDataService(IConfiguration configuration, IOpenAIEmbeddingService openAIEmbeddingService)
         {
             _configuration = configuration;
+            _openAIEmbeddingService = openAIEmbeddingService;
             var clientSecretsPath = configuration["YouTube:ClientSecretsPath"];
             var applicationName = configuration["YouTube:ApplicationName"];
             _youTubeService = GetYouTubeService(clientSecretsPath, applicationName).Result;
@@ -117,14 +119,14 @@ namespace Infrastructure.ExternalServices
 
         public async Task<List<YoutubeComment>> GetVideoComments(string videoId)
         {
-           var comments = new List<YoutubeComment>();
+            var comments = new List<YoutubeComment>();
             string nextPageToken = null;
 
             try
             {
                 do
                 {
-                    var commentRequest = _youTubeService.CommentThreads.List("snippet");
+                    var commentRequest = _youTubeService.CommentThreads.List("snippet,replies");
                     commentRequest.VideoId = videoId;
                     commentRequest.MaxResults = 50;
                     commentRequest.PageToken = nextPageToken;
@@ -134,14 +136,22 @@ namespace Infrastructure.ExternalServices
                     foreach (var commentThread in commentResponse.Items)
                     {
                         var topLevelComment = commentThread.Snippet.TopLevelComment.Snippet;
+
+                        // Yorum bilgisi
                         var comment = new YoutubeComment
                         {
                             Author = topLevelComment.AuthorDisplayName,
                             Text = topLevelComment.TextOriginal,
                             LikeCount = (int)(topLevelComment.LikeCount ?? 0),
                             PublishedAt = (topLevelComment.PublishedAt ?? DateTime.MinValue).ToUniversalTime(),
-                            Vector = new float[] { }
                         };
+
+                        // Yanıt kontrolü ve Reply alanını doldurma
+                        if (commentThread.Replies?.Comments != null && commentThread.Replies.Comments.Any())
+                        {
+                            comment.Reply = commentThread.Replies.Comments[0].Snippet.TextOriginal; // İlk yanıtı al
+                        }
+
                         comments.Add(comment);
                     }
 
@@ -151,7 +161,7 @@ namespace Infrastructure.ExternalServices
             }
             catch (Google.GoogleApiException ex) when (ex.Error != null && ex.Error.Code == 403 && ex.Error.Errors[0].Reason == "commentsDisabled")
             {
-                Console.WriteLine($"VideoID {videoId} için yorumlar devre dışı bırakılmış.");
+                Console.WriteLine($"VideoID {videoId} için yorumlar devre dışı bırakılmış. İşlem atlanıyor.");
             }
             catch (Exception ex)
             {
@@ -160,6 +170,9 @@ namespace Infrastructure.ExternalServices
 
             return comments;
         }
+
+
+
 
         public async Task<List<YoutubeVideo>> GetNewChannelVideos(DateTime? lastVideoDate = null)
         {

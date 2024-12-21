@@ -60,8 +60,12 @@ namespace Infrastructure.Services
             {
                 try
                 {
-                    comment.Vector = (await _openAIEmbeddingService.GenerateEmbeddingAsync(comment.Text)).ToArray();
-                    Console.WriteLine($"Yorum Embedding güncellendi: {comment.Text.Substring(0, Math.Min(50, comment.Text.Length))}");
+                    // Eğer Vector zaten varsa, tekrar oluşturma
+                    if (comment.Vector == null || comment.Vector.Length == 0)
+                    {
+                        comment.Vector = (await _openAIEmbeddingService.GenerateEmbeddingAsync(comment.Text)).ToArray();
+                        Console.WriteLine($"Yorum Embedding güncellendi: {comment.Text.Substring(0, Math.Min(50, comment.Text.Length))}");
+                    }
                 }
                 catch (Exception ex)
                 {
