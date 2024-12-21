@@ -9,5 +9,7 @@ namespace Core.Interfaces
     public interface IYoutubeVideoRepository:IRepository<YoutubeVideo>
     {
         // YoutubeVideo'ya özel metotlar tanımlanabilir.
+
+        Task<List<YoutubeVideo>> GetVideosWithCommentsAsync();
     }
 }

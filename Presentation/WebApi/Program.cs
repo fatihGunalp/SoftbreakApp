@@ -25,6 +25,7 @@ builder.Services.AddScoped<IDatabaseInitializer, DatabaseInitializer>();
 builder.Services.AddScoped<IYoutubeDataService, YoutubeDataService>();
 builder.Services.AddScoped<IYoutubeVideoRepository, YoutubeVideoRepository>();
 builder.Services.AddScoped<IOpenAIEmbeddingService, OpenAIEmbeddingService>();
+builder.Services.AddScoped<IYoutubeVideoRepository,YoutubeVideoRepository>();
 builder.Services.AddScoped<YoutubeVideoService>();
 builder.Services.AddScoped<DatabaseEmbedding>();
 
