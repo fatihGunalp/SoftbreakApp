@@ -1,5 +1,6 @@
 using Application.Services;
 using Core.Interfaces;
+using Infrastructure.BackgroundServices;
 using Infrastructure.Context;
 using Infrastructure.ExternalServices;
 using Infrastructure.Repositories;
@@ -23,7 +24,12 @@ var apiKey = Environment.GetEnvironmentVariable("OpenAI_ApiKey");
 builder.Services.AddScoped<IDatabaseInitializer, DatabaseInitializer>();
 builder.Services.AddScoped<IYoutubeDataService, YoutubeDataService>();
 builder.Services.AddScoped<IYoutubeVideoRepository, YoutubeVideoRepository>();
+builder.Services.AddScoped<IOpenAIEmbeddingService, OpenAIEmbeddingService>();
 builder.Services.AddScoped<YoutubeVideoService>();
+builder.Services.AddScoped<DatabaseEmbedding>();
+
+// YouTube veri güncellemelerini zamanlayarak kontrol eden Background Service ekleniyor.
+builder.Services.AddHostedService<YoutubeSyncBackgroundService>();
 
 // CORS Ayarları (Özelleştirin)
 builder.Services.AddCors(options =>
@@ -43,6 +49,13 @@ using (var scope = app.Services.CreateScope())
 {
     var databaseInitializer = scope.ServiceProvider.GetRequiredService<IDatabaseInitializer>();
     await databaseInitializer.InitializeAsync();
+}
+
+// Veritabanı Embedding güncelleme servisini çalıştır
+using (var scope = app.Services.CreateScope())
+{
+    var updaterService = scope.ServiceProvider.GetRequiredService<DatabaseEmbedding>();
+    await updaterService.UpdateEmbeddingsAsync();
 }
 
 app.UseHttpsRedirection();

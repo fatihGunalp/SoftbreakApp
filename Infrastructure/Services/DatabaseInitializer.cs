@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using Core.Interfaces;
 using Infrastructure.Context;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Storage;
 
 namespace Infrastructure.Services
 {
@@ -21,8 +23,16 @@ namespace Infrastructure.Services
 
         public async Task InitializeAsync()
         {
-            // Veritabanını oluştur veya güncelle
-            await _context.Database.MigrateAsync();
+            // Veritabanı daha önce oluşturulmuş mu kontrol et
+            var databaseExists = await _context.Database.GetService<IRelationalDatabaseCreator>()
+                                                         .ExistsAsync();
+
+            if (!databaseExists)
+            {
+                // Veritabanını oluştur
+                await _context.Database.MigrateAsync();
+                Console.WriteLine("Veritabanı oluşturuldu ve migrasyonlar uygulandı.");
+            }
 
             // Veritabanında mevcut veri kontrolü
             var hasVideos = await _context.YoutubeVideos.AnyAsync();
