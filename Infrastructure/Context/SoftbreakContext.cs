@@ -2,6 +2,7 @@
 using System.Text.Json;
 using Core.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Infrastructure.Context
@@ -26,9 +27,11 @@ namespace Infrastructure.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
+            // DateTime için ValueConverter (UTC Dönüşümü)
             var dateTimeConverter = new ValueConverter<DateTime, DateTime>(
-        v => v.ToUniversalTime(), // Kaydederken UTC'ye dönüştür
-        v => DateTime.SpecifyKind(v, DateTimeKind.Utc));
+                v => v.ToUniversalTime(), // Kaydederken UTC'ye dönüştür
+                v => DateTime.SpecifyKind(v, DateTimeKind.Utc)); // Okurken UTC türünü belirle
 
             // YoutubeVideo ve YoutubeComment ilişkisi (1 - N)
             modelBuilder.Entity<YoutubeVideo>()
@@ -37,26 +40,30 @@ namespace Infrastructure.Context
                 .HasForeignKey(c => c.VideoId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            // ValueConverter for float[] (Vector property) to JSON
+            // Vector (float[]) için ValueConverter ve ValueComparer
             var vectorConverter = new ValueConverter<float[], string>(
-                v => JsonSerializer.Serialize(v, (JsonSerializerOptions)null),  // Convert float[] to JSON string
-                v => JsonSerializer.Deserialize<float[]>(v, (JsonSerializerOptions)null)); // Convert JSON string back to float[]
+                v => JsonSerializer.Serialize(v, (JsonSerializerOptions)null), // float[] -> JSON string
+                v => JsonSerializer.Deserialize<float[]>(v, (JsonSerializerOptions)null)); // JSON string -> float[]
 
-            modelBuilder.Entity<YoutubeVideo>()
-        .Property(v => v.Vector)
-        .IsRequired(false);
+            var vectorComparer = new ValueComparer<float[]>(
+                (v1, v2) => v1.SequenceEqual(v2), // İki float[] eşit mi?
+                v => v.Aggregate(0, (a, v) => HashCode.Combine(a, v.GetHashCode())), // HashCode hesaplama
+                v => v.ToArray()); // Derin kopya
 
-            modelBuilder.Entity<YoutubeComment>()
-        .Property(v => v.Vector)
-        .IsRequired(false);
-
+            // YoutubeVideo.Vector için Converter ve Comparer
             modelBuilder.Entity<YoutubeVideo>()
                 .Property(v => v.Vector)
-                .HasConversion(vectorConverter);
+                .IsRequired(false)
+                .HasConversion(vectorConverter)
+                .Metadata.SetValueComparer(vectorComparer);
 
+            // YoutubeComment.Vector için Converter ve Comparer
             modelBuilder.Entity<YoutubeComment>()
                 .Property(c => c.Vector)
-                .HasConversion(vectorConverter);
+                .IsRequired(false)
+                .HasConversion(vectorConverter)
+                .Metadata.SetValueComparer(vectorComparer);
         }
+
     }
 }

@@ -28,6 +28,7 @@ builder.Services.AddDbContext<SoftbreakContext>(options =>
 var apiKey = Environment.GetEnvironmentVariable("OpenAI_ApiKey");
 
 // Dependency Injection
+builder.Services.AddSingleton<ILoggingService, LoggingService>();
 builder.Services.AddScoped<IDatabaseInitializer, DatabaseInitializer>();
 builder.Services.AddScoped<IYoutubeDataService, YoutubeDataService>();
 builder.Services.AddScoped<IYoutubeVideoRepository, YoutubeVideoRepository>();
@@ -56,29 +57,72 @@ var app = builder.Build();
 // Veritabanı başlatma işlemi
 using (var scope = app.Services.CreateScope())
 {
-    var databaseInitializer = scope.ServiceProvider.GetRequiredService<IDatabaseInitializer>();
-    await databaseInitializer.InitializeAsync();
+    var dbLogger = scope.ServiceProvider.GetRequiredService<ILoggingService>(); // Benzersiz ad kullanılıyor
+    try
+    {
+        var databaseInitializer = scope.ServiceProvider.GetRequiredService<IDatabaseInitializer>();
+        dbLogger.LogInformation("Veritabanı başlatma işlemi başlatılıyor.");
+        await databaseInitializer.InitializeAsync();
+        dbLogger.LogInformation("Veritabanı başlatma işlemi başarıyla tamamlandı.");
+    }
+    catch (Exception ex)
+    {
+        dbLogger.LogError("Veritabanı başlatma işleminde hata oluştu.", ex);
+        throw;
+    }
 }
+
+
 
 // Veritabanı Embedding güncelleme servisini çalıştır
 using (var scope = app.Services.CreateScope())
 {
-    var updaterService = scope.ServiceProvider.GetRequiredService<DatabaseEmbedding>();
-    await updaterService.UpdateEmbeddingsAsync();
+    var embeddingLogger = scope.ServiceProvider.GetRequiredService<ILoggingService>(); // Benzersiz ad kullanılıyor
+    try
+    {
+        var updaterService = scope.ServiceProvider.GetRequiredService<DatabaseEmbedding>();
+        embeddingLogger.LogInformation("Embedding güncelleme işlemi başlatılıyor.");
+        await updaterService.UpdateEmbeddingsAsync();
+        embeddingLogger.LogInformation("Embedding güncelleme işlemi başarıyla tamamlandı.");
+    }
+    catch (Exception ex)
+    {
+        embeddingLogger.LogError("Embedding güncelleme işleminde hata oluştu.", ex);
+        throw;
+    }
 }
+
+
 
 // JSON dışa aktarma servisini çalıştır
 using (var scope = app.Services.CreateScope())
 {
-    var exportService = scope.ServiceProvider.GetRequiredService<YoutubeExportService>();
-    var filePath = await exportService.ExportDataToJsonAsync("YoutubeData.json");
-    Console.WriteLine($"JSON verisi oluşturuldu: {filePath}");
+    var exportLogger = scope.ServiceProvider.GetRequiredService<ILoggingService>(); // Benzersiz ad kullanılıyor
+    try
+    {
+        var exportService = scope.ServiceProvider.GetRequiredService<YoutubeExportService>();
+        exportLogger.LogInformation("JSON dışa aktarma işlemi başlatılıyor.");
+        var filePath = await exportService.ExportDataToJsonAsync("YoutubeData.json");
+        exportLogger.LogInformation($"JSON verisi başarıyla dışa aktarıldı: {filePath}");
+    }
+    catch (Exception ex)
+    {
+        exportLogger.LogError("JSON dışa aktarma işleminde hata oluştu.", ex);
+        throw;
+    }
 }
 
 
 
+
+
 app.UseHttpsRedirection();
-app.UseCors("AllowAll"); // CORS politikası uygulanıyor
+var logger = app.Services.GetRequiredService<ILoggingService>();
+logger.LogInformation("HTTPS yönlendirme etkinleştirildi.");
+
+app.UseCors("AllowAll");
+logger.LogInformation("CORS politikası uygulandı.");
+
 app.UseAuthorization();
 
 app.MapControllers();

@@ -27,7 +27,7 @@ namespace Infrastructure.ExternalServices
             }
             _context = context;
             _openAIClient = new OpenAIClient(apiKey);
-            _prompt = configuration["PromptSettings:MentatPrompt"];
+            _prompt = configuration["PromptSettings:YoutubeAssistPrompt"];
         }
 
         public async Task<List<float>> GenerateEmbeddingAsync(string inputText)

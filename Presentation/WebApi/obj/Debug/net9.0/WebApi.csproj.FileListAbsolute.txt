@@ -134,5 +134,14 @@ C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\obj\Debug\net9
 C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\obj\Debug\net9.0\WebApi.pdb
 C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\obj\Debug\net9.0\WebApi.genruntimeconfig.cache
 C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\obj\Debug\net9.0\ref\WebApi.dll
-C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\bin\Debug\net9.0\YoutubeData.json
+C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\bin\Debug\net9.0\Serilog.dll
+C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\bin\Debug\net9.0\Serilog.AspNetCore.dll
+C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\bin\Debug\net9.0\Serilog.Extensions.Hosting.dll
+C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\bin\Debug\net9.0\Serilog.Extensions.Logging.dll
+C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\bin\Debug\net9.0\Serilog.Formatting.Compact.dll
+C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\bin\Debug\net9.0\Serilog.Settings.Configuration.dll
+C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\bin\Debug\net9.0\Serilog.Sinks.Console.dll
+C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\bin\Debug\net9.0\Serilog.Sinks.Debug.dll
+C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\bin\Debug\net9.0\Serilog.Sinks.File.dll
+C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

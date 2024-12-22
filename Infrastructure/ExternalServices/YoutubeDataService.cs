@@ -8,6 +8,7 @@ using Google.Apis.Auth.OAuth2;
 using Google.Apis.Services;
 using Google.Apis.Util.Store;
 using Google.Apis.YouTube.v3;
+using Google.Apis.YouTube.v3.Data;
 using Microsoft.Extensions.Configuration;
 
 namespace Infrastructure.ExternalServices
@@ -17,11 +18,13 @@ namespace Infrastructure.ExternalServices
         private readonly YouTubeService _youTubeService;
         private readonly IConfiguration _configuration;
         private readonly IOpenAIEmbeddingService _openAIEmbeddingService;
+        private readonly ILoggingService _loggingService;
 
-        public YoutubeDataService(IConfiguration configuration, IOpenAIEmbeddingService openAIEmbeddingService)
+        public YoutubeDataService(IConfiguration configuration, IOpenAIEmbeddingService openAIEmbeddingService, ILoggingService loggingService)
         {
             _configuration = configuration;
             _openAIEmbeddingService = openAIEmbeddingService;
+            _loggingService = loggingService;
             // Çevre değişkenlerinden client bilgilerini alıyoruz.
             string clientId = Environment.GetEnvironmentVariable("YOUTUBE_CLIENT_ID");
             string clientSecret = Environment.GetEnvironmentVariable("YOUTUBE_CLIENT_SECRET");
@@ -177,11 +180,12 @@ namespace Infrastructure.ExternalServices
             }
             catch (Google.GoogleApiException ex) when (ex.Error != null && ex.Error.Code == 403 && ex.Error.Errors[0].Reason == "commentsDisabled")
             {
+               
                 Console.WriteLine($"VideoID {videoId} için yorumlar devre dışı bırakılmış. İşlem atlanıyor.");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"VideoID {videoId} için yorumları alırken bir hata oluştu: {ex.Message}");
+                _loggingService.LogError($"VideoID {videoId} için yorumlar devre dışı bırakılmış. İşlem atlanıyor.", ex);
             }
 
             return comments;
@@ -244,7 +248,7 @@ namespace Infrastructure.ExternalServices
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"YouTube API'den videolar çekilirken hata oluştu: {ex.Message}");
+                _loggingService.LogError($"YouTube API'den videolar çekilirken hata oluştu: {ex.Message}", ex);
             }
 
             return videoList;
