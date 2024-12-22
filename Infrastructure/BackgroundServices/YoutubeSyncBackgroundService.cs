@@ -6,8 +6,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Core.Interfaces;
-using Google.Apis.YouTube.v3.Data;
-
 
 namespace Infrastructure.BackgroundServices
 {
@@ -21,6 +19,7 @@ namespace Infrastructure.BackgroundServices
             _serviceProvider = serviceProvider;
             _configuration = configuration;
         }
+
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
             while (!stoppingToken.IsCancellationRequested)
@@ -30,8 +29,7 @@ namespace Infrastructure.BackgroundServices
                 var delay = nextRun - now;
 
                 await Task.Delay(delay, stoppingToken);
-                //await Task.Delay(1000, stoppingToken); // Test için 1 saniye gecikme
-
+                //await Task.Delay(5000, stoppingToken);
                 using (var scope = _serviceProvider.CreateScope())
                 {
                     var youtubeDataService = scope.ServiceProvider.GetRequiredService<IYoutubeDataService>();
@@ -47,17 +45,19 @@ namespace Infrastructure.BackgroundServices
                             .Select(v => v.PublishedAt)
                             .FirstOrDefaultAsync();
 
-                        // YouTube'dan yeni videoları çek
+                        // Yeni videoları al
                         var newVideos = await youtubeDataService.GetNewChannelVideos(lastVideoDate);
 
                         foreach (var videoInfo in newVideos)
                         {
                             // Video veritabanında mevcut mu kontrol et
-                            var exists = await dbContext.YoutubeVideos
-                                .AnyAsync(v => v.VideoId == videoInfo.VideoId);
+                            var existingVideo = await dbContext.YoutubeVideos
+                                .Include(v => v.Comments) // Yorumları da dahil et
+                                .FirstOrDefaultAsync(v => v.VideoId == videoInfo.VideoId);
 
-                            if (!exists) // Eğer mevcut değilse ekle
+                            if (existingVideo == null)
                             {
+                                // Yeni video ekle
                                 var comments = await youtubeDataService.GetVideoComments(videoInfo.VideoId);
 
                                 var video = new YoutubeVideo
@@ -77,16 +77,39 @@ namespace Infrastructure.BackgroundServices
 
                                 dbContext.YoutubeVideos.Add(video);
                                 Console.WriteLine($"Yeni video eklendi: {video.Title}");
-
                             }
                             else
                             {
-                                Console.WriteLine($"Video ve yorumlar güncel!");
+                                // Mevcut video için yeni yorumları kontrol et
+                                var latestCommentDate = existingVideo.Comments
+                                    .OrderByDescending(c => c.PublishedAt)
+                                    .Select(c => c.PublishedAt)
+                                    .FirstOrDefault();
+
+                                var newComments = await youtubeDataService.GetVideoComments(videoInfo.VideoId);
+
+                                foreach (var comment in newComments)
+                                {
+                                    if (comment.PublishedAt > latestCommentDate)
+                                    {
+                                        var newComment = new YoutubeComment
+                                        {
+                                            Author = comment.Author,
+                                            Text = comment.Text,
+                                            LikeCount = comment.LikeCount,
+                                            PublishedAt = comment.PublishedAt.ToUniversalTime(),
+                                            VideoId = existingVideo.Id
+                                        };
+
+                                        dbContext.YoutubeComments.Add(newComment);
+                                        Console.WriteLine($"Yeni yorum eklendi: {newComment.Text}");
+                                    }
+                                }
                             }
                         }
 
                         await dbContext.SaveChangesAsync();
-                        Console.WriteLine($"Yeni videolar ve yorumlar ekleme işlemi tamamlandı.");
+                        Console.WriteLine("Videolar ve yorumlar başarıyla güncellendi.");
                     }
                     catch (Exception ex)
                     {

@@ -22,28 +22,44 @@ namespace Infrastructure.ExternalServices
         {
             _configuration = configuration;
             _openAIEmbeddingService = openAIEmbeddingService;
-            var clientSecretsPath = configuration["YouTube:ClientSecretsPath"];
-            var applicationName = configuration["YouTube:ApplicationName"];
-            _youTubeService = GetYouTubeService(clientSecretsPath, applicationName).Result;
+            // Çevre değişkenlerinden client bilgilerini alıyoruz.
+            string clientId = Environment.GetEnvironmentVariable("YOUTUBE_CLIENT_ID");
+            string clientSecret = Environment.GetEnvironmentVariable("YOUTUBE_CLIENT_SECRET");
+            string applicationName = Environment.GetEnvironmentVariable("YOUTUBE_PROJECT_ID");
+
+            if (string.IsNullOrEmpty(clientId) || string.IsNullOrEmpty(clientSecret))
+            {
+                throw new Exception("YouTube Client ID or Secret not found in environment variables.");
+            }
+            _youTubeService = GetYouTubeService(clientId, clientSecret,applicationName).Result;
         }
 
-        private static async Task<YouTubeService> GetYouTubeService(string clientSecretsPath, string applicationName)
+        private static async Task<YouTubeService> GetYouTubeService(string clientId, string clientSecret, string applicationName)
         {
-            using var stream = new FileStream(clientSecretsPath, FileMode.Open, FileAccess.Read);
+            // Google API için gerekli client secrets nesnesini oluşturuyoruz
+            var secrets = new ClientSecrets
+            {
+                ClientId = clientId,
+                ClientSecret = clientSecret
+            };
+
+            // Yetkilendirme işlemi
             var credential = await GoogleWebAuthorizationBroker.AuthorizeAsync(
-                GoogleClientSecrets.FromStream(stream).Secrets,
+                secrets,
                 new[] { YouTubeService.Scope.YoutubeForceSsl },
                 "user",
                 CancellationToken.None,
                 new FileDataStore("YouTube.Auth.Store")
             );
 
+            // YouTubeService nesnesini döndürme
             return new YouTubeService(new BaseClientService.Initializer
             {
                 HttpClientInitializer = credential,
                 ApplicationName = applicationName
             });
         }
+
 
         public async Task<List<YoutubeVideo>> GetAllChannelVideos()
         {

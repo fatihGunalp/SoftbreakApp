@@ -1,6 +1,5 @@
 C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\bin\Debug\net9.0\appsettings.json
-C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\bin\Debug\net9.0\client_secrets.json
 C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\bin\Debug\net9.0\WebApi.staticwebassets.endpoints.json
 C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\bin\Debug\net9.0\WebApi.exe
 C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\bin\Debug\net9.0\WebApi.deps.json
@@ -136,3 +135,4 @@ C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\obj\Debug\net9
 C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\obj\Debug\net9.0\WebApi.genruntimeconfig.cache
 C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\obj\Debug\net9.0\ref\WebApi.dll
 C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\fatih\Desktop\Softbreak\SoftbreakApp\Presentation\WebApi\bin\Debug\net9.0\YoutubeData.json

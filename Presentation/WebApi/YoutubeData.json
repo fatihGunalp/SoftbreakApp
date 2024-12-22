@@ -1,0 +1,2532 @@
+[
+  {
+    "Id": 1,
+    "VideoId": "fY90focCynA",
+    "Title": "C#-Ders 1-Ba\u015Flang\u0131\u00E7 (Introduction) \uD83D\uDCBB",
+    "Description": "\u0130nternet ortam\u0131nda binlerce video, makale, anlat\u0131m vs... bulunmakta. Bu kadar materyal aras\u0131nda da bu evrene yeni ad\u0131m atm\u0131\u015F olan veya halihaz\u0131rda bu evrende bir \u015Feyler \u00FCretmek isteyenler bazen \u00E7\u0131kmaz yola girdiklerine inanabiliyorlar. Bu y\u00FCzden elimizden geldi\u011Fince tecr\u00FCbelerimizi sizinle payla\u015Fmak istiyoruz. Bu evrende \u0022tek\u0022 olarak de\u011Fil \u0022ekip\u0022 olarak ilerlendi\u011Finde ba\u015Far\u0131n\u0131n gelece\u011Fine inan\u0131yoruz. \nsoftBreak Discord evreninde ba\u015Flad\u0131\u011F\u0131m\u0131z canl\u0131 C# e\u011Fitim serisinin ilk videosunda C# programlama dilinin temel kavramlar\u0131n\u0131n anla\u015F\u0131lmas\u0131 ad\u0131na \u0022Windows form application\u0022 uygulamas\u0131 \u00FCzerinden a\u015Fa\u011F\u0131daki konular\u0131 i\u015Fledik.\n\n\n\u2705 de\u011Fi\u015Fkenler (variables), \n\u2705 veri tipleri (data types), \n\u2705 olaylar (events), \n\u2705 ara\u00E7lar (tool box)\n\n\u2753 ya\u015Fam\u0131\u015F oldu\u011Funuz hatalar\u0131 veya sorular\u0131 discord sunucumuzda payla\u015Fabilirsiz.\n\nsoftBreak\n\nDiscord sunucusu: https://discord.gg/mHWKhjQNGx",
+    "PublishedAt": "2022-06-09T23:13:06Z",
+    "Tags": "yaz\u0131l\u0131m,programlama,yaz\u0131l\u0131m 2022,C# s\u0131f\u0131rdan,C#,windows form application,yaz\u0131l\u0131m dersleri",
+    "Comments": [
+      {
+        "Id": 2,
+        "VideoId": 1,
+        "Author": "@erenvahapoglu9368",
+        "PublishedAt": "2022-12-20T10:30:18Z",
+        "Text": "Hocam a\u011Fz\u0131n\u0131za sa\u011Fl\u0131k \u00E7ok g\u00FCzel anlatm\u0131\u015Fs\u0131n\u0131z."
+      },
+      {
+        "Id": 1,
+        "VideoId": 1,
+        "Author": "@sha8715",
+        "PublishedAt": "2024-08-03T16:17:53Z",
+        "Text": "Aradan \u00E7ok vakit ge\u00E7mi\u015F bir soru sormak istiyorum . Windows Forms App ile u\u011Fra\u015Fmay\u0131 seviyorum ama gelece\u011Fim i\u00E7in zaman kayb\u0131 m\u0131 acaba diyorum . Bu devirde bize \u00F6nermek istedi\u011Finiz bir \u015Fey var m\u0131 hocam yaz\u0131l\u0131m dili veya ba\u015Fka bir \u015Fey."
+      },
+      {
+        "Id": 3,
+        "VideoId": 1,
+        "Author": "@enescivelek3369",
+        "PublishedAt": "2022-10-12T12:41:12Z",
+        "Text": "hocam ben hem internetle ve veritaban\u0131yla ba\u011Fl\u0131 yada uyumlu bir masa\u00FCst\u00FC uygulamas\u0131 yap\u0131cam uygulamada veritaban\u0131na kay\u0131t etme silme baz\u0131 verileri veritaban\u0131ndan g\u00F6sterme gibi i\u015Flemler yap\u0131cam temel olarak 0 dan ba\u015Flayaca\u011F\u0131m veritaban\u0131n\u0131 ve hangi masa\u00FCst\u00FC geli\u015Ftirme platformunu se\u00E7eyim diye ara\u015Ft\u0131rma yap\u0131yorum codefirst ve databasefirst diye iki kavram kar\u015F\u0131ma \u00E7\u0131kt\u0131 c# kullanaca\u011F\u0131m i\u00E7in i\u015Fte .net .netcore entityfreamwork gibi kavramlar var benim ihtiyac\u0131m bunlar\u0131n hangisini ve nas\u0131l \u00F6\u011Frenmek olmal\u0131 bu konu hakk\u0131nda yard\u0131mc\u0131 olabilece\u011Finiz e\u011Fitim serileri yada bir fikir var m\u0131 acaba ?"
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "VideoId": "uVfBWhyGmGg",
+    "Title": "C#-Ders 2-Tip D\u00F6n\u00FC\u015F\u00FCmleri, Hata Yakalama (Converts, Try-Catch) \uD83D\uDCBB",
+    "Description": "Bir \u00F6nceki dersimizde tipler, de\u011Fi\u015Fkenler, olay y\u00F6netimi gibi kavramlar\u0131 \u00F6\u011Frenmi\u015Ftik. Bu dersimizde ise olu\u015Fturmu\u015F oldu\u011Fumuz tipleri aras\u0131nda d\u00F6n\u00FC\u015F\u00FCmleri nas\u0131l ger\u00E7ekle\u015Ftirebiliriz? ve d\u00F6n\u00FC\u015F\u00FCm esnas\u0131nda al\u0131nan hatalar\u0131 nas\u0131l kontrol alt\u0131na alabilir? bu kavramlar\u0131 i\u015Fleyece\u011Fiz.\n\n\u2705 Tip D\u00F6n\u00FC\u015F\u00FCmleri (Converts), \n\u2705 Try-Catch (Hata Yakalama)\n\n\u2753 ya\u015Fam\u0131\u015F oldu\u011Funuz hatalar\u0131 veya sorular\u0131 discord sunucumuzda payla\u015Fabilirsiz.\n\nsoftBreak\n\nDiscord sunucusu: https://discord.gg/mHWKhjQNGx",
+    "PublishedAt": "2022-06-12T13:27:02Z",
+    "Tags": "C# dersler,Tip d\u00F6n\u00FC\u015F\u00FCmleri,hata yakalama,yaz\u0131l\u0131m 2022,Yaz\u0131l\u0131m dersleri,s\u0131f\u0131rdan yaz\u0131l\u0131m",
+    "Comments": []
+  },
+  {
+    "Id": 3,
+    "VideoId": "7vL5POYT_Dk",
+    "Title": "C#-Ders 3-Karar Yap\u0131lar\u0131 (if..else.. switch... case...) \uD83D\uDCBB",
+    "Description": "\u00D6nceki derslerimizde d\u0131\u015Far\u0131dan veri alma, verinin tipini de\u011Fi\u015Ftirme, hata yakalama gibi konular\u0131 i\u015Flemi\u015Ftik. Bu dersimizde de d\u0131\u015Far\u0131dan al\u0131nan veriler ve program i\u00E7erisinde uygulayaca\u011F\u0131m\u0131z karar mekanizmalar\u0131n\u0131 i\u015Fledik.\n\n\u2705 if\n\u2705 else if\n\u2705 else\n\u2705switch\n\u2705 case\n\n\u2753 ya\u015Fam\u0131\u015F oldu\u011Funuz hatalar\u0131 veya sorular\u0131 discord sunucumuzda payla\u015Fabilirsiz.\n\nsoftBreak\n\nDiscord sunucusu: https://discord.gg/mHWKhjQNGx",
+    "PublishedAt": "2022-06-17T17:05:41Z",
+    "Tags": "yaz\u0131l\u0131m dersleri,yaz\u0131l\u0131m dersleri 2022,c# dersleri,s\u0131f\u0131rdan yaz\u0131l\u0131m,karar yap\u0131lar\u0131",
+    "Comments": []
+  },
+  {
+    "Id": 4,
+    "VideoId": "mDhymhDLurM",
+    "Title": "C#-Ders 4-D\u00F6ng\u00FCler (for,while,foreach,do while) \uD83D\uDCBB",
+    "Description": "Bir \u00F6nceki dersimizde karar mekanizmalar\u0131ndan bahsetmi\u015Ftik. Bu dersimizde de d\u00F6ng\u00FClerden (loops) bahsedece\u011Fiz. D\u00F6ng\u00FClerin ne i\u015Fe yarad\u0131\u011F\u0131n\u0131 ve yaz\u0131l\u0131m biliminde neden bulundu\u011Funu incelece\u011Fiz. \n\n\u2705 for\n\u2705 while\n\u2705 do while\n\u2705 foreach\n\n\u2753 ya\u015Fam\u0131\u015F oldu\u011Funuz hatalar\u0131 veya sorular\u0131 discord sunucumuzda payla\u015Fabilirsiz.\n\nsoftBreak\n\nDiscord sunucusu: https://discord.gg/mHWKhjQNGx",
+    "PublishedAt": "2022-06-24T16:00:36Z",
+    "Tags": "yaz\u0131l\u0131m 2022,C# dersleri,d\u00F6ng\u00FCler,for d\u00F6ng\u00FCs\u00FC,while d\u00F6ng\u00FCs\u00FC,do while d\u00F6ng\u00FCs\u00FC,foreach d\u00F6ng\u00FCs\u00FC",
+    "Comments": []
+  },
+  {
+    "Id": 5,
+    "VideoId": "1yJIlOl9jOE",
+    "Title": "C#-Ders 5-Diziler, Koleksiyonlar(Arrays, Collections) \uD83D\uDCBB",
+    "Description": "Bu dersimizde C# programlama dilinde diziler (arrays) konusunu i\u015Fledik. Ayn\u0131 zamanda koleksiyon mant\u0131\u011F\u0131n\u0131 da inceledik. \n\n\u2705 array\n\u2705 collection\n\n\u2753 ya\u015Fam\u0131\u015F oldu\u011Funuz hatalar\u0131 veya sorular\u0131 discord sunucumuzda payla\u015Fabilirsiz.\n\nsoftBreak\n\nDiscord sunucusu: https://discord.gg/mHWKhjQNGx",
+    "PublishedAt": "2022-07-01T14:29:08Z",
+    "Tags": "yaz\u0131l\u0131m dersleri 2022,C# dersleri,diziler,koleksiyonlar,array,collection",
+    "Comments": [
+      {
+        "Id": 4,
+        "VideoId": 5,
+        "Author": "@sadkokuyucu1335",
+        "PublishedAt": "2024-05-05T09:21:13Z",
+        "Text": "Ger\u00E7ekten \u00E7ok iyi anlat\u0131yorsunuz. A\u011Fz\u0131n\u0131za zihninize sa\u011Fl\u0131k. L\u00FCtfen bu t\u00FCr temel konulara devam edin. Takip\u00E7i say\u0131s\u0131na bakarak vazge\u00E7meyin. \u015Eahsen ben \u00E7ok faydalan\u0131yorum."
+      }
+    ]
+  },
+  {
+    "Id": 6,
+    "VideoId": "RceYpNMN1eU",
+    "Title": "C#-Ders 6-Metotlar (Functions) \uD83D\uDCBB",
+    "Description": "Metotlar, C# programlama dilinde birden fazla yerde kullanaca\u011F\u0131m\u0131z kodlar\u0131 tek bir yap\u0131 alt\u0131nda toplayarak, bu yap\u0131y\u0131 istedi\u011Fimiz yerden \u00E7a\u011F\u0131rarak kullanabilmemizi sa\u011Flayan yap\u0131lard\u0131r. \u00D6z\u00FCnde Matematik derslerinde bildi\u011Fimiz fonksiyon tan\u0131mlaman\u0131n kendisidir. \n\nMetotlar (functions) ikiye ayr\u0131l\u0131r. Bunlar;\n\u2705 Geriye de\u011Fer d\u00F6nd\u00FCren metotlar.\n\u2705 Geriye de\u011Fer d\u00F6nd\u00FCrmeyen metotlar.\n\n\u2753 ya\u015Fam\u0131\u015F oldu\u011Funuz hatalar\u0131 veya sorular\u0131 discord sunucumuzda payla\u015Fabilirsiz.\n\nsoftBreak\n\nDiscord sunucusu: https://discord.gg/mHWKhjQNGx",
+    "PublishedAt": "2022-07-09T17:33:20Z",
+    "Tags": "Yaz\u0131l\u0131m dersleri,Yaz\u0131l\u0131m Dersleri 2022,C# dersleri,metotlar,fonksiyonlar",
+    "Comments": []
+  },
+  {
+    "Id": 7,
+    "VideoId": "XPD5RgMl8hc",
+    "Title": "Ders 1-C# ile console platformunda metin tabanl\u0131 oyun nas\u0131l yaz\u0131l\u0131r?",
+    "Description": "Sevgili arkada\u015Flar, biliyorsunuz ki C# Introduction derslerimiz bittikten sonra bir s\u00FCre konu anlat\u0131mlar\u0131na ara vermi\u015Ftik. Bunun en b\u00FCy\u00FCk sebebi \u00E7ok \u00F6nemli bir Yaz\u0131l\u0131m Felsefesi olan OOP\u0027in detaylar\u0131n\u0131 size klasik bir y\u00F6ntemle anlatmaktan ziyade yarat\u0131c\u0131 bir \u015Fekilde anlatmay\u0131 tercih etmemizdi. Ne de olsa \u015Fu anda neredeyse her kaynakta OOP prensiplerine uygun bir E-Ticaret , Blog veya Arbitraj sitesi nas\u0131l yap\u0131l\u0131r bulabilirdiniz...\u0130ronik olan \u015Fey \u015Fu ki bu felsefeyi asl\u0131nda Yaz\u0131l\u0131ma yeni ba\u015Flayan birine anlatmak i\u00E7in asl\u0131nda en uygun algoritma bir oyun algoritmas\u0131 olmas\u0131na ra\u011Fmen gerek T\u00FCrkiye\u0027de gerekse yaz\u0131l\u0131m\u0131 \u00F6\u011Fretmek icin kurulmus olan cogu siteye oyunlarla ilgili bir tan\u0131t\u0131m / ba\u015Flang\u0131\u00E7 yap\u0131lmamaktad\u0131r. Halbuki bu felsefeyi yeni \u00F6grenen ki\u015Filerin bir bilgisayar oyununa entegre olmalar\u0131 sa\u011Fland\u0131\u011F\u0131 takdirde o ki\u015Fi art\u0131k t\u00FCm projeleri bu mant\u0131kta d\u00FC\u015F\u00FCnebilecek seviyeye zaten gelecektir...Bunun eksikli\u011Fini fark edip sizlere olduk\u00E7a farkl\u0131 bir sistemle geri d\u00F6nd\u00FC\u011F\u00FCm\u00FCz\u00FC bildirmekten mutluluk duyar\u0131z. \u0130cinizden hic bilgisayar oyunuyla ilgisi bulunmayanlar\u0131n hafif bir \u015Fekilde sitem etti\u011Fini duyar gibi olsam da sizlere \u015Funu s\u00F6ylemek isterim ki inan\u0131n hi\u00E7 ama hi\u00E7 \u00F6nemli degil. Oyun dedigimiz yap\u0131 bir eglence \u00FCr\u00FCn\u00FCd\u00FCr. Ve her ne kadar oynamaktan zevk almad\u0131\u011F\u0131n\u0131z\u0131 d\u00FCs\u00FCnseniz de mant\u0131\u011F\u0131n\u0131 anlamak hem \u00E7ok kolayd\u0131r hem nesnel programlama y\u00F6ntemine en kolay adapte olabilece\u011Finiz bir sistemdir. Oyun oynamay\u0131 sevmiyor olsan\u0131z bile mant\u0131\u011F\u0131n\u0131 anlaman\u0131n hem cok farkl\u0131, hem cok kolay ve eglenceli oldu\u011Funu g\u00F6recek hem de bir oyun s\u00F6z konusu oldu\u011Funda Bilgisayar gibi d\u00FC\u015F\u00FCnmenin tam olarak ne demek oldu\u011Funu , bilgisayar\u0131n davran\u0131\u015F bicimini daha rahat hissedeceksiniz\n-------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n*Projeyi \u0130ndirin ve \u0130zleyin:*\nhttps://github.com/softbreak/ConsoleRPG_0\n\nDiscord sunucusu: https://discord.gg/fne5AZMyBh",
+    "PublishedAt": "2022-09-30T19:33:50Z",
+    "Tags": "C#,nesne y\u00F6nelimli programlama,oop,class nedir,constructor nedir,constructor,s\u0131n\u0131f nedir,oyun nas\u0131l yaz\u0131l\u0131r,oyun programlama",
+    "Comments": [
+      {
+        "Id": 6,
+        "VideoId": 7,
+        "Author": "@muhammedalk",
+        "PublishedAt": "2024-11-13T12:34:12Z",
+        "Text": "Bu seriyi izlemek i\u00E7in c# bilinmesi gerekiyor mu?"
+      },
+      {
+        "Id": 7,
+        "VideoId": 7,
+        "Author": "@kajal.2-3",
+        "PublishedAt": "2024-10-31T20:38:35Z",
+        "Text": "di\u011Fer videolar\u0131n \u00FCyelere \u00F6zel olmas\u0131 \u00E7ok k\u00F6t\u00FC bu videolar\u0131 izleyen zaten durumu olmayan \u00F6\u011Frenciler. her \u015Feye de ticari bakmak hi\u00E7 ho\u015F de\u011Fil hele ki bir e\u011Fitimci i\u00E7in. \u00E7ok yaz\u0131k ger\u00E7ekten do\u011Fru d\u00FCzg\u00FCn bi siz anlatm\u0131\u015Fs\u0131n\u0131z o da \u00FCcretli"
+      },
+      {
+        "Id": 8,
+        "VideoId": 7,
+        "Author": "@emrekvrak3956",
+        "PublishedAt": "2024-09-30T10:44:12Z",
+        "Text": "\u00F6n yarg\u0131 ve korkular\u0131m\u0131 k\u0131rd\u0131n ve \u00E7ok keyif alarak e\u011Flenerek izledim te\u015Fekk\u00FCr ederim. Eline eme\u011Fine sa\u011Fl\u0131k"
+      },
+      {
+        "Id": 9,
+        "VideoId": 7,
+        "Author": "@FurkanSaglam-hg6df",
+        "PublishedAt": "2024-07-28T17:15:32Z",
+        "Text": "E\u011Fitim i\u00E7in te\u015Fekk\u00FCr ederim. OOP mannt\u0131\u011F\u0131n\u0131 kavramam\u0131 sa\u011Flad\u0131 bunun gibi video serilerini bekliyorum."
+      },
+      {
+        "Id": 10,
+        "VideoId": 7,
+        "Author": "@sinanbar89",
+        "PublishedAt": "2024-07-16T10:19:01Z",
+        "Text": "Bumant\u0131\u011F\u0131 bu kadarr basit ve etkili anlatan hayat\u0131mda g\u00F6rd\u00FC\u011F\u00FCm ilk yaz\u0131l\u0131mc\u0131s\u0131n\u0131z. Te\u015Fekk\u00FCrler."
+      },
+      {
+        "Id": 11,
+        "VideoId": 7,
+        "Author": "@beyzabaltac3000",
+        "PublishedAt": "2024-01-18T16:45:48Z",
+        "Text": "Bunu bi t\u00FCrl\u00FC anlayam\u0131yordum bi kad\u0131n arkada\u015F\u0131m tavsiye etti kek \u00F6rne\u011Fi sayesinde anlad\u0131m \u00E7ok te\u015Fekk\u00FCrler\uD83D\uDE4F\uD83D\uDE4F\uD83D\uDE4FAnlayamayan t\u00FCm kad\u0131n arkada\u015Flar\u0131mla payla\u015Faca\u011F\u0131m \uD83D\uDE0A\uD83D\uDE0A\uD83D\uDE0A\uD83D\uDE0A\uD83D\uDE0A"
+      },
+      {
+        "Id": 12,
+        "VideoId": 7,
+        "Author": "@rumeysa687",
+        "PublishedAt": "2024-01-18T16:37:20Z",
+        "Text": "\u00C7ok te\u015Fekk\u00FCrler kek kal\u0131b\u0131 \u00F6rne\u011Fini verdi\u011Finiz i\u00E7in yoksa zavall\u0131 kad\u0131n beynim alg\u0131layamam\u0131\u015Ft\u0131"
+      },
+      {
+        "Id": 13,
+        "VideoId": 7,
+        "Author": "@olcayb.3810",
+        "PublishedAt": "2023-10-19T06:33:34Z",
+        "Text": "Knight online oynayan birinin k\u00F6t\u00FC ve vasat anlatmas\u0131 beklenemezdi. Te\u015Fekk\u00FCrler :)"
+      },
+      {
+        "Id": 14,
+        "VideoId": 7,
+        "Author": "@burakcevik734",
+        "PublishedAt": "2023-09-06T19:26:56Z",
+        "Text": "\u00C7ok g\u00FCzel bir anlat\u0131m olmu\u015F hocam. Eme\u011Finize sa\u011Fl\u0131k \uD83D\uDC4F"
+      },
+      {
+        "Id": 15,
+        "VideoId": 7,
+        "Author": "@emrullah-6552",
+        "PublishedAt": "2023-07-29T17:17:45Z",
+        "Text": "E\u011Fitim i\u00E7in \u00E7ok te\u015Fekk\u00FCrler , daha \u00F6ncesinde ald\u0131\u011F\u0131m teorik oop derslerini sayenizde uygulamada nas\u0131l kullanaca\u011F\u0131m\u0131 bu e\u011Flenceli oyun projesiyle g\u00F6rm\u00FC\u015F oluyorum. E\u011Fitim konsepti ve anlat\u0131m\u0131n\u0131z takdire \u015Fayan. Daha fazla proje odakl\u0131 e\u011Fitim isteriz :)"
+      },
+      {
+        "Id": 16,
+        "VideoId": 7,
+        "Author": "@cilginseydi",
+        "PublishedAt": "2023-06-24T11:21:27Z",
+        "Text": "\u00C7ok te\u015Fekk\u00FCrler hocam"
+      },
+      {
+        "Id": 17,
+        "VideoId": 7,
+        "Author": "@enescivelek3369",
+        "PublishedAt": "2022-10-12T08:43:37Z",
+        "Text": "videoyu \u00E7eken ki\u015Finin linkedin veya e\u011Fitim serisi kanal\u0131 bir\u015Feyi var m\u0131 acaba ?"
+      },
+      {
+        "Id": 5,
+        "VideoId": 7,
+        "Author": "@aknyolcu6500",
+        "PublishedAt": "2024-11-16T09:51:21Z",
+        "Text": "Merhaba videonun sadece giri\u015F k\u0131sm\u0131nday\u0131m fakat \u00FCyelere \u00F6zel yapman\u0131z di\u011Fer k\u0131s\u0131mlar\u0131 bir t\u0131k k\u00F6t\u00FC olmu\u015F."
+      }
+    ]
+  },
+  {
+    "Id": 8,
+    "VideoId": "QHnHyRIo9Jo",
+    "Title": "OOP Ders 2-Encapsulation Nedir? Nas\u0131l Uygulan\u0131r?",
+    "Description": "Sevgili arkada\u015Flar bir \u00F6nceki derste olu\u015Fturdu\u011Fumuz projemizde nesne y\u00F6nelimli programlama (oop)\u0027n\u0131n genel felsefesinden bahsetmi\u015Ftik ve devam\u0131nda bir s\u0131n\u0131f (class) olu\u015Fturarak i\u00E7erisinde bir tak\u0131m \u00F6zellikler (properties) tan\u0131mlam\u0131\u015Ft\u0131k. Bu dersimizde ise oop\u0027nin prensiplerinden biri olan kaps\u00FClleme (encapsulation) konusunu i\u015Fleyece\u011Fiz. \n\n*proje:* https://github.com/softbreak/OOP/tree/main/2-Encapsulation/ConsoleRPG_0\n\n-----------------------------------------------------------------------------------------------------------------------------------------------------------\n\n*Projeyi \u0130ndirin ve \u0130zleyin:*\nhttps://github.com/softbreak/ConsoleRPG_0\n\nDiscord sunucusu: https://discord.gg/fne5AZMyBh",
+    "PublishedAt": "2022-10-07T17:00:14Z",
+    "Tags": "nesne y\u00F6nelimli programlama,oop,encapsulation,kaps\u00FClleme,oop projesi,c#",
+    "Comments": [
+      {
+        "Id": 20,
+        "VideoId": 8,
+        "Author": "@ranareo",
+        "PublishedAt": "2024-04-21T13:35:20Z",
+        "Text": "harika anlatim tesekkurler hocam \uD83D\uDC9E\uD83D\uDC9E"
+      },
+      {
+        "Id": 18,
+        "VideoId": 8,
+        "Author": "@emrekvrak3956",
+        "PublishedAt": "2024-10-02T18:17:50Z",
+        "Text": "hi\u00E7 bu kadar keyifli e\u011Fitim almam\u0131\u015Ft\u0131m te\u015Fekk\u00FCrler"
+      },
+      {
+        "Id": 21,
+        "VideoId": 8,
+        "Author": "@B\u00FC\u015FraERDEM-v9m",
+        "PublishedAt": "2024-01-18T12:33:13Z",
+        "Text": "Hocam, hata kodunu set\u0027te f\u0131rlatmam\u0131z gerekmez miydi? \u00C7\u00FCnk\u00FC sonu\u00E7ta get ile de\u011Fi\u015Fiklik yapm\u0131yoruz sadece veriyi \u00E7ekiyoruz, yanl\u0131\u015F de\u011Feri atama yapt\u0131\u011F\u0131m\u0131z yerde yani set\u0027te yapabiliriz sonu\u00E7ta. Tam olarak nerede yanl\u0131\u015F d\u00FC\u015F\u00FCn\u00FCyorum acaba?"
+      },
+      {
+        "Id": 22,
+        "VideoId": 8,
+        "Author": "@yakupplus",
+        "PublishedAt": "2023-05-16T09:39:34Z",
+        "Text": "Te\u015Fekk\u00FCr ederim. Buldu\u011Fum en iyi anlat\u0131md\u0131."
+      },
+      {
+        "Id": 19,
+        "VideoId": 8,
+        "Author": "@Cboyz-nv9dx",
+        "PublishedAt": "2024-06-17T13:34:16Z",
+        "Text": "autoproperty yerine field kullansak fark eder mi?"
+      }
+    ]
+  },
+  {
+    "Id": 9,
+    "VideoId": "CvROrQCUY6o",
+    "Title": "OOP Ders 3-Kal\u0131t\u0131m (Inheritance) Nedir? S\u0131n\u0131flara Kal\u0131t\u0131m Nas\u0131l Uygulan\u0131r?",
+    "Description": "Bir \u00F6nceki dersimizi encapsulation (kaps\u00FClleme) ile sonland\u0131rm\u0131\u015Ft\u0131k. Bu dersimizde ise nesne y\u00F6nelimli programlama (oop)\u0027nin temel prensiplerinden kal\u0131t\u0131m (inheritance) prensibinin ne oldu\u011Funu ve nas\u0131l kullan\u0131ld\u0131\u011F\u0131na yo\u011Funla\u015Faca\u011F\u0131z.  Kal\u0131t\u0131m, bir s\u0131n\u0131f\u0131n \u00FCst s\u0131n\u0131ftan miras almas\u0131na denir. C# programlama dili tekli kal\u0131t\u0131ma izin verir. C#,  \u00E7oklu kal\u0131t\u0131m yerine interface olarak adland\u0131r\u0131lan nesnelerden faydalan\u0131larak kal\u0131t\u0131m\u0131 ger\u00E7ekle\u015Ftirir.\n\nproje: https://github.com/softbreak/OOP/tree/main/3-Inheritance/ConsoleRPG_0\n\n---------------------------------------------------------------------------------------------------------------------------------------------------------\n\n*Projeyi \u0130ndirin ve \u0130zleyin:*\nhttps://github.com/softbreak/ConsoleRPG_0\n\nDiscord sunucusu: https://discord.gg/fne5AZMyBh",
+    "PublishedAt": "2022-10-14T11:06:03Z",
+    "Tags": "C#,nesne y\u00F6nelimli programlama,oop,kal\u0131t\u0131m,inheritance,oyun programlama,.net",
+    "Comments": [
+      {
+        "Id": 25,
+        "VideoId": 9,
+        "Author": "@Sudenuromurca",
+        "PublishedAt": "2024-05-24T08:20:13Z",
+        "Text": "G\u00F6rd\u00FC\u011F\u00FCm en iyi ndp anlat\u0131m\u0131 tebrik ederim.Daha \u00E7ok video \u00E7ekmeniz dile\u011Fiyle. E\u011Fer ba\u015Fka platformlarda varsan\u0131z l\u00FCtfen bilgilendirin hocamm:)"
+      },
+      {
+        "Id": 23,
+        "VideoId": 9,
+        "Author": "@mehmetserin1907",
+        "PublishedAt": "2024-10-30T17:41:12Z",
+        "Text": "BaseEntity b = new Irk();  \nHocam bu atama bize tam olarak neyi anlat\u0131yor acaba? Bu bir nesne alma (\u0130nstance alma) i\u015Flemi ama burda ne neye d\u00F6n\u00FC\u015F\u00FCyor veya ne neyden nesne t\u00FCretiyor? A\u00E7\u0131klarsan\u0131z \u00E7ok sevinirim."
+      },
+      {
+        "Id": 24,
+        "VideoId": 9,
+        "Author": "@FurkanSaglam-hg6df",
+        "PublishedAt": "2024-09-14T20:46:00Z",
+        "Text": "Hocam dakika 30:18 de ba\u015Flayan\nimplicit casting i\u015Flemini tam anlayamad\u0131m a\u00E7\u0131klayabilir misiniz ?"
+      }
+    ]
+  },
+  {
+    "Id": 10,
+    "VideoId": "pKY9AOLTnh8",
+    "Title": "OOP Ders 4-\u00C7ok Bi\u00E7imlilik (Polymorphism) Nedir? Nesne\u0027nin \u00FCyelerine nas\u0131l uygulan\u0131r?",
+    "Description": "Bu dersimizde nesne y\u00F6nelimli programlan\u0131n bir di\u011Fer prensibi olan *\u00E7ok bi\u00E7imlilik* (Polymorhism) konusunu i\u015Fledik. Bir \u00F6nceki b\u00F6l\u00FCmde belirtti\u011Fimiz gibi; Kal\u0131t\u0131m, ba\u015Fka bir s\u0131n\u0131ftan \u00F6znitelikleri ve y\u00F6ntemleri miras almam\u0131z\u0131 sa\u011Flar. Polymorhism, farkl\u0131 g\u00F6revleri ger\u00E7ekle\u015Ftirmek i\u00E7in \u00E7ok bi\u00E7imli olarak kullan\u0131labilir.\n\nproje: https://github.com/softbreak/OOP/tree/main/4-Polymorphism\n\n-------------------------------------------------------------------------------------------------------------------------------------------------------\n\n*Projeyi \u0130ndirin ve \u0130zleyin:*\nhttps://github.com/softbreak/ConsoleRPG_0\n\nDiscord sunucusu: https://discord.gg/fne5AZMyBh",
+    "PublishedAt": "2022-10-21T17:00:27Z",
+    "Tags": "C#,.net,nesne y\u00F6nelimli programlama,oop,polymorphism,\u00E7ok bi\u00E7imlilik,oyun programlama,yaz\u0131l\u0131m",
+    "Comments": [
+      {
+        "Id": 28,
+        "VideoId": 10,
+        "Author": "@emrullah-6552",
+        "PublishedAt": "2023-07-29T17:16:54Z",
+        "Text": "E\u011Fitim i\u00E7in \u00E7ok te\u015Fekk\u00FCrler , daha \u00F6ncesinde ald\u0131\u011F\u0131m teorik oop derslerini sayenizde uygulamada nas\u0131l kullanaca\u011F\u0131m\u0131 bu e\u011Flenceli oyun projesiyle g\u00F6rm\u00FC\u015F oluyorum. E\u011Fitim konsepti ve anlat\u0131m\u0131n\u0131z takdire \u015Fayan. Daha fazla proje odakl\u0131 e\u011Fitim isteriz :)"
+      },
+      {
+        "Id": 26,
+        "VideoId": 10,
+        "Author": "@burakdinc8231",
+        "PublishedAt": "2024-02-29T13:10:36Z",
+        "Text": "Hocam m\u00FCthi\u015Fsiniz ya ma\u015Fallah. \u00C7ok iyi anlat\u0131m. \u00C7ok \u00C7ok te\u015Fekk\u00FCrler"
+      },
+      {
+        "Id": 27,
+        "VideoId": 10,
+        "Author": "@B\u00FC\u015FraERDEM-v9m",
+        "PublishedAt": "2024-01-19T08:30:58Z",
+        "Text": "Hocam, bir yap\u0131 miras ald\u0131\u011F\u0131 yerden farkl\u0131 davranacaksa neden bulundu\u011Fu s\u0131n\u0131fta yeniden olu\u015Fturulmuyor? Asl\u0131nda anlamaya \u00E7al\u0131\u015Ft\u0131\u011F\u0131m \u015Fey polymorphizm nas\u0131l bir avantaj sa\u011Flam\u0131\u015F oldu."
+      }
+    ]
+  },
+  {
+    "Id": 11,
+    "VideoId": "IBeqwKvHzxU",
+    "Title": "OOP Ders 5-Veri Soyutlama (Abstraction) Nedir?",
+    "Description": "Bu dersimizde OOP prensiplerinin sonuncusu olan soyutlama (abstraction) prensibini, daha \u00F6nce olu\u015Fturmu\u015F oldu\u011Fumuz projemiz i\u00E7erisinde ne oldu\u011Funu ve nas\u0131l kullan\u0131ld\u0131\u011F\u0131n\u0131 i\u015Fledik. \n\nproje: https://github.com/softbreak/OOP\n\n-----------------------------------------------------------------------------------------------------------------------------------------------------\n\n*Projeyi \u0130ndirin ve \u0130zleyin:*\nhttps://github.com/softbreak/ConsoleRPG_0\n\nDiscord sunucusu: https://discord.gg/fne5AZMyBh",
+    "PublishedAt": "2022-10-28T17:00:13Z",
+    "Tags": "yaz\u0131l\u0131m,.net,C#,programlama,oop,nesne,soyutlama,abstraction",
+    "Comments": [
+      {
+        "Id": 31,
+        "VideoId": 11,
+        "Author": "@peann",
+        "PublishedAt": "2023-08-31T21:46:32Z",
+        "Text": "hazine bulmu\u015F gibi oldum valla bunlar\u0131 eriticem \u00E7ok te\u015Fekk\u00FCrler devam\u0131n\u0131 bekliyorum"
+      },
+      {
+        "Id": 32,
+        "VideoId": 11,
+        "Author": "@emrullah-6552",
+        "PublishedAt": "2023-07-29T20:37:33Z",
+        "Text": "hocam s\u00FCpersiniz oop mant\u0131\u011F\u0131n\u0131 pratikde nas\u0131l kullan\u0131ld\u0131\u011F\u0131n\u0131 sizin sayenizde \u00F6\u011Frenmi\u015F oluyoruz minnettar\u0131z. Bu tarz proje odakl\u0131 \u00E7al\u0131\u015Fmalar\u0131n\u0131z\u0131n devam\u0131n\u0131 bekliyoruz.."
+      },
+      {
+        "Id": 33,
+        "VideoId": 11,
+        "Author": "@hilmibuyuk8236",
+        "PublishedAt": "2023-06-12T19:55:56Z",
+        "Text": "Eme\u011Finize sa\u011Fl\u0131k. G\u00FCzel bir video olmu\u015F. Serinin devam\u0131n\u0131 bekliyoruz"
+      },
+      {
+        "Id": 34,
+        "VideoId": 11,
+        "Author": "@nouchance",
+        "PublishedAt": "2022-11-12T09:44:35Z",
+        "Text": "Thank you Sir"
+      },
+      {
+        "Id": 29,
+        "VideoId": 11,
+        "Author": "@Bosbelesbisey-r6p",
+        "PublishedAt": "2024-05-21T09:54:04Z",
+        "Text": "Udemyde e\u011Fitiminiz varm\u0131 sizin"
+      },
+      {
+        "Id": 30,
+        "VideoId": 11,
+        "Author": "@burakdinc8231",
+        "PublishedAt": "2024-03-22T23:36:47Z",
+        "Text": "\u00C7ok \u00E7ok iyi anlat\u0131m hocam, devam edin bu kanala ya\u011Fd\u0131r\u0131n \u00FCzerimize, \u00FCzerimize d\u00FC\u015Feni yapal\u0131m bizde ne gerekiyorsa."
+      }
+    ]
+  },
+  {
+    "Id": 12,
+    "VideoId": "_S8NmIFvkTw",
+    "Title": "OOP Ders 6-Ek \u0130\u015Flemler (Sald\u0131r\u0131 ve e\u015Fya i\u015Flemleri)",
+    "Description": "Nesne y\u00F6nelimli programlama (OOP) derslerini toplamda 5 video ile tamamlad\u0131k. Bu dersimizde daha \u00F6nce  \u00F6\u011Frenmi\u015F oldu\u011Fumuz a\u015Fa\u011F\u0131daki prensipleri oyunumuz i\u00E7erisinde nas\u0131l kullan\u0131ld\u0131\u011F\u0131n\u0131 i\u015Fledik. \n\n\u2022 Class (S\u0131n\u0131f) \uD83D\uDC49 https://www.youtube.com/watch?v=XPD5RgMl8hc\u0026t=6s\n\u2022 Encapsulation (Kaps\u00FClleme) \uD83D\uDC49 https://www.youtube.com/watch?v=QHnHyRIo9Jo\n\u2022 Kal\u0131t\u0131m/Miras (Inheritance) \uD83D\uDC49 https://www.youtube.com/watch?v=CvROrQCUY6o\u0026t=46s\n\u2022 Polymorphism(\u00C7ok Bi\u00E7imlilik) \uD83D\uDC49  https://www.youtube.com/watch?v=pKY9AOLTnh8\u0026t=1758s\n\u2022 Abstraction (Soyutlama) \uD83D\uDC49 https://www.youtube.com/watch?v=IBeqwKvHzxU\n\nVideo biraz uzun oldu\u011Fu i\u00E7in toplamda 2 b\u00F6l\u00FCm halinde yay\u0131nlayaca\u011F\u0131z. Oyunun test i\u015Flemleri 7. b\u00F6l\u00FCmde i\u015Flenecek.\n---------------------------------------------------------------------------------------------------------------------------------------------------\n\n*Projeyi \u0130ndirin ve \u0130zleyin:*\nhttps://github.com/softbreak/ConsoleRPG_0\n\nDiscord sunucusu: https://discord.gg/fne5AZMyBh",
+    "PublishedAt": "2022-11-04T17:00:27Z",
+    "Tags": "nesne y\u00F6nelimli programlama,oyun programlama,class,encapsulation,oyun yazma,c#",
+    "Comments": [
+      {
+        "Id": 38,
+        "VideoId": 12,
+        "Author": "@bthndymz",
+        "PublishedAt": "2023-02-26T15:53:07Z",
+        "Text": "A\u011Fz\u0131n\u0131za sa\u011Fl\u0131k hocam \u00E7ok te\u015Fekk\u00FCrler \u003C3"
+      },
+      {
+        "Id": 35,
+        "VideoId": 12,
+        "Author": "@\u0130hsanTekin-y6l",
+        "PublishedAt": "2024-03-01T06:56:16Z",
+        "Text": "0,Dan Ba\u015Flayan Biri Nerede Ba\u015Flamal\u0131 c#"
+      },
+      {
+        "Id": 36,
+        "VideoId": 12,
+        "Author": "@emrullah-6552",
+        "PublishedAt": "2023-07-30T11:03:56Z",
+        "Text": "Hocam 4.videodan sonras\u0131n\u0131 githuba y\u00FCklemediniz san\u0131r\u0131m. E\u011Fer hala elinizde duruyorsa projenin son hali githuba y\u00FCklerseniz \u00E7ok sevinirim."
+      },
+      {
+        "Id": 37,
+        "VideoId": 12,
+        "Author": "@SalihCelik-tj5mi",
+        "PublishedAt": "2023-05-29T12:35:47Z",
+        "Text": "\u00C7ok te\u015Fekk\u00FCrler hocam \u00E7ok de\u011Ferli bilgiler ger\u00E7ekten.."
+      },
+      {
+        "Id": 39,
+        "VideoId": 12,
+        "Author": "@cemyazici7761",
+        "PublishedAt": "2023-02-10T11:42:31Z",
+        "Text": "Te\u015Fekk\u00FCrler hocam"
+      }
+    ]
+  },
+  {
+    "Id": 13,
+    "VideoId": "nbqg4I5ieqo",
+    "Title": "OOP Ders 7-Test \u0130\u015Flemleri",
+    "Description": "Bu Dersimizde projemize daha \u00F6nce uygulam\u0131\u015F oldu\u011Fumuz i\u015Flemleri console (terminal) \u00FCzerinden test ettik. \n\n\u2022 Class (S\u0131n\u0131f) \uD83D\uDC49 https://www.youtube.com/watch?v=XPD5RgMl8hc\u0026t=6s\n\u2022 Encapsulation (Kaps\u00FClleme) \uD83D\uDC49 https://www.youtube.com/watch?v=QHnHyRIo9Jo\n\u2022 Kal\u0131t\u0131m/Miras (Inheritance) \uD83D\uDC49 https://www.youtube.com/watch?v=CvROrQCUY6o\u0026t=46s\n\u2022 Polymorphism(\u00C7ok Bi\u00E7imlilik) \uD83D\uDC49  https://www.youtube.com/watch?v=pKY9AOLTnh8\u0026t=1758s\n\u2022 Abstraction (Soyutlama) \uD83D\uDC49 https://www.youtube.com/watch?v=IBeqwKvHzxU\n---------------------------------------------------------------------------------------------------------------------------------------------------\n\n*Projeyi \u0130ndirin ve \u0130zleyin:*\nhttps://github.com/softbreak/ConsoleRPG_0\n\nDiscord sunucusu: https://discord.gg/fne5AZMyBh",
+    "PublishedAt": "2022-11-11T17:00:39Z",
+    "Tags": "oop,nesne y\u00F6nelimli programlama,oyun programlama,console uygulamas\u0131,terminal,test i\u015Flemleri,yaz\u0131l\u0131m,c#",
+    "Comments": [
+      {
+        "Id": 41,
+        "VideoId": 13,
+        "Author": "@SalihCelik-tj5mi",
+        "PublishedAt": "2023-05-30T13:37:55Z",
+        "Text": "\u00C7ok te\u015Fekk\u00FCrler emekleriniz i\u00E7in. \u00C7ok e\u011Flenceli ve bilgilendirici bir seriydi :)"
+      },
+      {
+        "Id": 40,
+        "VideoId": 13,
+        "Author": "@ertaneroglu3920",
+        "PublishedAt": "2023-09-24T16:49:29Z",
+        "Text": "Merhaba hocam, oyunla\u015Ft\u0131rma projesi github\u0027ta son haliyle mevcut de\u011Fil g\u00FCncellerseniz seviniriz. Te\u015Fekk\u00FCrler."
+      }
+    ]
+  },
+  {
+    "Id": 14,
+    "VideoId": "-1ZzjojwHEs",
+    "Title": "MsSQL Ders 1 - Ba\u015Flang\u0131\u00E7",
+    "Description": "Bu dersimizde SQL ile kar\u015F\u0131n\u0131zday\u0131z. Daha \u00F6nce console uygulamas\u0131nda C# dili ile bir RPG oyunu nas\u0131l yaz\u0131ld\u0131\u011F\u0131n\u0131 g\u00F6rm\u00FC\u015Ft\u00FCk. Yazm\u0131\u015F oldu\u011Fumuz uygulamada ya da s\u0131f\u0131rdan yazm\u0131\u015F oldu\u011Funuz ba\u015Fka bir uygulamalarda kodlar\u0131m\u0131z RAM olarak adland\u0131r\u0131lan ge\u00E7ici bellek \u00FCzerinde tutulmaktad\u0131r. Bu y\u00FCzden kod i\u00E7erisinde olu\u015Fturmu\u015F oldu\u011Fumuz veriler kal\u0131c\u0131 de\u011Fil, ge\u00E7ici olarak \u00E7al\u0131\u015Fmaktad\u0131rlar. Verilerimizin kaybolmamas\u0131 ve anlaml\u0131 raporlar \u00E7\u0131karabilmek i\u00E7in SQL\u0027e ihtiya\u00E7 duymaktay\u0131z. \n\n-----------------------------------------------------------------------------------------------------------------------------------------------------------\n\nDiscord sunucusu: https://discord.gg/tkZBnuba8h\nweb sitesi: https://softbreak.io\ngithub: https://github.com/softbreak",
+    "PublishedAt": "2022-11-18T17:00:00Z",
+    "Tags": "sql,sql nedir,mssql,sql 2022,sql dersi",
+    "Comments": []
+  },
+  {
+    "Id": 15,
+    "VideoId": "v5lrRc0rFKk",
+    "Title": "MSSQL Ders 2 - \u00D6rnek Veritaban\u0131",
+    "Description": "\u0130kinci dersimizde bir veritaban\u0131\u0027n\u0131n ve tablo\u0027nun nas\u0131l olu\u015Fturuldu\u011Funu, olu\u015Fturulan tablo i\u00E7erisinde kolonlar\u0131n nas\u0131l tan\u0131mland\u0131\u011F\u0131n\u0131 ve isim standartlar\u0131n\u0131 i\u015Fledik. \n\nSql Server: https://www.microsoft.com/tr-tr/sql-server/sql-server-downloads\n-----------------------------------------------------------------------------------------------------------------------------------------------------------\n\nDiscord sunucusu: https://discord.gg/tkZBnuba8h\nweb sitesi: https://softbreak.io\ngithub: https://github.com/softbreak",
+    "PublishedAt": "2022-11-21T17:00:51Z",
+    "Tags": "Sql server,sql server 2019,mssql,veritaban\u0131,veritaban\u0131 olu\u015Fturma",
+    "Comments": [
+      {
+        "Id": 42,
+        "VideoId": 15,
+        "Author": "@furkanbrok6216",
+        "PublishedAt": "2022-11-23T17:03:42Z",
+        "Text": "ms sql server , programlama dili midir ?"
+      }
+    ]
+  },
+  {
+    "Id": 16,
+    "VideoId": "UGPbj_xwEfs",
+    "Title": "Bilgisayarlar\u0131n da bir zihni vard\u0131r.Bu zihin asl\u0131nda RAM.Bu y\u00FCzden nesneleri RAM \u00FCzerinde tan\u0131mlar\u0131z",
+    "Description": "",
+    "PublishedAt": "2022-11-22T22:33:36Z",
+    "Tags": "",
+    "Comments": []
+  },
+  {
+    "Id": 17,
+    "VideoId": "9DoWHywsL-A",
+    "Title": "MSSQL Ders 3 - Normalizasyon-1",
+    "Description": "\u00D6nceki dersimizde bir veritaban\u0131\u0027n\u0131n nas\u0131l olu\u015Fturuldu\u011Funu, veritaban\u0131 i\u00E7erisinde verilerimizi saklayaca\u011F\u0131m\u0131z tablolar\u0131 nas\u0131l tan\u0131mlad\u0131\u011F\u0131m\u0131z\u0131, bu tablolar i\u00E7erisinde olmas\u0131 gereken kolon ve sat\u0131rlar\u0131n nas\u0131l a\u00E7\u0131ld\u0131\u011F\u0131n\u0131 i\u015Flemi\u015Ftik. Bu dersimizde ise \u0022Normalizasyon\u0022 kurallar\u0131n\u0131 i\u015Fledik. \n\nAkl\u0131n\u0131za tak\u0131lan sorular\u0131n\u0131z\u0131 discord sunucumuzdan payla\u015Fabilirsiniz.\nDiscord sunucusu: https://discord.gg/tkZBnuba8h\n\n-------------------------------------------------------------------------------------------------------------\nweb sitesi: https://softbreak.io\ngithub: https://github.com/softbreak",
+    "PublishedAt": "2022-11-28T17:00:11Z",
+    "Tags": "mssql,sql server,sql dersleri,normalizasyon,veritaban\u0131 dersleri,mssql dersi",
+    "Comments": [
+      {
+        "Id": 44,
+        "VideoId": 17,
+        "Author": "@furkanarc2hotmail",
+        "PublishedAt": "2023-03-28T00:24:20Z",
+        "Text": "Te\u015Fekk\u00FCrler"
+      },
+      {
+        "Id": 43,
+        "VideoId": 17,
+        "Author": "@eray3147",
+        "PublishedAt": "2024-01-09T13:07:47Z",
+        "Text": "Eme\u011Finize sa\u011Fl\u0131k elimden geldi\u011Fince videolar\u0131 be\u011Feniyorum ve abone oldum. E\u011Fitim kaliteniz kadar g\u00FCzel yerlere gelmeniz dile\u011Fiyle"
+      }
+    ]
+  },
+  {
+    "Id": 18,
+    "VideoId": "pYtNkLD3Y60",
+    "Title": "MSSQL Ders 4 - Normalizasyon-2",
+    "Description": "Merhaba arkada\u015Flar! Bir \u00F6nceki dersimizde veritaban\u0131 anormalliklerinden bahsederek normalizasyon kurallar\u0131n\u0131 anlatm\u0131\u015Ft\u0131k. Ge\u00E7en dersimizde bir\u0027e \u00E7ok ve \u00E7ok\u0027a \u00E7ok ili\u015Fkilendirmelerden bahsetmi\u015Ftik. Bu dersimizde ise bir\u0027e bir ili\u015Fkiyi anlatt\u0131k. Peki bir\u0027e bir ili\u015Fkilendirme hangi durumlarda kullan\u0131l\u0131r? \n\nAkl\u0131n\u0131za tak\u0131lan sorular\u0131n\u0131z\u0131 discord sunucumuzdan payla\u015Fabilirsiniz.\nDiscord sunucusu: https://discord.gg/tkZBnuba8h\n\n-------------------------------------------------------------------------------------------------------------\nweb sitesi: https://softbreak.io\ngithub: https://github.com/softbreak",
+    "PublishedAt": "2022-12-12T17:00:35Z",
+    "Tags": "mssql,normalizasyon,veritaban\u0131,veritaban\u0131 ili\u015Fkilendirme",
+    "Comments": []
+  },
+  {
+    "Id": 19,
+    "VideoId": "4s7PNZn_2S0",
+    "Title": "Nedir bu OOP?",
+    "Description": "Neredeyse b\u00FCt\u00FCn programlama dillerinde kullan\u0131lan nesne y\u00F6nelimli programlama (oop) mant\u0131\u011F\u0131n\u0131 C# ile detayl\u0131 bir \u015Fekilde nas\u0131l kullan\u0131ld\u0131\u011F\u0131n\u0131 \u00F6\u011Frenmek istiyorsan kanal\u0131m\u0131zdan ula\u015Fabilirsiniz.",
+    "PublishedAt": "2022-12-18T15:21:01Z",
+    "Tags": "",
+    "Comments": []
+  },
+  {
+    "Id": 20,
+    "VideoId": "KxET1z6LuG4",
+    "Title": "C# ile detayl\u0131 bir \u015Fekilde nas\u0131l kullan\u0131ld\u0131\u011F\u0131n\u0131 \u00F6\u011Frenmek istiyorsan kanal\u0131m\u0131zdan ula\u015Fabilirsiniz.",
+    "Description": "Neredeyse b\u00FCt\u00FCn programlama dillerinde kullan\u0131lan nesne y\u00F6nelimli programlama (oop) mant\u0131\u011F\u0131n\u0131 C# ile detayl\u0131 bir \u015Fekilde nas\u0131l kullan\u0131ld\u0131\u011F\u0131n\u0131 \u00F6\u011Frenmek istiyorsan kanal\u0131m\u0131zdan ula\u015Fabilirsiniz.",
+    "PublishedAt": "2022-12-18T15:25:44Z",
+    "Tags": "",
+    "Comments": []
+  },
+  {
+    "Id": 21,
+    "VideoId": "x2-cHD_CS8w",
+    "Title": "Mssql MMORPG Veritaban\u0131 (Tablolar\u0131n Olu\u015Fturulmas\u0131) B\u00F6l\u00FCm - 1",
+    "Description": "Daha \u00F6nce OOP (Nesne y\u00F6nelimli programlama) prensiplerini \u00F6\u011Frenmi\u015Ftik. Bu dersimizde nesne y\u00F6nelimli programlama (OOP) prensipleri i\u00E7erisinde \u00F6\u011Frenmi\u015F oldu\u011Fumuz class (S\u0131n\u0131f) yap\u0131s\u0131n\u0131 veritaban\u0131 tablolar\u0131 haline getirdik. Bu tablo yap\u0131lar\u0131n\u0131 ve ili\u015Fkilendirmeleri daha rahat kavrayabilmek ad\u0131na \u00F6rnek bir oyun veritaban\u0131 se\u00E7tik. Sizlerden gelecek ilgi do\u011Frultusunda bu veritaban\u0131n\u0131 \u00E7ok daha fazla geli\u015Ftirmeyi d\u00FC\u015F\u00FCn\u00FCyoruz. \nAkl\u0131n\u0131za tak\u0131lan sorular\u0131n\u0131z\u0131 discord sunucumuzdan payla\u015Fabilirsiniz.\nDiscord sunucusu: https://discord.gg/tkZBnuba8h\n\n-------------------------------------------------------------------------------------------------------------\nweb sitesi: https://softbreak.io\ngithub: https://github.com/softbreak",
+    "PublishedAt": "2022-12-19T17:00:40Z",
+    "Tags": "mssql,sql server,veritaban\u0131,veritaban\u0131 nedir,veritaban\u0131 olu\u015Fturma,veritaban\u0131 tablo,oyun",
+    "Comments": [
+      {
+        "Id": 45,
+        "VideoId": 21,
+        "Author": "@kursatkaan3031",
+        "PublishedAt": "2024-01-18T19:27:07Z",
+        "Text": "Merhaba bunun devam\u0131 gelecek mi :)"
+      }
+    ]
+  },
+  {
+    "Id": 22,
+    "VideoId": "3RYSHVacb-8",
+    "Title": "Entity Framework-1 (Database First)",
+    "Description": "Entity Framework .NET i\u00E7in bir veritaban\u0131 katman\u0131d\u0131r. Bu, veritaban\u0131 i\u015Flemlerini yaparken kodunuzda SQL sorgular\u0131 yazman\u0131za gerek kalmadan, veritaban\u0131n\u0131z\u0131n tablo ve kay\u0131tlar\u0131n\u0131 nesneler olarak temsil etmenizi sa\u011Flar. Bu nesneler arac\u0131l\u0131\u011F\u0131yla veritaban\u0131na CRUD (Create, Read, Update, Delete) i\u015Flemlerini ger\u00E7ekle\u015Ftirebilirsiniz. EF, veritaban\u0131n\u0131z\u0131n yap\u0131s\u0131n\u0131 (schema) de\u011Fi\u015Ftirdi\u011Finizde otomatik olarak bu de\u011Fi\u015Fiklikleri takip edebilir ve g\u00FCncelle\u015Ftirir.\n\nDatabase First (Veritaban\u0131 \u00D6ncelikli) yakla\u015F\u0131m\u0131, veritaban\u0131n\u0131n yap\u0131s\u0131n\u0131n (schema) \u00F6nceden olu\u015Fturulmu\u015F olmas\u0131n\u0131 ve bu yap\u0131 \u00FCzerinden uygulama geli\u015Ftirilmesini hedefler. Bu yakla\u015F\u0131mda, veritaban\u0131 \u00F6nceden olu\u015Fturulur ve bu veritaban\u0131n\u0131n yap\u0131s\u0131 \u00FCzerinden uygulama geli\u015Ftirilir.\n\nDiscord sunucusu: https://discord.gg/tkZBnuba8h\n\n-------------------------------------------------------------------------------------------------------------\nweb sitesi: https://softbreak.io\ngithub: https://github.com/softbreak",
+    "PublishedAt": "2022-12-28T19:34:52Z",
+    "Tags": ".net,entity framework,windows form application,windows form uygulamas\u0131,veritaban\u0131 ba\u011Flant\u0131s\u0131,C# veritaban\u0131,veritaban\u0131,mssql",
+    "Comments": [
+      {
+        "Id": 46,
+        "VideoId": 22,
+        "Author": "@MetaTeknovers",
+        "PublishedAt": "2023-11-18T19:10:31Z",
+        "Text": "Hoccam metodar\u0131 kulland\u0131\u011F\u0131n\u0131z bir video var m\u0131 ben mi g\u00F6remedim acaba ?\nFind, First, FirstOrDefault Single vs gibi"
+      }
+    ]
+  },
+  {
+    "Id": 23,
+    "VideoId": "1PYNoJYsMPY",
+    "Title": "Entity Framework-2 (CRUD) Create,Read",
+    "Description": "Crud, \u0022Create, Read, Update, Delete\u0022 kelimelerinin ba\u015F harflerinden olu\u015Fan bir k\u0131saltmad\u0131r. \nCreate (Olu\u015Fturma): Veritaban\u0131na yeni bir veri ekleme i\u015Flemidir.\nRead (Okuma): Veritaban\u0131nda bulunan verileri okuma i\u015Flemidir.\nUpdate (G\u00FCncelleme): Veritaban\u0131nda bulunan verileri g\u00FCncelleme i\u015Flemidir.\nDelete (Silme): Veritaban\u0131nda bulunan verileri silme i\u015Flemidir.\n\nDiscord sunucusu: https://discord.gg/tkZBnuba8h\n\n-------------------------------------------------------------------------------------------------------------\nweb sitesi: https://softbreak.io\ngithub: https://github.com/softbreak",
+    "PublishedAt": "2022-12-30T18:20:10Z",
+    "Tags": "crud,entity framework,veritaban\u0131,veritaban\u0131 kaydetme,veritaban\u0131 ekleme,mssql,c#,windows form aaplication,.net framework",
+    "Comments": [
+      {
+        "Id": 47,
+        "VideoId": 23,
+        "Author": "@boras1",
+        "PublishedAt": "2023-12-03T09:20:51Z",
+        "Text": "Ctrl \u002B r \u002B m olay\u0131 iyimi\u015F hocam. \u00C7al\u0131\u015F\u0131rken yeni bilgi \u00F6\u011Frendik te\u015Fekk\u00FCrler."
+      }
+    ]
+  },
+  {
+    "Id": 24,
+    "VideoId": "Stmzu4gFzGM",
+    "Title": "Veritaban\u0131 sistemlerini neden kullan\u0131r\u0131z?",
+    "Description": "",
+    "PublishedAt": "2023-01-01T19:45:48Z",
+    "Tags": "",
+    "Comments": []
+  },
+  {
+    "Id": 25,
+    "VideoId": "rIZUt64_RSc",
+    "Title": "Entity Framework-3 (CRUD) Update,Delete",
+    "Description": "Crud, \u0022Create, Read, Update, Delete\u0022 kelimelerinin ba\u015F harflerinden olu\u015Fan bir k\u0131saltmad\u0131r. \nCreate (Olu\u015Fturma): Veritaban\u0131na yeni bir veri ekleme i\u015Flemidir.\nRead (Okuma): Veritaban\u0131nda bulunan verileri okuma i\u015Flemidir.\nUpdate (G\u00FCncelleme): Veritaban\u0131nda bulunan verileri g\u00FCncelleme i\u015Flemidir.\nDelete (Silme): Veritaban\u0131nda bulunan verileri silme i\u015Flemidir.\n\nDiscord sunucusu: https://discord.gg/tkZBnuba8h\n\n-------------------------------------------------------------------------------------------------------------\nweb sitesi: https://softbreak.io\ngithub: https://github.com/softbreak",
+    "PublishedAt": "2023-01-02T17:00:23Z",
+    "Tags": "C#,entity framework,.net,crud,database update,mssql,database first,db first",
+    "Comments": [
+      {
+        "Id": 48,
+        "VideoId": 25,
+        "Author": "@ada-jh6uk",
+        "PublishedAt": "2024-01-12T11:40:18Z",
+        "Text": "s\u00FCpersinizzzz hocamm cok iyi anlad\u0131m\uD83D\uDE0D"
+      }
+    ]
+  },
+  {
+    "Id": 26,
+    "VideoId": "5_6eUQf35HQ",
+    "Title": "Entity Framework - Code First",
+    "Description": "Code First, bir yaz\u0131l\u0131m geli\u015Ftirme y\u00F6ntemidir. Bu y\u00F6ntemde, veritaban\u0131 tasar\u0131m\u0131 yaz\u0131l\u0131m\u0131n i\u00E7eri\u011Fine g\u00F6re yap\u0131l\u0131r ve veritaban\u0131 \u00F6nceden olu\u015Fturulmaz. Veritaban\u0131, yaz\u0131l\u0131m\u0131n i\u00E7eri\u011Fine g\u00F6re otomatik olarak olu\u015Fturulur ve g\u00FCncellenir. Bu y\u00F6ntem, veritaban\u0131 tasar\u0131m\u0131 s\u0131ras\u0131nda zaman kayb\u0131n\u0131 \u00F6nler ve yaz\u0131l\u0131m\u0131n i\u00E7eri\u011Fine uygun bir veritaban\u0131 olu\u015Fturmay\u0131 kolayla\u015Ft\u0131r\u0131r.\n\nDiscord sunucusu: https://discord.gg/tkZBnuba8h\n\n-------------------------------------------------------------------------------------------------------------\nweb sitesi: https://softbreak.io\ngithub: https://github.com/softbreak",
+    "PublishedAt": "2023-01-06T18:17:27Z",
+    "Tags": "entity framework,code first,c#,visual studio,sql,veritaban\u0131 olu\u015Fturma,database,mssql",
+    "Comments": [
+      {
+        "Id": 49,
+        "VideoId": 26,
+        "Author": "@kadirgokce94",
+        "PublishedAt": "2023-01-31T22:35:37Z",
+        "Text": "Hocam elinize a\u011Fz\u0131n\u0131za sa\u011Fl\u0131k"
+      }
+    ]
+  },
+  {
+    "Id": 27,
+    "VideoId": "jmS8mz_KAVo",
+    "Title": "NTier Architecture (\u00C7ok Katmanl\u0131 Mimari) - 1",
+    "Description": "\u00C7ok katmanl\u0131 mimari olarak da bilinen N katmanl\u0131 mimari (NTier Architecture), uygulaman\u0131n farkl\u0131 i\u015Flemlerde \u00E7al\u0131\u015Fan birden \u00E7ok katmanlara ayr\u0131ld\u0131\u011F\u0131 bir yaz\u0131l\u0131m tasar\u0131m modelidir. \nHer katman belirli bir amaca hizmet eder ve iyi tan\u0131mlanm\u0131\u015F bir aray\u00FCz arac\u0131l\u0131\u011F\u0131yla di\u011Fer katmanlarla ileti\u015Fim kurar. Bu, farkl\u0131 katmanlar ba\u011F\u0131ms\u0131z olarak geli\u015Ftirilebildi\u011Fi, test edilebildi\u011Fi ve da\u011F\u0131t\u0131labildi\u011Fi i\u00E7in daha fazla esneklik ve \u00F6l\u00E7eklenebilirlik sa\u011Flar. \u0022N-tier\u0022 i\u00E7indeki \u0022N\u0022, mimarideki katman veya katman say\u0131s\u0131n\u0131 ifade eder. N katmanl\u0131 mimarilerin yayg\u0131n \u00F6rnekleri, \n3 katmanl\u0131 \n\u2022 Data (veri)\n\u2022 Business (i\u015F)\n\u2022 Presentation (sunum)\nmimarileri i\u00E7erir.\n\nDiscord sunucusu: https://discord.gg/tkZBnuba8h\n\n-------------------------------------------------------------------------------------------------------------\nweb sitesi: https://softbreak.io\ngithub: https://github.com/softbreak",
+    "PublishedAt": "2023-01-13T19:15:01Z",
+    "Tags": "ntier,\u00E7ok katmanl\u0131 mimari,C# mimari,data access,business logic,presentation layer,katmanl\u0131 mimari nedir",
+    "Comments": [
+      {
+        "Id": 58,
+        "VideoId": 27,
+        "Author": "@KamranAeff",
+        "PublishedAt": "2023-06-24T09:01:32Z",
+        "Text": "https://www.youtube.com/watch?v=3RTNn5ylYOQ\u0026list=PLJY1H1Yd3f6D2aWBESu7edqdm5CQ420yj"
+      },
+      {
+        "Id": 59,
+        "VideoId": 27,
+        "Author": "@ecemtekin6829",
+        "PublishedAt": "2023-01-30T07:27:47Z",
+        "Text": "Merhaba i\u00E7erik m\u00FCkemmel \u00E7ok te\u015Fekk\u00FCr ederim. \n\nBir sorum olacak;\n\n\u0022BaseEntity\u0022 acaba Core katman\u0131nda tan\u0131mlanabilir mi? \n\u0022Enum\u0022 da ayn\u0131 \u015Fekilde Core katman\u0131nda olabilir mi?\n\nCore katman\u0131 hakk\u0131nda da bilgi olsayd\u0131 \u00E7ok g\u00FCzel olacakt\u0131. \u00C7ok k\u0131sa da olsa bir iki ipucu verirseniz \u00E7ok sevinirim."
+      },
+      {
+        "Id": 52,
+        "VideoId": 27,
+        "Author": "@jackal192",
+        "PublishedAt": "2024-11-02T00:28:16Z",
+        "Text": "b\u00F6yle bir ders serisinin \u00FCcretsiz olmas\u0131 b\u00FCy\u00FCk bir nimet eme\u011Finize sa\u011Fl\u0131k\nayr\u0131ca sesiniz \u00E7ok g\u00FCzelmi\u015F hocam :)"
+      },
+      {
+        "Id": 50,
+        "VideoId": 27,
+        "Author": "@EminBashirov-me8vq",
+        "PublishedAt": "2024-11-17T12:09:19Z",
+        "Text": "Merhaba hocam,diger dersleri nasil elde ede bilirim?"
+      },
+      {
+        "Id": 51,
+        "VideoId": 27,
+        "Author": "@Zen-cik",
+        "PublishedAt": "2024-11-07T07:51:39Z",
+        "Text": "yav reis iyi g\u00FCzel anlatm\u0131\u015Fs\u0131n da sonraki videolar\u0131 100tlden koymu\u015Fsun \u00FCcretsiz diye g\u00F6rd\u00FCk sevindik sonra niye geli\u015Fmiyor yaz\u0131l\u0131m sekt\u00F6r\u00FC \u00FClkede"
+      },
+      {
+        "Id": 53,
+        "VideoId": 27,
+        "Author": "@kutluali",
+        "PublishedAt": "2024-07-10T11:12:19Z",
+        "Text": "Hocam Merhaba enum yap\u0131s\u0131n\u0131 katmanl\u0131 mimari baz\u0131nda ilk defa burda g\u00F6r\u00FCyorum.Bir class olu\u015Fturma da ama\u00E7 nedir burda  ?"
+      },
+      {
+        "Id": 54,
+        "VideoId": 27,
+        "Author": "@BehcetYILDIZ-gi2lb",
+        "PublishedAt": "2024-04-15T08:09:22Z",
+        "Text": "Hocam \u00E7ok y\u00FCzeysel daha fazla detay laz\u0131m"
+      },
+      {
+        "Id": 55,
+        "VideoId": 27,
+        "Author": "@sufipoint",
+        "PublishedAt": "2024-03-24T21:24:13Z",
+        "Text": "Merhaba,\nData layer \u00F6rne\u011Fin Kafkaya ba\u011Fl\u0131 ise ve belli say\u0131da mesaj ald\u0131\u011F\u0131m\u0131z zaman UI\u0027da g\u00F6stermek istiyorsak, DAL\u0027dan BLL\u0027i nas\u0131l tetiklemeliyiz? Bunun i\u00E7in DAL\u0027dan bir event raise edip BLL de yakalar ve BLL.GetData \u00E7a\u011Fr\u0131l\u0131rsa bu mimariye uygun olur mu?"
+      },
+      {
+        "Id": 56,
+        "VideoId": 27,
+        "Author": "@Huseyin-ty1qd",
+        "PublishedAt": "2024-03-19T11:22:35Z",
+        "Text": "Hocam merhaba,\n\nSorum \u015Fu \u015Fekilde olacakt\u0131. Yapt\u0131\u011F\u0131m\u0131z one to one ili\u015Fkide foreign key tan\u0131mlamad\u0131k m\u0131 yoksa ben mi g\u00F6remiyorum, tan\u0131mlamad\u0131ysak a\u00E7\u0131klayabilir misiniz ? Default falan m\u0131 ald\u0131"
+      },
+      {
+        "Id": 57,
+        "VideoId": 27,
+        "Author": "@cagrkarakaya1110",
+        "PublishedAt": "2023-07-28T18:37:53Z",
+        "Text": "Hocam kolay gelsin ben n layer mimariyi yeni yeni \u00F6\u011Freniyorum ve bana g\u00F6rev olarak React ve WebAPI kullanarak bir e ticaret projesi olu\u015Fturmam istendi fakat benim kafam\u0131 kar\u0131\u015Ft\u0131ran bir \u015Fey var WebApi projesi nedir ve Katmanl\u0131 mimaride nas\u0131l kullan\u0131yoruz i\u00E7inde neler olacak mant\u0131\u011F\u0131n\u0131 kavramak istiyorum"
+      }
+    ]
+  },
+  {
+    "Id": 28,
+    "VideoId": "jU0R__yOZ2o",
+    "Title": "Encapsulation (kaps\u00FClleme) #encapsulation #oop #csharp",
+    "Description": "",
+    "PublishedAt": "2023-01-14T14:02:30Z",
+    "Tags": "",
+    "Comments": []
+  },
+  {
+    "Id": 29,
+    "VideoId": "sAsupX1q8Xg",
+    "Title": "NTier Architecture (Map Katman\u0131) - 2",
+    "Description": "Map katman\u0131, veritaban\u0131m\u0131zdaki tablolar\u0131 temsil eden class\u0027lar\u0131m\u0131z\u0131n tabloya d\u00F6n\u00FC\u015Fme a\u015Famalar\u0131nda istedi\u011Fimiz ayarlamalar\u0131 yapabilmemiz i\u00E7in daha esnek ve performansl\u0131 bir \u015Fekilde ger\u00E7ekle\u015Ftirdi\u011Fimiz\u00A0katmand\u0131r.\n\nDiscord sunucusu: https://discord.gg/tkZBnuba8h\n\n-------------------------------------------------------------------------------------------------------------\nweb sitesi: https://softbreak.io\ngithub: https://github.com/softbreak",
+    "PublishedAt": "2023-01-18T17:30:09Z",
+    "Tags": "ntier,\u00E7ok katmanl\u0131 mimari,katmanl\u0131 mimari,map katman\u0131,map,C# mimari,entity framework",
+    "Comments": [
+      {
+        "Id": 60,
+        "VideoId": 29,
+        "Author": "@ugurparlayan",
+        "PublishedAt": "2024-12-09T11:25:07Z",
+        "Text": "10:00 Hocam bu noktada bir ba\u011F\u0131ml\u0131l\u0131k olu\u015Fturmu\u015F olmuyor musunuz?"
+      },
+      {
+        "Id": 66,
+        "VideoId": 29,
+        "Author": "@mehmetmayti",
+        "PublishedAt": "2023-07-22T22:37:18Z",
+        "Text": "Eme\u011Fine sa\u011Fl\u0131k g\u00FCzel i\u00E7erikler."
+      },
+      {
+        "Id": 65,
+        "VideoId": 29,
+        "Author": "@bahadrozdemir90",
+        "PublishedAt": "2023-07-25T21:03:18Z",
+        "Text": "Anlat\u0131m\u0131n\u0131z \u00E7ok ho\u015F eme\u011Finize sa\u011Fl\u0131k"
+      },
+      {
+        "Id": 67,
+        "VideoId": 29,
+        "Author": "@cilginseydi",
+        "PublishedAt": "2023-04-27T09:55:25Z",
+        "Text": "te\u015Fekk\u00FCrler"
+      },
+      {
+        "Id": 64,
+        "VideoId": 29,
+        "Author": "@cagrkarakaya1110",
+        "PublishedAt": "2023-07-29T15:57:30Z",
+        "Text": "Hocam 03:36 ve 03:38 aras\u0131nda UserProfile nereden geldi allah a\u015Fk\u0131na nas\u0131l yapt\u0131n\u0131z ben mi g\u00F6zden bir \u015Fey ka\u00E7\u0131r\u0131yorum"
+      },
+      {
+        "Id": 63,
+        "VideoId": 29,
+        "Author": "@Huseyin-ty1qd",
+        "PublishedAt": "2024-03-19T20:16:46Z",
+        "Text": "Hocam merhaba,\n\nBurda orders ile appuser\u0131 nerede ba\u011Flad\u0131n\u0131z ?"
+      },
+      {
+        "Id": 62,
+        "VideoId": 29,
+        "Author": "@egemencelik7878",
+        "PublishedAt": "2024-04-08T10:11:03Z",
+        "Text": "Base classlari abstract olarak isaretlesek bile miras alinan class cagirilacagi icin abstract class da memory\u0027de yer kaplamiyor mu? Bence abstract yapmamiza gerek yok"
+      },
+      {
+        "Id": 61,
+        "VideoId": 29,
+        "Author": "@muhammedaliduyar9711",
+        "PublishedAt": "2024-06-24T18:19:12Z",
+        "Text": "hocam 1-1 ve m-n ili\u015Fkiler i\u00E7in map katman\u0131nda ilgili i\u015Flemleri yapt\u0131k fakat 1-n ili\u015Fki i\u00E7in yapmad\u0131k gerek mi yok yoksa unutuldu mu ?"
+      }
+    ]
+  },
+  {
+    "Id": 30,
+    "VideoId": "vVE9cW7QWTw",
+    "Title": "Entity Framework Code First Nedir? #csharp #entityframework #veritaban\u0131 #yaz\u0131l\u0131m",
+    "Description": "",
+    "PublishedAt": "2023-01-19T15:25:21Z",
+    "Tags": "",
+    "Comments": []
+  },
+  {
+    "Id": 31,
+    "VideoId": "joucUGTKDQw",
+    "Title": "NTier Architecture Data Access Layer (DAL Katman\u0131) - 3",
+    "Description": "Data Access Layer (veriye ula\u015F\u0131m katman\u0131 )N-Tier katmanl\u0131 mimarimizin, tamamen veri eri\u015Fimi  sistemi ile ilgilenecek olan katman\u0131d\u0131r...Bu katman, verilere ula\u015Fabildi\u011Fi gibi bu verilerin manipule edilmesinden (Ekleme,silme,g\u00FCncelleme) sorumludur..B\u00F6ylece mimarimizdeki sorumluluklar ayr\u0131larak esnek ve  y\u00F6netilebilir mekanizma geli\u015Ftirilecektir.\n\nDiscord sunucusu: https://discord.gg/tkZBnuba8h\n\n-------------------------------------------------------------------------------------------------------------\nweb sitesi: https://softbreak.io\ngithub: https://github.com/softbreak",
+    "PublishedAt": "2023-01-20T18:30:43Z",
+    "Tags": "ntier,katmanl\u0131 mimari,c#,programlama,\u00E7ok katmanl\u0131 mimari,veriye ula\u015F\u0131m katman\u0131,data access layer,ntier mimari,ntier architecture",
+    "Comments": [
+      {
+        "Id": 71,
+        "VideoId": 31,
+        "Author": "@B\u00FC\u015FraERDEM-v9m",
+        "PublishedAt": "2024-02-25T04:15:15Z",
+        "Text": "Hocam Primaty Key\u0027i nerede belirlemi\u015Ftik. Migration a\u015Famas\u0131nda AppUserMAp i\u00E7in has no primary key hatas\u0131 al\u0131yorum."
+      },
+      {
+        "Id": 68,
+        "VideoId": 31,
+        "Author": "@Anka7358",
+        "PublishedAt": "2024-11-14T09:14:43Z",
+        "Text": "Hocam, projeyi runtime s\u0131ras\u0131nda kullan\u0131c\u0131dan server bilgilerini almak ve veritaban\u0131 olu\u015Fturmak i\u00E7in ne yapabilirim? App.config dosyalar\u0131n\u0131 tam olarak anlayamad\u0131m. Manager ile birka\u00E7 i\u015Flem yapt\u0131m ama kafam kar\u0131\u015Ft\u0131."
+      },
+      {
+        "Id": 69,
+        "VideoId": 31,
+        "Author": "@muhammettarar9959",
+        "PublishedAt": "2024-06-04T10:22:55Z",
+        "Text": "Detayl\u0131 anlat\u0131m!"
+      },
+      {
+        "Id": 70,
+        "VideoId": 31,
+        "Author": "@B\u00FC\u015FraERDEM-v9m",
+        "PublishedAt": "2024-02-25T20:44:33Z",
+        "Text": "T\u00FCm her \u015Feyi yapt\u0131m ama database\u0027de bir de\u011Fi\u015Fiklik olmas\u0131. configuraion s\u0131n\u0131f\u0131ndaki seed metodu bo\u015F geldi onunla m\u0131 ilgili acaba :((((("
+      },
+      {
+        "Id": 72,
+        "VideoId": 31,
+        "Author": "@egesamur9238",
+        "PublishedAt": "2023-11-08T21:19:16Z",
+        "Text": "Specify the \u0027-Verbose\u0027 flag to view the SQL statements being applied to the target database.\nNo pending explicit migrations.\nRunning Seed method. b\u00F6yle bir hata al\u0131yorum ara\u015Ft\u0131\u0131rd\u0131m ama sebebini bulamad\u0131m neden olabilir"
+      },
+      {
+        "Id": 73,
+        "VideoId": 31,
+        "Author": "@bahadrozdemir90",
+        "PublishedAt": "2023-07-26T07:34:56Z",
+        "Text": "Bir e-ticaret sitesi i\u00E7in Sepet s\u0131n\u0131f\u0131n\u0131 olu\u015Ftururken 1-\u00E7ok ili\u015Fki oldu\u011Fu i\u00E7in tek olan tarafta bir sepet_id foreign key olarak veriliyor.Fakat bu mant\u0131ks\u0131z de\u011Fil mi sonu\u00E7ta bir \u00FCr\u00FCn illa bir sepete ait olmas\u0131 gerekmez.Acaba burada yeni bir tablo mu a\u00E7\u0131lmal\u0131 fikriniz nedir ? te\u015Fekk\u00FCr ederim."
+      },
+      {
+        "Id": 74,
+        "VideoId": 31,
+        "Author": "@furkanogden4682",
+        "PublishedAt": "2023-05-28T05:46:29Z",
+        "Text": "14:10 da tablo olacak s\u0131n\u0131flar\u0131 belirtirken DbSet\u003CProduct\u003E entitydeki Product s\u0131n\u0131f\u0131n\u0131 ifade ediyor onu onlad\u0131m da sonra Products isimli bir Property ad\u0131 daha veriyoruz, o neyi ifade ediyor? Ben ba\u015Flarda onun veritaban\u0131 tablosundaki ismine kar\u015F\u0131l\u0131k geldi\u011Fini d\u00FC\u015F\u00FCn\u00FCyordum, ama \u00F6yle olsayd\u0131 map katman\u0131nda totable ile ayr\u0131ca tablo isimleri belirtmezdik de\u011Fil mi"
+      }
+    ]
+  },
+  {
+    "Id": 32,
+    "VideoId": "zFiBFcCtEhc",
+    "Title": "C# Katmanl\u0131 Mimari (Ntier) Nedir? #csharp #programming #programlama #yaz\u0131l\u0131m #code",
+    "Description": "",
+    "PublishedAt": "2023-01-21T17:34:26Z",
+    "Tags": "",
+    "Comments": []
+  },
+  {
+    "Id": 33,
+    "VideoId": "zYrWyNsA7HE",
+    "Title": "NTier Architecture Business Logic Layer (BLL Katman\u0131) - 4",
+    "Description": "Business Logic Layer (BLL) katman\u0131 bizim i\u015F mant\u0131\u011F\u0131m\u0131z\u0131 mimarimize entegre etti\u011Fimiz katmand\u0131r. Bu katmanda  kullanmak istedigimiz metotlar\u0131 tek bir cati altinda toplama (Interface) ve sahsilestirme (CRUD) islemlerini yapariz.Bu islemler tasarim desenlerinin bize sa\u011Flad\u0131\u011F\u0131 esnekliklerle\u00A0entegre\u00A0edilir.\nDiscord sunucusu: https://discord.gg/tkZBnuba8h\n\n-------------------------------------------------------------------------------------------------------------\nweb sitesi: https://softbreak.io\ngithub: https://github.com/softbreak",
+    "PublishedAt": "2023-01-27T17:30:11Z",
+    "Tags": "ntier,katmanl\u0131 mimari,c#,i\u015F katman\u0131,bll,business logic layer",
+    "Comments": [
+      {
+        "Id": 79,
+        "VideoId": 33,
+        "Author": "@ecemtekin6829",
+        "PublishedAt": "2023-01-31T03:41:56Z",
+        "Text": "Yeni video(lar) ne zaman geliyor? Merakla bekliyorum."
+      },
+      {
+        "Id": 75,
+        "VideoId": 33,
+        "Author": "@aligokdeniz4596",
+        "PublishedAt": "2024-04-14T15:15:16Z",
+        "Text": "hocam ntier mimaride neden core katman\u0131 yok ve DependencyResolvers servisler program.cs yaz\u0131lmas\u0131 gerekiyor neden BLL katman\u0131na eklemi\u015Fsiniz ?"
+      },
+      {
+        "Id": 76,
+        "VideoId": 33,
+        "Author": "@YetenekBURADA",
+        "PublishedAt": "2023-10-27T13:50:54Z",
+        "Text": "Hocam SingletonPattern\u2019i codefirst videonuzda anlatmam\u0131\u015Fs\u0131n\u0131z. Acaba ba\u015Fka bir videonuzda anlatm\u0131\u015F olabilirmisiniz ? Anlatt\u0131ysan\u0131z hangi video oldu\u011Funu s\u00F6yleyebilirseniz izlemek isterim sizden dinleyip \u00F6\u011Frenmek i\u00E7in."
+      },
+      {
+        "Id": 77,
+        "VideoId": 33,
+        "Author": "@YetenekBURADA",
+        "PublishedAt": "2023-10-22T11:28:56Z",
+        "Text": "Sadece CodeFirst derslerini anlatt\u0131\u011F\u0131n\u0131z bir videonuzmu var hocam ? Videolarda bahsediyorsunuz fakat ben g\u00F6remedim onu youtube videolar\u0131n\u0131z aras\u0131nda. Hangi videonuz oldu\u011Funu s\u00F6ylerseniz izlemek isterim. Bu arada a\u011Fz\u0131n\u0131za ve eme\u011Finize sa\u011Fl\u0131k \u00E7ok g\u00FCzel anlat\u0131yorsunuz. Te\u015Fekk\u00FCr ederim bizlere katt\u0131klar\u0131n\u0131z i\u00E7in \uD83D\uDE4F"
+      },
+      {
+        "Id": 78,
+        "VideoId": 33,
+        "Author": "@YetenekBURADA",
+        "PublishedAt": "2023-10-22T11:24:24Z",
+        "Text": "Hocam EntityFramework\u0027u bir projemize yani katman\u0131m\u0131za y\u00FCkledikten sonra di\u011Fer projelerde referans olarak kullansak olmazm\u0131 ? Bir e\u011Fitimde hocam\u0131z\u0131n o \u015Fekilde yapt\u0131\u011F\u0131n\u0131 g\u00F6rm\u00FC\u015Ft\u00FCm. Nedeninide her projeye EntityFramework\u0027\u00FC ayr\u0131 ayr\u0131 indirirsek gereksiz bir \u015Fekilde proje dosyas\u0131n\u0131n boyutunu b\u00FCy\u00FCt\u00FCr\u00FCz buda \u00E7ok verimli olmaz demi\u015Fti."
+      }
+    ]
+  },
+  {
+    "Id": 34,
+    "VideoId": "5AEi05Ik4qQ",
+    "Title": "NTier Architecture Business Logic Layer (BLL Katman\u0131) - 4 (Devam\u0131)",
+    "Description": "Business Logic Layer (BLL) katman\u0131 bizim i\u015F mant\u0131\u011F\u0131m\u0131z\u0131 mimarimize entegre etti\u011Fimiz katmand\u0131r. Bu katmanda  kullanmak istedigimiz metotlar\u0131 tek bir cati altinda toplama (Interface) ve sahsilestirme (CRUD) islemlerini yapariz.Bu islemler tasarim desenlerinin bize sa\u011Flad\u0131\u011F\u0131 esnekliklerle entegre edilir.\nDiscord sunucusu: https://discord.gg/tkZBnuba8h\n\n-------------------------------------------------------------------------------------------------------------\nweb sitesi: https://softbreak.io\ngithub: https://github.com/softbreak",
+    "PublishedAt": "2023-02-03T18:00:02Z",
+    "Tags": "ntier,C#,katmanl\u0131 mimari,i\u015F katman\u0131,business logic layer,katmanl\u0131 proje,programlama,yaz\u0131l\u0131m",
+    "Comments": [
+      {
+        "Id": 80,
+        "VideoId": 34,
+        "Author": "@bahadrozdemir90",
+        "PublishedAt": "2023-08-04T22:56:58Z",
+        "Text": "Hocam merhaba \u00F6ncelikle anlat\u0131m\u0131n\u0131z i\u00E7in te\u015Fekk\u00FCr ederim.  Bir \u015Fey sormak istiyorum acaba burada fonksiyonlar\u0131 tan\u0131mlarken asenkron fonksiyon neden kullanmad\u0131k acaba bir sebebi var m\u0131d\u0131r ?  Kullanmak gerekli mi ? ya da kullan\u0131lmamal\u0131 m\u0131d\u0131r ?  \u00C7\u00FCnk\u00FC controller i\u00E7inde async bir action tan\u0131mlad\u0131\u011F\u0131m zaman await \u00F6n ekini kullanam\u0131yorum o y\u00FCzden sordum cevab\u0131n\u0131z i\u00E7in te\u015Fekk\u00FCr ederim."
+      }
+    ]
+  },
+  {
+    "Id": 35,
+    "VideoId": "b46nw2q45JU",
+    "Title": "NTier Architecture Presantation Layer (UI Katman\u0131, Ekleme, Listeleme, Silme) - 5",
+    "Description": "UI katman\u0131 Kullan\u0131c\u0131 ile etkile\u015Fime girecek olan katmand\u0131r...Mimarimizin bu katman\u0131nda biz se\u00E7ti\u011Fimiz platforma g\u00F6re tasar\u0131m\u0131m\u0131z\u0131 ve kullan\u0131c\u0131m\u0131z\u0131n program\u0131m\u0131z\u0131 nas\u0131l kullanmas\u0131n\u0131 istedi\u011Fimize g\u00F6re onun etkile\u015Fime girebilece\u011Fi alanlar\u0131\u00A0yarat\u0131r\u0131z.\n\nDiscord sunucusu: https://discord.gg/tkZBnuba8h\n\n-------------------------------------------------------------------------------------------------------------\nweb sitesi: https://softbreak.io\ngithub: https://github.com/softbreak",
+    "PublishedAt": "2023-02-10T17:00:22Z",
+    "Tags": "Ntier,katmanl\u0131 mimari,windows form application,crud,.net framework,C#",
+    "Comments": [
+      {
+        "Id": 84,
+        "VideoId": 35,
+        "Author": "@dumantarik",
+        "PublishedAt": "2023-04-16T00:08:38Z",
+        "Text": "uzun zamand\u0131r ntier architecture ile ilgili bu kadar g\u00FCzel sade ve geli\u015Ftirilebilir anlatan biri g\u00F6rmemi\u015Ftim te\u015Fekk\u00FCr ederim kendi ad\u0131ma. ellerinize sa\u011Fl\u0131k"
+      },
+      {
+        "Id": 83,
+        "VideoId": 35,
+        "Author": "@mustafae0320",
+        "PublishedAt": "2024-03-10T12:36:57Z",
+        "Text": "Kat\u0131l butonu neden yok?"
+      },
+      {
+        "Id": 82,
+        "VideoId": 35,
+        "Author": "@ahmetsuzer953",
+        "PublishedAt": "2024-06-25T22:45:20Z",
+        "Text": "Hocam merhabalar \u015Fiir gibi kod yaz\u0131yorsunuz. Bilgi payla\u015F\u0131m\u0131n\u0131z ve \u00F6rnekler i\u00E7in Te\u015Fekk\u00FCrler."
+      },
+      {
+        "Id": 81,
+        "VideoId": 35,
+        "Author": "@ugurparlayan",
+        "PublishedAt": "2024-12-09T16:04:16Z",
+        "Text": "Asl\u0131nda form \u00FCzerindeki i\u015Flemleriniz beni biraz \u015Fa\u015F\u0131rtt\u0131, di\u011Fer katmanlarda s\u00FCrekli base s\u0131n\u0131flar tan\u0131mlad\u0131n\u0131z ama form i\u00E7in temel bir form tan\u0131mlamad\u0131n\u0131z, bence formlar i\u00E7in de base bir form tan\u0131mlay\u0131p modellenebilir gibime geliyor. Yani CRUD i\u015Flemlerinde kullan\u0131lan formlar i\u00E7in burada verdi\u011Finiz \u00F6rnekten yola \u00E7\u0131karak nihayetinde bir liste, bir ekleme butonu, bir silme butonu ve bir de g\u00FCncelleme butonu ekliyorsunuz, base bir form tan\u0131mlay\u0131p bu eventleri de base katman\u0131na alabilirdiniz."
+      }
+    ]
+  },
+  {
+    "Id": 36,
+    "VideoId": "ItcuzGOPi4I",
+    "Title": "NTier Architecture UI - (G\u00FCncelleme)",
+    "Description": "UI katman\u0131 Kullan\u0131c\u0131 ile etkile\u015Fime girecek olan katmand\u0131r...Mimarimizin bu katman\u0131nda biz se\u00E7ti\u011Fimiz platforma g\u00F6re tasar\u0131m\u0131m\u0131z\u0131 ve kullan\u0131c\u0131m\u0131z\u0131n program\u0131m\u0131z\u0131 nas\u0131l kullanmas\u0131n\u0131 istedi\u011Fimize g\u00F6re onun etkile\u015Fime girebilece\u011Fi alanlar\u0131 yarat\u0131r\u0131z.\n\nDiscord sunucusu: https://discord.gg/tkZBnuba8h\n\n-------------------------------------------------------------------------------------------------------------\nweb sitesi: https://softbreak.io\ngithub: https://github.com/softbreak",
+    "PublishedAt": "2023-02-24T17:00:21Z",
+    "Tags": "ntier,katmanl\u0131 mimari,C#,.net katmanl\u0131,oop,crud,ekleme silme g\u00FCncelleme",
+    "Comments": [
+      {
+        "Id": 88,
+        "VideoId": 36,
+        "Author": "@cemyazici7761",
+        "PublishedAt": "2023-02-24T17:07:48Z",
+        "Text": "Te\u015Fekk\u00FCrler hocam"
+      },
+      {
+        "Id": 86,
+        "VideoId": 36,
+        "Author": "@YetenekBURADA",
+        "PublishedAt": "2023-11-03T10:05:01Z",
+        "Text": "Hocam ENTITIES katman\u0131na video\u0027da anlatt\u0131\u011F\u0131n\u0131z gibi sonras\u0131nda ekledi\u011Fimiz bir Supplier s\u0131n\u0131f\u0131n\u0131 ve di\u011Fer tablolar ile ili\u015Fkilerini CodeFirst y\u00F6ntemi ile veritaban\u0131m\u0131za nas\u0131l ekleyece\u011Fiz ?"
+      },
+      {
+        "Id": 87,
+        "VideoId": 36,
+        "Author": "@murselcabuk5838",
+        "PublishedAt": "2023-06-18T08:06:08Z",
+        "Text": "\u00C7ok yararl\u0131 bir ders eme\u011Finiz i\u00E7in te\u015Fekk\u00FCr ederim"
+      },
+      {
+        "Id": 85,
+        "VideoId": 36,
+        "Author": "@B\u00FC\u015FraERDEM-v9m",
+        "PublishedAt": "2024-04-16T00:21:21Z",
+        "Text": "Hocam Web.UI katman\u0131nda Business\u0027\u0131 refrence edince versiyon sorunu \u00E7\u0131k\u0131yor bu sorunu nas\u0131l \u00E7\u00F6zebilirim ? \u00C7al\u0131\u015Ft\u0131\u011F\u0131m projede entity framework kullan\u0131yoruz, WebUI katman\u0131m ASP .Net Web App (Entity Framework) olmal\u0131, di\u011Fer katmanlar\u0131m ise class library."
+      }
+    ]
+  },
+  {
+    "Id": 37,
+    "VideoId": "5GYzDA1jCXU",
+    "Title": "1-Mvc Nedir? (.Net Framework)",
+    "Description": ".NET Framework, Microsoft taraf\u0131ndan geli\u015Ftirilen bir yaz\u0131l\u0131m \u00E7er\u00E7evesidir. Bu \u00E7er\u00E7eve, .NET teknolojilerini kullanarak uygulama geli\u015Ftirmeyi kolayla\u015Ft\u0131ran bir dizi ara\u00E7 ve kaynak sa\u011Flar.\n\nMVC, Model-View-Controller  kelimelerinin k\u0131salt\u0131lm\u0131\u015F\u0131 olarak  kullan\u0131l\u0131r ve web uygulamalar\u0131 i\u00E7in bir tasar\u0131m desenidir. Bu desen, uygulaman\u0131n farkl\u0131 b\u00F6l\u00FCmlerinin birbirinden ba\u011F\u0131ms\u0131z olarak tasarlanmas\u0131n\u0131 ve geli\u015Ftirilmesini sa\u011Flar. Bu sayede, uygulaman\u0131n bak\u0131m\u0131 ve geli\u015Ftirilmesi daha kolay hale gelir.\n\nDiscord sunucusu: https://discord.gg/tkZBnuba8h\n\n-------------------------------------------------------------------------------------------------------------\nweb sitesi: https://softbreak.io\ngithub: https://github.com/softbreak",
+    "PublishedAt": "2023-03-17T17:15:22Z",
+    "Tags": ".net framework,mvc,mvc nedir,.net framework mvc,C# web,web geli\u015Ftirme,web uygulamas\u0131",
+    "Comments": []
+  },
+  {
+    "Id": 38,
+    "VideoId": "LktRbTXPok0",
+    "Title": "2-Mvc CRUD (.Net Framework)",
+    "Description": "Bu video, .NET Framework MVC ile uygulama geli\u015Ftirme konusunda yeniyseniz veya temel bilgilerinizi peki\u015Ftirmek istiyorsan\u0131z sizin i\u00E7in ideal bir kaynak olabilir. \n\n.NET Framework MVC kullanarak CRUD (create, read, update, delete) i\u015Flemlerinin nas\u0131l yap\u0131ld\u0131\u011F\u0131n\u0131 \u00F6\u011Freniyoruz. Bu i\u015Flemler, bir veritaban\u0131 tablosundaki verileri eklemek, okumak, g\u00FCncellemek ve silmek i\u00E7in kullan\u0131l\u0131r. Videoyu izleyerek, .NET Framework MVC\u0027nin temel prensiplerini \u00F6\u011Frenecek ve CRUD i\u015Flemlerini nas\u0131l uygulayaca\u011F\u0131n\u0131z\u0131 ad\u0131m ad\u0131m \u00F6\u011Freneceksiniz. \n\nDiscord sunucusu: https://discord.gg/tkZBnuba8h\n\n-------------------------------------------------------------------------------------------------------------\nweb sitesi: https://softbreak.io\ngithub: https://github.com/softbreak",
+    "PublishedAt": "2023-03-24T17:00:19Z",
+    "Tags": ".net framework,mvc,model view controller,crud,mssql,mvc veritaban\u0131",
+    "Comments": [
+      {
+        "Id": 91,
+        "VideoId": 38,
+        "Author": "@nouchance",
+        "PublishedAt": "2023-04-06T12:07:55Z",
+        "Text": "Amazing!"
+      },
+      {
+        "Id": 90,
+        "VideoId": 38,
+        "Author": "@TheEarthshaker11",
+        "PublishedAt": "2023-04-08T08:56:51Z",
+        "Text": "Elinize eme\u011Finize sa\u011Fl\u0131k hocam.."
+      },
+      {
+        "Id": 89,
+        "VideoId": 38,
+        "Author": "@kursatkaan3031",
+        "PublishedAt": "2023-10-20T11:52:49Z",
+        "Text": "Hocam harika anlat\u0131m\u0131n\u0131z var. M\u00FCkemmel serileriniz var. Bu serinizin devam\u0131 gelecek mi acaba ?"
+      }
+    ]
+  },
+  {
+    "Id": 39,
+    "VideoId": "kWAczSL54Fk",
+    "Title": "1-Ba\u015Flang\u0131\u00E7 (.Net Core)",
+    "Description": "NET Core, Microsoft taraf\u0131ndan geli\u015Ftirilen, a\u00E7\u0131k kaynakl\u0131 ve platform ba\u011F\u0131ms\u0131z bir yaz\u0131l\u0131m geli\u015Ftirme \u00E7er\u00E7evesidir. .NET Core, .NET Framework\u0027\u00FCn bir\u00E7ok \u00F6zelli\u011Fini i\u00E7erir ve Windows, Linux ve macOS gibi farkl\u0131 i\u015Fletim sistemlerinde \u00E7al\u0131\u015Fabilir.\n\n.NET Core Middleware, HTTP isteklerini i\u015Flemek ve yan\u0131tlamak i\u00E7in ara katmanlard\u0131r. Her bir middleware, gelen HTTP iste\u011Fi ve yan\u0131t\u0131 de\u011Fi\u015Ftirebilir veya ge\u00E7ersiz k\u0131labilecek kod i\u00E7erebilir.\n\n.NET Core, gelen HTTP isteklerini i\u015Flemek ve yan\u0131tlamak i\u00E7in bir pipeline (boru hatt\u0131) mekanizmas\u0131 kullan\u0131r. Bu pipeline, middleware\u0027lar\u0131n birbirleriyle ba\u011Flant\u0131l\u0131 oldu\u011Fu bir zincirdir.\n\nBe\u011Fenmeyi, payla\u015Fmay\u0131 ve abone olmay\u0131 unutmay\u0131n! Te\u015Fekk\u00FCrler.\n\n*Discord*\nhttps://discord.com/invite/tkZBnuba8h",
+    "PublishedAt": "2023-03-31T19:34:29Z",
+    "Tags": ".net core,.net core nedir,middleware,middleware nedir,pipeline,pipeline nedir?,.net core nas\u0131l \u00E7al\u0131\u015F\u0131r",
+    "Comments": [
+      {
+        "Id": 92,
+        "VideoId": 39,
+        "Author": "@YetenekBURADA",
+        "PublishedAt": "2023-11-05T18:01:33Z",
+        "Text": "Hocam ger\u00E7ekten \u00E7ok g\u00FCzel anlat\u0131yorsunuz ve her anlatt\u0131\u011F\u0131n\u0131z konuya m\u00FCthi\u015F hakimsiniz. \u0130nan\u0131n \u00E7ok fazla deneyimli, piyasada bilinen yaz\u0131l\u0131mc\u0131n\u0131n youtube, udemy vb. platformlardan e\u011Fitimlerini izledim fakat bukadar sebep sonu\u00E7 ili\u015Fkisini iyi anlatan ve bu denli konulara hakim olan birini daha g\u00F6rmedim. Ger\u00E7ekten bilmek ba\u015Fka bir\u015Fey bildi\u011Fini anlatabilmek bamba\u015Fka bir\u015Fey. Sizde ma\u015Fallah ikiside fazlas\u0131 ile mevcut. \n\nM\u00FCmk\u00FCnm\u00FCd\u00FCr bilmiyorum fakat bize yol g\u00F6sterici ve rehber olmas\u0131 a\u00E7\u0131s\u0131ndan sizin gibi konuya hakim bir yaz\u0131l\u0131mc\u0131 olabilmek i\u00E7in nas\u0131l bir \u00E7al\u0131\u015Fma metodu izlemeliyiz ve siz geldi\u011Finiz bu noktaya kendinizi nas\u0131l bir e\u011Fitim ve \u00E7al\u0131\u015Fma s\u00FCrecinden ge\u00E7irerek bu noktaya geldiniz bununla ilgili bir video \u00E7ekebilirseniz bu yolda ilerlemeye \u00E7al\u0131\u015Fan benim gibi binlerce ki\u015Fiye \u00E7ok faydal\u0131 bir rehber olaca\u011F\u0131na inan\u0131yorum. E\u011Fer m\u00FCmk\u00FCnse bize rehber olmas\u0131 a\u00E7\u0131s\u0131ndan \u00E7ok seviniriz."
+      },
+      {
+        "Id": 94,
+        "VideoId": 39,
+        "Author": "@bthndymz",
+        "PublishedAt": "2023-04-01T11:17:54Z",
+        "Text": "M\u00FCthi\u015F bir anlat\u0131m, te\u015Fekk\u00FCrler! \uD83D\uDC4F\uD83D\uDC4F"
+      },
+      {
+        "Id": 93,
+        "VideoId": 39,
+        "Author": "@Hasan-yx9tr",
+        "PublishedAt": "2023-04-01T21:55:34Z",
+        "Text": "Ciiden anlat\u0131m\u0131n\u0131z muazzam,middleware kullan\u0131yordum-nodeJS\u0027de ama sebebini bilmiyordum,te\u015Fekk\u00FCrler."
+      }
+    ]
+  },
+  {
+    "Id": 40,
+    "VideoId": "u8M9hxehFDQ",
+    "Title": "2 - Proje Olu\u015Fturma  (.Net Core)",
+    "Description": "Bu dersimizde Asp.net core ile s\u0131f\u0131rdan bir proje nas\u0131l olu\u015Fturuldu\u011Funu, proje olu\u015Ftururken nelere dikkat edilece\u011Fini, middleware katman\u0131n\u0131 hangi class\u0027a  dahil edilece\u011Fini basit bir \u015Fekilde anlatt\u0131k. Sorular\u0131n\u0131z\u0131 dilerseniz yorum alan\u0131nda dilerseniz de discord kanal\u0131m\u0131zda payla\u015Fabilirsiniz.\n\n\nBe\u011Fenmeyi, payla\u015Fmay\u0131 ve abone olmay\u0131 unutmay\u0131n! Te\u015Fekk\u00FCrler.\n\n*Discord*\nhttps://discord.com/invite/tkZBnuba8h",
+    "PublishedAt": "2023-04-07T18:00:25Z",
+    "Tags": "asp.net,.net core,asp.net core,asp.net core mvc,mvc,proje olu\u015Fturma,.net core nedir?,.net core nas\u0131l proje olu\u015Fturulur?,middleware nedir?,controller olu\u015Fturma,view olu\u015Fturma",
+    "Comments": [
+      {
+        "Id": 100,
+        "VideoId": 40,
+        "Author": "@scusate",
+        "PublishedAt": "2023-04-07T19:04:07Z",
+        "Text": "net core katmanl\u0131 \u00F6rne\u011Fi gelecek mi acaba?"
+      },
+      {
+        "Id": 102,
+        "VideoId": 40,
+        "Author": "@bthndymz",
+        "PublishedAt": "2023-04-07T18:35:24Z",
+        "Text": "Ellerinize sa\u011Fl\u0131k hocam, harika bir i\u00E7erik olmu\u015F. \uD83D\uDC4F\uD83D\uDC4F\uD83D\uDC4F"
+      },
+      {
+        "Id": 95,
+        "VideoId": 40,
+        "Author": "@osmanldevleti4858",
+        "PublishedAt": "2024-02-04T22:42:39Z",
+        "Text": "Frontu reactjs olan bir proje yaparsan\u0131z g\u00FCzel olabilir"
+      },
+      {
+        "Id": 97,
+        "VideoId": 40,
+        "Author": "@bilalkarakan8246",
+        "PublishedAt": "2023-07-28T11:32:05Z",
+        "Text": "Hocam anlat\u0131m\u0131n\u0131z a\u015F\u0131r\u0131 iyi. \u0130zlenmeler az diye umar\u0131m b\u0131rakmazsan\u0131z. \u00C7ok te\u015Fekk\u00FCrler"
+      },
+      {
+        "Id": 96,
+        "VideoId": 40,
+        "Author": "@mustafaselimgil4633",
+        "PublishedAt": "2023-09-09T12:47:49Z",
+        "Text": "Elinize sa\u011Fl\u0131k. \u00C7ok yararl\u0131 bir e\u011Fitim. Ba\u015Far\u0131lar dilerim."
+      },
+      {
+        "Id": 98,
+        "VideoId": 40,
+        "Author": "@cilginseydi",
+        "PublishedAt": "2023-06-23T17:46:15Z",
+        "Text": "te\u015Fekk\u00FCrler hocam"
+      },
+      {
+        "Id": 99,
+        "VideoId": 40,
+        "Author": "@dedicate4484",
+        "PublishedAt": "2023-04-07T22:58:42Z",
+        "Text": "Anlasilir, guzel bir icerik olmus. Elinize saglik."
+      },
+      {
+        "Id": 101,
+        "VideoId": 40,
+        "Author": "@nouchance",
+        "PublishedAt": "2023-04-07T19:00:50Z",
+        "Text": "THANK YOU SIR"
+      }
+    ]
+  },
+  {
+    "Id": 41,
+    "VideoId": "lwQJW6JezSU",
+    "Title": "3 - Data Transfer (.Net Core)",
+    "Description": "DataTransfer nesneleri MVC platformunda verileri Action\u0027dan View\u0027a ve Action\u0027dan Action\u0027a transfer etmemize yarar. \u0130lkel tip ve ilkel tip gibi davranan tiplerde Model\u0027i kullanmaktansa bu nesneleri kullanarak veri transfleri yapmak bizim daha h\u0131zl\u0131 bir \u015Fekilde ve Model\u0027in g\u00FCc\u00FCn\u00FC harcamadan kullan\u0131c\u0131lara veya baska Action\u0027lara istedi\u011Fimiz veri g\u00F6ndermemizi saglar\n\nBe\u011Fenmeyi, payla\u015Fmay\u0131 ve abone olmay\u0131 unutmay\u0131n! Te\u015Fekk\u00FCrler.\n\n*Discord*\nhttps://discord.com/invite/tkZBnuba8h",
+    "PublishedAt": "2023-04-14T19:00:17Z",
+    "Tags": ".net core,mvc,data transfer",
+    "Comments": [
+      {
+        "Id": 103,
+        "VideoId": 41,
+        "Author": "@osmanozturk8838",
+        "PublishedAt": "2024-03-24T11:34:17Z",
+        "Text": "Te\u015Fekk\u00FCrler kilit bilgileri sade bir \u015Fekilde verdi\u011Finiz i\u00E7in.  Emekleriniz ve payla\u015F\u0131m\u0131n\u0131z i\u00E7in tekrardan te\u015Fekk\u00FCrler"
+      },
+      {
+        "Id": 104,
+        "VideoId": 41,
+        "Author": "@cilginseydi",
+        "PublishedAt": "2023-06-23T18:23:17Z",
+        "Text": "te\u015Fekk\u00FCrler hocam..."
+      },
+      {
+        "Id": 105,
+        "VideoId": 41,
+        "Author": "@bthndymz",
+        "PublishedAt": "2023-04-15T12:42:02Z",
+        "Text": "Hocam l\u00FCtfen \u00F6zletmeyin, yeni payla\u015F\u0131mlar\u0131n\u0131z\u0131 en k\u0131sa s\u00FCrede bekliyoruz, a\u011Fz\u0131n\u0131za sa\u011Fl\u0131k. \u2764\u2764"
+      }
+    ]
+  },
+  {
+    "Id": 42,
+    "VideoId": "lCm1WHokhI8",
+    "Title": "4 - Model Transfer (.Net Core)",
+    "Description": "Bu videoda MVC platformunda DataTransfer nesnelerinin kullan\u0131m\u0131 hakk\u0131nda bilgi verece\u011Fim. DataTransfer nesneleri, verileri Action\u0027dan View\u0027a veya Action\u0027dan Action\u0027a transfer etmek i\u00E7in kullan\u0131l\u0131r. Bu nesneler, ilkel tipler veya ilkel tiplere benzer davranan tipler yerine Model kullanmak yerine kullan\u0131l\u0131r. Bu sayede veri transferlerimizi daha h\u0131zl\u0131 bir \u015Fekilde yapabiliriz ve Model\u0027in g\u00FCc\u00FCn\u00FC harcamadan istedi\u011Fimiz verileri kullan\u0131c\u0131lara veya ba\u015Fka Action\u0027lara g\u00F6nderebiliriz.\n\nBe\u011Fenmeyi, payla\u015Fmay\u0131 ve abone olmay\u0131 unutmay\u0131n! Te\u015Fekk\u00FCrler.\n\n*Discord*\nhttps://discord.com/invite/tkZBnuba8h",
+    "PublishedAt": "2023-04-25T17:00:19Z",
+    "Tags": ".net core,model transfer,view model,page model,mvc",
+    "Comments": [
+      {
+        "Id": 108,
+        "VideoId": 42,
+        "Author": "@murselcabuk5838",
+        "PublishedAt": "2023-08-20T07:54:03Z",
+        "Text": "Bu g\u00FCzel dersleri bizler i\u00E7in haz\u0131rlat\u0131p payla\u015Ft\u0131\u011F\u0131n\u0131z i\u00E7in te\u015Fekk\u00FCr ederim."
+      },
+      {
+        "Id": 107,
+        "VideoId": 42,
+        "Author": "@tbt-show1527",
+        "PublishedAt": "2024-03-21T11:40:30Z",
+        "Text": "Hocam bir sorum olacakt\u0131 yapayzeka yaz\u0131l\u0131m sekt\u00F6r\u00FCn\u00FC bitirebirli mi ? devin ai \u00E7\u0131kt\u0131 ilk yaz\u0131l\u0131m m\u00FChendisi yapay zekas\u0131 bununla ilgili bir video \u00E7ekebilirmisiniz. \n\nTe\u015Fekk\u00FCrler..."
+      },
+      {
+        "Id": 106,
+        "VideoId": 42,
+        "Author": "@osmanozturk8838",
+        "PublishedAt": "2024-03-24T13:01:56Z",
+        "Text": "\u00C7ok te\u015Fekk\u00FCrler emekleriniz i\u00E7in"
+      },
+      {
+        "Id": 110,
+        "VideoId": 42,
+        "Author": "@mustafaaltuntas3396",
+        "PublishedAt": "2023-07-28T20:35:31Z",
+        "Text": "Muazzam bir anlat\u0131m tane tane a\u00E7\u0131klay\u0131c\u0131 ve ak\u0131c\u0131 eme\u011Finize sa\u011Fl\u0131k te\u015Fekk\u00FCrler."
+      },
+      {
+        "Id": 109,
+        "VideoId": 42,
+        "Author": "@enescivelek3369",
+        "PublishedAt": "2023-08-08T05:55:46Z",
+        "Text": "html helperlar\u0131 \u00F6\u011Frenmeden direk web helperlar\u0131 \u00F6\u011Frensek uygun olur mu tag helperlar\u0131 anlatan \u00F6nerebilece\u011Finiz bir seri var m\u0131 acaba ?"
+      }
+    ]
+  },
+  {
+    "Id": 43,
+    "VideoId": "KCSAPbfNG8w",
+    "Title": "5 - EF Core (.Net Core)",
+    "Description": "EFCore ile CodeFirst y\u00F6ntemiyle veritaban\u0131 yarat\u0131lmas\u0131 : .Net Framework \u00FCzerinde kulland\u0131\u011F\u0131m\u0131z Entity Framework\u0027ten farkl\u0131 olarak bu sistemimizde bir middleware tan\u0131mlamas\u0131 ve Veritaban\u0131 ayarlamalar\u0131 yapabilmek icin EntityTypeConfiguration class\u0027\u0131ndan ziyade IEntityTypeConfiguration interface\u0027inden nas\u0131l yararlanabiliriz birlikte bakaca\u011F\u0131z\n\nBe\u011Fenmeyi, payla\u015Fmay\u0131 ve abone olmay\u0131 unutmay\u0131n! Te\u015Fekk\u00FCrler.\n\n*Discord*\nhttps://discord.com/invite/tkZBnuba8h",
+    "PublishedAt": "2023-05-04T17:30:02Z",
+    "Tags": ".net core,asp.net,entity framework core,ef core,code first",
+    "Comments": [
+      {
+        "Id": 115,
+        "VideoId": 43,
+        "Author": "@cilginseydi",
+        "PublishedAt": "2023-06-24T05:20:57Z",
+        "Text": "\u00C7ok te\u015Fekk\u00FCr ederim Eme\u011Finize sayg\u0131lar\u0131mla.."
+      },
+      {
+        "Id": 111,
+        "VideoId": 43,
+        "Author": "@BehcetYILDIZ-gi2lb",
+        "PublishedAt": "2024-06-04T13:59:50Z",
+        "Text": "Entitiylerde Attribute Tan\u0131mlamak best practies a\u00E7\u0131s\u0131ndan bir g\u00F6r\u00FCnt\u00FC olurmu bilgi verebilirmisiiz"
+      },
+      {
+        "Id": 112,
+        "VideoId": 43,
+        "Author": "@BehcetYILDIZ-gi2lb",
+        "PublishedAt": "2024-06-04T13:16:04Z",
+        "Text": "AppUserProfile class amac\u0131 nedir ?"
+      },
+      {
+        "Id": 113,
+        "VideoId": 43,
+        "Author": "@osmanozturk8838",
+        "PublishedAt": "2024-03-24T15:28:16Z",
+        "Text": "Emekleriniz i\u00E7in te\u015Fekk\u00FCrler"
+      },
+      {
+        "Id": 114,
+        "VideoId": 43,
+        "Author": "@furkandaloglu3875",
+        "PublishedAt": "2023-11-25T15:22:40Z",
+        "Text": "Hocam her \u015Feyi anl\u0131yorum da \u015Fu enum\u0027\u0131n mant\u0131\u011F\u0131n\u0131 kavrayam\u0131yorum"
+      },
+      {
+        "Id": 116,
+        "VideoId": 43,
+        "Author": "@furkanogden4682",
+        "PublishedAt": "2023-05-12T14:04:41Z",
+        "Text": "Hocam devam\u0131 ne zaman gelecek ?"
+      },
+      {
+        "Id": 117,
+        "VideoId": 43,
+        "Author": "@bthndymz",
+        "PublishedAt": "2023-05-05T09:45:32Z",
+        "Text": "Yine m\u00FCkemmel olmu\u015F hocam eme\u011Finize sa\u011Fl\u0131k "
+      }
+    ]
+  },
+  {
+    "Id": 44,
+    "VideoId": "jKuXOYaJp-Y",
+    "Title": "6- .Net Core ile CRUD",
+    "Description": "Merhaba arkada\u015Flar,\n\nBu videoda sizlerle .Net Core CRUD (Create, Read, Update, Delete) i\u015Flemlerini nas\u0131l ger\u00E7ekle\u015Ftirebilece\u011Fimizi g\u00F6sterece\u011Fim. .Net Core CRUD, temel veritaban\u0131 i\u015Flemlerini ifade eder ve bu i\u015Flemler bir web uygulamas\u0131 olu\u015Ftururken en s\u0131k kullan\u0131lan i\u015Flemler aras\u0131ndad\u0131r.\n\n.Net Core CRUD \u00F6\u011Frenmek, bir\u00E7ok farkl\u0131 senaryoda kullan\u0131labilir. Bu t\u00FCr bir uygulama geli\u015Ftirmek, bir \u015Firketin m\u00FC\u015Fteri verilerini kaydederken, bir e-ticaret sitesindeki \u00FCr\u00FCn verilerini y\u00F6netirken veya bir blog sitesindeki yaz\u0131lar\u0131 d\u00FCzenlerken kullan\u0131labilir.\n\nBe\u011Fenmeyi, payla\u015Fmay\u0131 ve abone olmay\u0131 unutmay\u0131n! Te\u015Fekk\u00FCrler.\n\n*Discord*\nhttps://discord.com/invite/tkZBnuba8h",
+    "PublishedAt": "2023-05-12T19:13:19Z",
+    "Tags": ".net,.net core,.net core crud,crud,entityframework,entityframeworkcore,dependency injection",
+    "Comments": [
+      {
+        "Id": 121,
+        "VideoId": 44,
+        "Author": "@lordbaelish6394",
+        "PublishedAt": "2023-05-18T14:00:44Z",
+        "Text": "Harika bir video olmu\u015F, sonraki videolarda .net frameworkde yapt\u0131\u011F\u0131n\u0131z gibi BLL, DAL gibi katmanlarla da \u00E7al\u0131\u015Facak m\u0131s\u0131n\u0131z?"
+      },
+      {
+        "Id": 120,
+        "VideoId": 44,
+        "Author": "@furkanogden4682",
+        "PublishedAt": "2023-05-27T19:22:23Z",
+        "Text": "Sonraki video ne zaman gelecek ?"
+      },
+      {
+        "Id": 119,
+        "VideoId": 44,
+        "Author": "@Eren_Ozdemir",
+        "PublishedAt": "2023-08-10T21:33:15Z",
+        "Text": "M\u00FCkemmel anlat\u0131m"
+      },
+      {
+        "Id": 118,
+        "VideoId": 44,
+        "Author": "@osmanozturk8838",
+        "PublishedAt": "2024-03-24T15:52:36Z",
+        "Text": "\u00C7ok te\u015Fekk\u00FCrler"
+      }
+    ]
+  },
+  {
+    "Id": 45,
+    "VideoId": "CUD0lrlml1I",
+    "Title": "1-.Net Core Identity (Introduction)",
+    "Description": "Merhaba arkada\u015Flar! Bu videoda sizlere .NET Core Identity k\u00FCt\u00FCphanesi hakk\u0131nda temel bir giri\u015F yapaca\u011F\u0131z. .NET Core Identity, ASP.NET Core uygulamalar\u0131nda kullan\u0131c\u0131 kimlik do\u011Frulama ve yetkilendirme i\u015Flevlerini kolayca entegre etmemizi sa\u011Flayan g\u00FC\u00E7l\u00FC bir k\u00FCt\u00FCphanedir.\n\nBu videoda, .NET Core Identity\u0027nin ne oldu\u011Funu, nas\u0131l kullan\u0131ld\u0131\u011F\u0131n\u0131 ve hangi faydalar\u0131 sundu\u011Funu detayl\u0131 bir \u015Fekilde g\u00F6rece\u011Fiz. Kullan\u0131c\u0131 kayd\u0131, oturum a\u00E7ma, rol y\u00F6netimi gibi temel yetenekleri nas\u0131l uygulayabilece\u011Fimizi ad\u0131m ad\u0131m \u00F6\u011Frenece\u011Fiz.\n\nAyr\u0131ca, .NET Core Identity\u0027nin nas\u0131l yap\u0131land\u0131r\u0131laca\u011F\u0131n\u0131, kullan\u0131c\u0131lar\u0131 ve rolleri nas\u0131l veritaban\u0131nda depolayabilece\u011Fimizi ve farkl\u0131 kimlik do\u011Frulama y\u00F6ntemlerini nas\u0131l entegre edebilece\u011Fimizi de g\u00F6sterece\u011Fim.\n\nUnutmay\u0131n, bu seri .NET Core Identity\u0027nin temellerini ele alacak ve daha ileri seviye konular\u0131 da kapsayacak. \n\nBe\u011Fenmeyi, payla\u015Fmay\u0131 ve abone olmay\u0131 unutmay\u0131n! Te\u015Fekk\u00FCrler.\n\n*Discord*\nhttps://discord.com/invite/tkZBnuba8h",
+    "PublishedAt": "2023-06-04T15:00:08Z",
+    "Tags": "DotNetCoreIdentity,AspNetCore,KimlikDogrulama,Yetkilendirme,WebUygulamaGelistirme,RoleYonetimi,KullaniciKaydi,OturumAcma,KimlikDogrulamaYontemleri,EntityFramework,VeritabaniEntegrasyonu,AspNetCoreIdentity,WebGelistirme,NetCore,YazilimGelistirme",
+    "Comments": [
+      {
+        "Id": 126,
+        "VideoId": 45,
+        "Author": "@furkanogden4682",
+        "PublishedAt": "2023-06-04T17:03:37Z",
+        "Text": "Ellerinize sa\u011Fl\u0131k yine kaliteli ve anla\u015F\u0131labilirli\u011Fi \u00E7ok y\u00FCksek bi i\u00E7erik ama hocam video y\u00FCklenme s\u0131kl\u0131\u011F\u0131n\u0131 art\u0131rmay\u0131 d\u00FC\u015F\u00FCn\u00FCyor musunuz"
+      },
+      {
+        "Id": 125,
+        "VideoId": 45,
+        "Author": "@ozanterm9585",
+        "PublishedAt": "2023-06-04T20:20:59Z",
+        "Text": "Merhabalar hocam, Bu dersleri b\u00F6yle par\u00E7a par\u00E7a halinde de\u011Fil de bir proje belirleyip yapmak daha verimli olacakt\u0131r. Her hafta bak\u0131yorum .net core serinizin devam\u0131 gelecek mi ?"
+      },
+      {
+        "Id": 124,
+        "VideoId": 45,
+        "Author": "@ahmetkarakurt2131",
+        "PublishedAt": "2023-06-07T11:42:23Z",
+        "Text": "Kesinlikle m\u00FCkemmel Anlat\u0131m"
+      },
+      {
+        "Id": 123,
+        "VideoId": 45,
+        "Author": "@tahapek2411",
+        "PublishedAt": "2023-07-02T07:34:47Z",
+        "Text": "\u0130\u00E7erik ger\u00E7ekten \u00E7ok kaliteli. Bu serinin devam\u0131 gelirse \u00E7ok yararl\u0131 olur."
+      },
+      {
+        "Id": 122,
+        "VideoId": 45,
+        "Author": "@msapmaz81",
+        "PublishedAt": "2023-11-08T20:31:49Z",
+        "Text": "\u00E7ok g\u00FCzel net a\u00E7\u0131klay\u0131c\u0131 ve sade anlat\u0131m tebrik ederim. eme\u011Finize sa\u011Fl\u0131k."
+      }
+    ]
+  },
+  {
+    "Id": 46,
+    "VideoId": "G3xuP8bKZIs",
+    "Title": ".NET ile Identity \u00D6zelle\u015Ftirmesi ve Veritaban\u0131 Ayarlar\u0131",
+    "Description": "Bu dersimizde, .NET kullanarak Identity \u00D6zelle\u015Ftirmesi ve veritaban\u0131 ayarlar\u0131\u0027n\u0131n nas\u0131l yap\u0131laca\u011F\u0131n\u0131 \u00F6\u011Freneceksiniz. Videoda, projenin olu\u015Fturulmas\u0131, klas\u00F6rlerin yap\u0131land\u0131r\u0131lmas\u0131, gerekli k\u00FCt\u00FCphanelerin kurulumu ve Identity sistemi \u00FCzerindeki \u00F6zelle\u015Ftirmeler gibi i\u015Flemleri ad\u0131m ad\u0131m g\u00F6receksiniz.\n\nIdentityUser ve IdentityRole s\u0131n\u0131flar\u0131n\u0131n nas\u0131l \u00F6zelle\u015Ftirilece\u011Fini \u00F6\u011Frenirken, kullan\u0131c\u0131 profil, \u00FCr\u00FCn, kategori, sipari\u015F ve sipari\u015F detay s\u0131n\u0131flar\u0131n\u0131 nas\u0131l olu\u015Fturaca\u011F\u0131n\u0131z\u0131 ke\u015Ffedeceksiniz. Ayr\u0131ca, Configuration s\u0131n\u0131f\u0131yla veritaban\u0131 ayarlar\u0131n\u0131 yap\u0131land\u0131racak ve middleware ayarlar\u0131n\u0131 yaparak uygulaman\u0131z\u0131 y\u00F6netebileceksiniz. \n\n01:15 Giri\u015F\n01:41 Proje olu\u015Fturma\n02:33 Klas\u00F6rlerin Olu\u015Fturulmas\u0131\n04:38 K\u00FCt\u00FCphanelerin kurulmas\u0131\n09:08 IEntity ve BaseEntity\n14:14 IdentityUser \u00D6zelle\u015Ftirme\n16:36 IdentityRole \u00D6zelle\u015Ftirme\n20:08 IdentityUserRole \u00D6zelle\u015Ftirme\n21:00 Kullan\u0131c\u0131 profil s\u0131n\u0131f\u0131\n21:21 \u00DCr\u00FCn s\u0131n\u0131f\u0131\n22:03 Kategori s\u0131n\u0131f\u0131\n23:07 Sipari\u015F s\u0131n\u0131f\u0131\n24:17 Sipari\u015F detay s\u0131n\u0131f\u0131\n39:39 Configuration s\u0131n\u0131f\u0131\n44:31 Context s\u0131n\u0131f\u0131\n48:01 Middleware ayar\u0131\n49:30 Veritaban\u0131 olu\u015Fturma\n\nBe\u011Fenmeyi, payla\u015Fmay\u0131 ve abone olmay\u0131 unutmay\u0131n! Te\u015Fekk\u00FCrler.\n\n\nDiscord\nhttps://discord.com/invite/tkZBnuba8h",
+    "PublishedAt": "2023-07-14T11:03:35Z",
+    "Tags": ".net,e-ticaret,uygulama geli\u015Ftirme,identity k\u00FCt\u00FCphanesi,identity \u00F6zelle\u015Ftirme,identityuser,identityrole,kullan\u0131c\u0131 profili,configuration,veritaban\u0131,middleware,e\u011Fitim videosu",
+    "Comments": [
+      {
+        "Id": 130,
+        "VideoId": 46,
+        "Author": "@ertaneroglu3920",
+        "PublishedAt": "2023-10-05T18:09:07Z",
+        "Text": "Te\u015Fekk\u00FCrler sevgili hocam."
+      },
+      {
+        "Id": 129,
+        "VideoId": 46,
+        "Author": "@bthndymz",
+        "PublishedAt": "2023-10-25T16:04:50Z",
+        "Text": "Hocam a\u011Fz\u0131n\u0131za sa\u011Fl\u0131k \u00E7ok a\u00E7\u0131klay\u0131c\u0131 olmu\u015F, profesyonel bir projede ilk defa Identity Core kullan\u0131yorum ve yaln\u0131zca bu payla\u015F\u0131m\u0131n\u0131z ile t\u00FCm ihtiya\u00E7lar\u0131m\u0131 kar\u015F\u0131lad\u0131m. Videolar\u0131n\u0131z\u0131n devam\u0131n\u0131 kesinlikle bekliyorum. Te\u015Fekk\u00FCr ederim. "
+      },
+      {
+        "Id": 128,
+        "VideoId": 46,
+        "Author": "@ayhanBabba",
+        "PublishedAt": "2024-01-30T20:48:39Z",
+        "Text": "Hocam Payla\u015F\u0131m Gayet g\u00FCzel ama config ayarlar\u0131nda tablo isimleri de de\u011F\u015Ftirilebiliyor mu? Neden Microsoftun istedi\u011Fi tablo isimleriyle devam etmek zorunday\u0131m. Genelde Kullan\u0131c\u0131clar Users , Roller Roles tablosunda tutulur."
+      },
+      {
+        "Id": 127,
+        "VideoId": 46,
+        "Author": "@aligokdeniz4596",
+        "PublishedAt": "2024-04-21T22:22:28Z",
+        "Text": "Baz\u0131 Detaylar G\u00F6zden Ka\u00E7m\u0131\u015F San\u0131r\u0131m Model de olu\u015Fturulan Entityler zaten ili\u015Fkisel veri ba\u011Flant\u0131lar\u0131n\u0131 olu\u015Fturuyor Configrationda neden fluent api yazarak tekrar bagl\u0131yoruz biraz h\u0131zl\u0131 anlat\u0131lm\u0131\u015F ve admin paneli rol atamalar\u0131 eksik biraz y\u00FCzeysel olmu\u015F"
+      }
+    ]
+  },
+  {
+    "Id": 47,
+    "VideoId": "a43IF4ZkiWw",
+    "Title": "4 - .NET ile Eticaret Projesi (Ntier) - Context S\u0131n\u0131f\u0131",
+    "Description": "Bu e\u011Fitim videosunda, .NET platformunda Ntier mimarisiyle eticaret projesinde Context s\u0131n\u0131f\u0131n\u0131 y\u00F6netmeyi detayl\u0131 bir \u015Fekilde \u00F6\u011Freniyoruz. Context s\u0131n\u0131f\u0131, veritaban\u0131 i\u015Flemlerini y\u00F6netmek i\u00E7in kullan\u0131lan \u00F6nemli bir bile\u015Fendir. Bu videoda, Context s\u0131n\u0131f\u0131n\u0131n nas\u0131l olu\u015Fturulaca\u011F\u0131, yap\u0131land\u0131r\u0131laca\u011F\u0131 ve veri taban\u0131 i\u015Flemlerine nas\u0131l entegre edilece\u011Fi konular\u0131n\u0131 ele al\u0131yoruz.\n\n*Projeyi \u0130ndirin ve \u0130zleyin:*\nhttps://github.com/softbreak/SoftbreakEcommerceProject\n\n*Toplulu\u011Fa Kat\u0131l*\nhttps://discord.com/invite/tkZBnuba8h\n\nSorular\u0131n\u0131z veya geri bildiriminiz varsa l\u00FCtfen yorumlarda payla\u015F\u0131n!\n\nVideoyu be\u011Fendiyseniz, abone olmay\u0131 ve bildirimleri a\u00E7may\u0131 unutmay\u0131n, b\u00F6ylece yeni i\u00E7eriklerimizi ka\u00E7\u0131rmazs\u0131n\u0131z. \uD83D\uDE80",
+    "PublishedAt": "2023-08-06T16:00:01Z",
+    "Tags": ".NET,Ntier,E\u011FitimVideolar\u0131,CSharp,Programlama,DotNetDevelopment,VeriEri\u015FimKatman\u0131,WebDevelopment,SoftwareDevelopment,SoftwareEngineering,E\u011Fitim,ContextS\u0131n\u0131f\u0131Olu\u015Fturma,Entityler,VeriEri\u015Fimi,VeriTaban\u0131Y\u00F6netimi,WebUygulamalar\u0131,VisualStudio,eticaret projesi,context s\u0131n\u0131f\u0131,veritaban\u0131,entityframework core,eticaret geli\u015Ftirme",
+    "Comments": []
+  },
+  {
+    "Id": 48,
+    "VideoId": "9lA9_ebx9OE",
+    "Title": "2 - .NET ile Eticaret Projesi (Ntier) - Proje Olu\u015Fturma ve Entitylerin Tan\u0131mlanmas\u0131",
+    "Description": "Bu e\u011Fitim videosunda, .NET platformunda C# programlama dilini kullanarak Ntier mimarisiyle eticaret projesi geli\u015Ftirmeye devam ediyoruz. \u0130kinci ad\u0131mda, eticaret projesini ba\u015Flatmak i\u00E7in Visual Studio\u0027da yeni bir proje olu\u015Fturma i\u015Flemlerini ad\u0131m ad\u0131m g\u00F6sterece\u011Fiz. Ayn\u0131 zamanda, projenin temel yap\u0131 ta\u015Flar\u0131ndan olan \u0022Entity\u0022lerin tan\u0131mlanmas\u0131 s\u00FCrecine de de\u011Finece\u011Fiz.\n\nE\u011Fitim serimizin geri kalan\u0131nda, proje geli\u015Ftirmenin ileri seviye ad\u0131mlar\u0131n\u0131 ele alacak ve eticaret d\u00FCnyas\u0131nda ba\u015Far\u0131l\u0131 projeler olu\u015Fturman\u0131za yard\u0131mc\u0131 olaca\u011F\u0131z. \n\n*Projeyi \u0130ndirin ve \u0130zleyin:*\nhttps://github.com/softbreak/SoftbreakEcommerceProject\n\n*Toplulu\u011Fa Kat\u0131l*\nhttps://discord.com/invite/tkZBnuba8h\n\nSorular\u0131n\u0131z veya geri bildiriminiz varsa l\u00FCtfen yorumlarda payla\u015F\u0131n!\n\nVideoyu be\u011Fendiyseniz, abone olmay\u0131 ve bildirimleri a\u00E7may\u0131 unutmay\u0131n, b\u00F6ylece yeni i\u00E7eriklerimizi ka\u00E7\u0131rmazs\u0131n\u0131z. \uD83D\uDE80",
+    "PublishedAt": "2023-08-06T16:00:07Z",
+    "Tags": "EticaretGeli\u015Ftirme,.NET,CSharp,NtierMimarisi,VeriEri\u015FimKatman\u0131,EntityFramework,VisualStudio,Programlama,WebGeli\u015Ftirme,E\u011FitimVideolar\u0131,Teknoloji,Entityler,SoftwareDevelopment,SoftwareEngineering,SoftwareArchitecture,WebDevelopment,Coding,Programming,SoftwareDesign,SoftwareProject,WebApplication,DevelopmentTips,BeginnerTutorial,SoftwareDevelopmentTutorial,SoftwareTutorial,entityframework core,yaz\u0131l\u0131m geli\u015Ftirme,proje olu\u015Fturma,eticaret projesi,eticaret geli\u015Ftirme",
+    "Comments": [
+      {
+        "Id": 133,
+        "VideoId": 48,
+        "Author": "@kaansar9329",
+        "PublishedAt": "2023-08-28T14:36:14Z",
+        "Text": "hocam ben Ientity\u0027i implemet edince k\u00F6\u015Feli parantez i\u00E7inde get;set; harici b\u00F6yle kodlar ekleniyo\n\n public int ID { get =\u003E throw new NotImplementedException(); set =\u003E throw new NotImplementedException(); }\n\nbi s\u0131k\u0131nt\u0131 olur mu"
+      },
+      {
+        "Id": 131,
+        "VideoId": 48,
+        "Author": "@Chef47",
+        "PublishedAt": "2024-06-09T09:37:27Z",
+        "Text": "Neden BaseEntity\u0027i abstract class olarak tanimladik? Neden normal class olarak tanimlamadik?"
+      },
+      {
+        "Id": 132,
+        "VideoId": 48,
+        "Author": "@serifcicek92",
+        "PublishedAt": "2023-11-19T21:51:04Z",
+        "Text": "elinize sa\u011Fl\u0131k"
+      }
+    ]
+  },
+  {
+    "Id": 49,
+    "VideoId": "RtyGbFKLWMY",
+    "Title": "1 - .NET ile Eticaret Projesi (Ntier) - Ba\u015Flang\u0131\u00E7 Rehberi",
+    "Description": "Bu e\u011Fitim videosunda, .NET platformunda C# programlama dilini kullanarak Ntier mimarisiyle eticaret projesi geli\u015Ftirmeye ba\u015Fl\u0131yoruz. E-ticaret d\u00FCnyas\u0131na ad\u0131m atmak ve sa\u011Flam bir temel olu\u015Fturmak i\u00E7in bu serinin ilk ad\u0131m\u0131n\u0131 at\u0131yoruz! \n\nBu video, .NET teknolojisi ve Ntier mimarisi hakk\u0131nda bilgi sahibi olmak isteyen herkes i\u00E7in m\u00FCkemmel bir ba\u015Flang\u0131\u00E7 \u200B\u200Brehberi olacak. Proje geli\u015Ftirmeye ba\u015Flamadan \u00F6nce temel kavramlar\u0131 anlamak, projenin ba\u015Far\u0131ya ula\u015Fmas\u0131n\u0131n temel ta\u015F\u0131d\u0131r. E\u011Fitim videomuzda ad\u0131m ad\u0131m rehberlik edece\u011Fiz ve izleyicilere kendi eticaret projelerini geli\u015Ftirmeleri i\u00E7in g\u00FC\u00E7l\u00FC bir temel sa\u011Flayaca\u011F\u0131z. Ba\u015Far\u0131lar dileriz ve e\u011Fitim videomuzu keyifle izlemenizi umar\u0131z!\n\n*Projeyi \u0130ndirin ve \u0130zleyin:*\nhttps://github.com/softbreak/SoftbreakEcommerceProject\n\n*Toplulu\u011Fa Kat\u0131l*\nhttps://discord.com/invite/tkZBnuba8h\n\nSorular\u0131n\u0131z veya geri bildiriminiz varsa l\u00FCtfen yorumlarda payla\u015F\u0131n!\n\nVideoyu be\u011Fendiyseniz, abone olmay\u0131 ve bildirimleri a\u00E7may\u0131 unutmay\u0131n, b\u00F6ylece yeni i\u00E7eriklerimizi ka\u00E7\u0131rmazs\u0131n\u0131z. \uD83D\uDE80",
+    "PublishedAt": "2023-08-06T16:00:29Z",
+    "Tags": "ETicaretProjesi,EticaretGeli\u015Ftirme,.NET,CSharp,NtierMimarisi,VeriEri\u015FimKatman\u0131,EntityFramework,ContextS\u0131n\u0131f\u0131,VisualStudio,ProjeOlu\u015Fturma,Programlama,WebGeli\u015Ftirme,Yaz\u0131l\u0131mGeli\u015Ftirme,AboneOl,E\u011FitimVideolar\u0131,Teknoloji,SoftwareDevelopment,SoftwareEngineering,SoftwareArchitecture,WebDevelopment,Coding,Programming,SoftwareDesign,SoftwareProject,WebApplication,DevelopmentTips,BeginnerTutorial,SoftwareDevelopmentTutorial,SoftwareTutorial",
+    "Comments": [
+      {
+        "Id": 135,
+        "VideoId": 49,
+        "Author": "@simitvar",
+        "PublishedAt": "2023-08-07T14:18:15Z",
+        "Text": "Merhaba hocam \u00F6ncelikle eme\u011Finize sa\u011Fl\u0131k, uzun soluklu bir seri olursa keyifle takip edece\u011Fim."
+      },
+      {
+        "Id": 134,
+        "VideoId": 49,
+        "Author": "@kutluali",
+        "PublishedAt": "2024-06-11T14:52:38Z",
+        "Text": "Hocam \u00C7ok te\u015Fekk\u00FCr ederim kendi ad\u0131ma tam bu tarzda bir proje geli\u015Ftirmeye \u00E7al\u0131\u015Ft\u0131r\u0131yordum. Lakin tak\u0131l\u0131yordum keyifle merakla heycanla izleyece\u011Fim."
+      }
+    ]
+  },
+  {
+    "Id": 50,
+    "VideoId": "yz2bNrDeBr0",
+    "Title": "3 - .NET ile Eticaret Projesi (Ntier) - Veri Eri\u015Fim Katman\u0131 (DAL)",
+    "Description": "Bu e\u011Fitim videosunda, .NET platformunda Ntier mimarisiyle eticaret projesinin Veri Eri\u015Fim Katman\u0131 (Data Access Layer) olu\u015Fturma s\u00FCrecini ayr\u0131nt\u0131l\u0131 bir \u015Fekilde ele al\u0131yoruz. Veri Eri\u015Fim Katman\u0131, eticaret projemizin veritaban\u0131 i\u015Flemlerini y\u00F6netece\u011Fimiz \u00F6nemli bir bile\u015Fendir ve bu videoda nas\u0131l olu\u015Fturulaca\u011F\u0131n\u0131 ad\u0131m ad\u0131m \u00F6\u011Frence\u011Fiz.\n\n*Projeyi \u0130ndirin ve \u0130zleyin:*\nhttps://github.com/softbreak/SoftbreakEcommerceProject\n\n*Toplulu\u011Fa Kat\u0131l*\nhttps://discord.com/invite/tkZBnuba8h\n\nSorular\u0131n\u0131z veya geri bildiriminiz varsa l\u00FCtfen yorumlarda payla\u015F\u0131n!\n\nVideoyu be\u011Fendiyseniz, abone olmay\u0131 ve bildirimleri a\u00E7may\u0131 unutmay\u0131n, b\u00F6ylece yeni i\u00E7eriklerimizi ka\u00E7\u0131rmazs\u0131n\u0131z. \uD83D\uDE80",
+    "PublishedAt": "2023-08-06T16:00:50Z",
+    "Tags": ".NET,Ntier,VeriEri\u015FimKatman\u0131,DAL,EntityFramework,Entity,Veritaban\u0131,VeriTaban\u0131\u0130\u015Flemleri,Programlama,DotNetDevelopment,WebDevelopment,CSharp,SoftwareDevelopment,VisualStudio,E\u011Fitim,DALKatman\u0131,VeriEri\u015Fimi,VeriY\u00F6netimi,VeriTaban\u0131Y\u00F6netimi,eticaret projesi,eticaret mimarisi,web uygulamas\u0131,eticaret geli\u015Ftirme,csharp,e\u011Fitim videolar\u0131,yaz\u0131l\u0131m videolar\u0131",
+    "Comments": [
+      {
+        "Id": 136,
+        "VideoId": 50,
+        "Author": "@Eren_Ozdemir",
+        "PublishedAt": "2023-08-09T21:01:59Z",
+        "Text": "Destek yorumu."
+      }
+    ]
+  },
+  {
+    "Id": 51,
+    "VideoId": "RIVxlO8BfW0",
+    "Title": ".NET ile E-ticaret projesi (Ntier) #shorts  #csharp #yaz\u0131l\u0131m #programlama #e\u011Fitim #eticaret #web",
+    "Description": "Bu e\u011Fitim videosunda, .NET platformunda Ntier mimarisiyle eticaret projesinin Veri Eri\u015Fim Katman\u0131 (Data Access Layer) olu\u015Fturma s\u00FCrecini ayr\u0131nt\u0131l\u0131 bir \u015Fekilde ele al\u0131yoruz. Veri Eri\u015Fim Katman\u0131, eticaret projemizin veritaban\u0131 i\u015Flemlerini y\u00F6netece\u011Fimiz \u00F6nemli bir bile\u015Fendir ve bu videoda nas\u0131l olu\u015Fturulaca\u011F\u0131n\u0131 ad\u0131m ad\u0131m \u00F6\u011Frence\u011Fiz.",
+    "PublishedAt": "2023-08-08T19:51:20Z",
+    "Tags": "",
+    "Comments": []
+  },
+  {
+    "Id": 52,
+    "VideoId": "Md-jdha2d3M",
+    "Title": "5 - .NET ile Eticaret Projesi (Ntier) -  Repository Pattern",
+    "Description": "Bu dersimizde projenin temelini olu\u015Fturan \u00F6nemli tasar\u0131m desenlerinden biri olan \u0022Repository Pattern\u0022 ile tan\u0131\u015Facaks\u0131n\u0131z. Repository Pattern, yaz\u0131l\u0131m geli\u015Ftirme s\u00FCrecinde veritaban\u0131 i\u015Flemlerini daha d\u00FCzenli ve y\u00F6netilebilir hale getirmek i\u00E7in kullan\u0131lan bir yap\u0131d\u0131r. Bu desen sayesinde, veritaban\u0131yla ileti\u015Fim kurma karma\u015F\u0131kl\u0131\u011F\u0131 uygulama kodundan ayr\u0131 bir katmana ta\u015F\u0131n\u0131r. Yani, kodunuz veritaban\u0131 i\u015Flemleri ile dolu de\u011Fil, bunun yerine bu i\u015Flemleri y\u00F6neten bir \u0022Repository\u0022 katman\u0131 bulunur.\n\n*Projeyi \u0130ndirin ve \u0130zleyin:*\nhttps://github.com/softbreak/SoftbreakEcommerceProject\n\n*Toplulu\u011Fa Kat\u0131l*\nhttps://discord.com/invite/tkZBnuba8h\n\nSorular\u0131n\u0131z veya geri bildiriminiz varsa l\u00FCtfen yorumlarda payla\u015F\u0131n!\n\nVideoyu be\u011Fendiyseniz, abone olmay\u0131 ve bildirimleri a\u00E7may\u0131 unutmay\u0131n, b\u00F6ylece yeni i\u00E7eriklerimizi ka\u00E7\u0131rmazs\u0131n\u0131z. \uD83D\uDE80",
+    "PublishedAt": "2023-08-25T18:20:06Z",
+    "Tags": ".NET,E-ticaret Projesi,N-Tier,Repository Pattern,Veritaban\u0131 \u0130\u015Flemleri,Yaz\u0131l\u0131m Tasar\u0131m Deseni,Soyutlama,D\u00FCzg\u00FCn Aray\u00FCz,Tek Sorumluluk \u0130lkesi,Kod D\u00FCzeni,Bak\u0131m Kolayl\u0131\u011F\u0131,Test Edilebilirlik,Kod Temizli\u011Fi,Uygulama Geli\u015Ftirme,Veritaban\u0131 \u0130leti\u015Fimi,Veritaban\u0131 Soyutlamas\u0131,Nesne Y\u00F6nelimli Programlama,Veri Ekleme,Veri G\u00FCncelleme,Veri Silme,Veri Sorgulama,Uygulama Mimarisi,Katmanl\u0131 Mimariler,Proje Y\u00F6netimi,.NET Teknolojisi",
+    "Comments": [
+      {
+        "Id": 138,
+        "VideoId": 52,
+        "Author": "@suleymancelik1757",
+        "PublishedAt": "2024-07-17T09:24:27Z",
+        "Text": "Tarz\u0131n\u0131z ve e\u011Fitim kurgulaman\u0131z \u00E7ok g\u00FCzel elinize sa\u011Fl\u0131k."
+      },
+      {
+        "Id": 137,
+        "VideoId": 52,
+        "Author": "@erencanguvercin2843",
+        "PublishedAt": "2024-12-15T22:08:34Z",
+        "Text": "Hocam merhaba. Bu BaseRepository i\u00E7erisindeki AddRange metodunu yazarken _db.Set\u003CT\u003E  \u015Feklinde yazm\u0131\u015Fs\u0131n\u0131z fakat asl\u0131nda _db.Set\u003CList\u003CT\u003E\u003E \u015Feklinde olmas\u0131 gerekmez mi?"
+      },
+      {
+        "Id": 140,
+        "VideoId": 52,
+        "Author": "@furkanogden4682",
+        "PublishedAt": "2023-10-01T10:53:33Z",
+        "Text": "Hocam asenkron metotlarla ilgili de bir video gelebilir mi, asenkron metot kullan\u0131yoruz ama mant\u0131\u011F\u0131 nedir, neden kullan\u0131yoruz onu da anlatsan\u0131z"
+      },
+      {
+        "Id": 139,
+        "VideoId": 52,
+        "Author": "@BehcetYILDIZ-gi2lb",
+        "PublishedAt": "2024-04-30T08:46:05Z",
+        "Text": "Videodada Repository neden mycontext eklenmemi\u015F ba\u015Fka bir N-Tier mimaride bu \u015Fekilde g\u00F6rd\u00FCm  bu ince detaylar\u0131 g\u00F6zden ka\u00E7\u0131rmamak gerekir \n\npublic class EfEntityRepositoryBase\u003CTEntity, TContext\u003E : IEntityRepository\u003CTEntity\u003E\r\n    where TEntity : class, IEntity, new()\r\n    where TContext : DbContext, new()\n\npublic void Add(TEntity entity)\r\n {\r\n     using (TContext context = new TContext())\r\n     {\r\n         var addedEntity = context.Entry(entity);\r\n         addedEntity.State = EntityState.Added;\r\n         context.SaveChanges();\r\n     }\r\n }"
+      }
+    ]
+  },
+  {
+    "Id": 53,
+    "VideoId": "Lv5XQLTH7QY",
+    "Title": "6 - .NET ile Eticaret Projesi (Ntier) -  Business Logic Layer",
+    "Description": "Bu videoda, .NET kullanarak geli\u015Ftirdi\u011Fimiz E-Ticaret Projesi\u0027nin Business Logic Layer (\u0130\u015F Mant\u0131\u011F\u0131 Katman\u0131) \u00FCzerine odaklan\u0131yoruz. Proje, geli\u015Fmi\u015F e-ticaret \u00F6zellikleri sunan bir N-tier (katmanl\u0131) uygulama olarak tasarland\u0131.\n\n*Projeyi \u0130ndirin ve \u0130zleyin:*\nhttps://github.com/softbreak/SoftbreakEcommerceProject\n\n*Toplulu\u011Fa Kat\u0131l*\nhttps://discord.com/invite/tkZBnuba8h\n\nSorular\u0131n\u0131z veya geri bildiriminiz varsa l\u00FCtfen yorumlarda payla\u015F\u0131n!\n\nVideoyu be\u011Fendiyseniz, abone olmay\u0131 ve bildirimleri a\u00E7may\u0131 unutmay\u0131n, b\u00F6ylece yeni i\u00E7eriklerimizi ka\u00E7\u0131rmazs\u0131n\u0131z. \uD83D\uDE80",
+    "PublishedAt": "2023-09-17T12:00:13Z",
+    "Tags": ".NET,E-Ticaret,Business Logic Layer,N-tier Proje,Katmanl\u0131 Mimarisi,C# Programlama,Yaz\u0131l\u0131m Geli\u015Ftirme,Softbreak Projesi,Visual Studio,Veritaban\u0131 Tasar\u0131m\u0131,E-Ticaret Uygulamas\u0131,\u0130\u015F Mant\u0131\u011F\u0131 Katman\u0131,Proje Geli\u015Ftirme,Yaz\u0131l\u0131m Mimarisi,Softbreak.io,MVC Mimarisi,ORM (Object-Relational Mapping)",
+    "Comments": [
+      {
+        "Id": 144,
+        "VideoId": 53,
+        "Author": "@walkingbass7313",
+        "PublishedAt": "2023-09-17T12:14:53Z",
+        "Text": "Kalite Ak\u0131yo"
+      },
+      {
+        "Id": 143,
+        "VideoId": 53,
+        "Author": "@ertaneroglu3920",
+        "PublishedAt": "2023-11-02T16:13:07Z",
+        "Text": "Sevgili hocam, en az\u0131ndan bi s\u00FCper te\u015Fekk\u00FCr \u00F6zelli\u011Fini aktif etseydiniz. Bi kahve \u0131smarlam\u0131\u015F olurduk dolayl\u0131 yoldan da olsa... Sadece  kuru te\u015Fekk\u00FCr yorumu yazmak veya videoyu be\u011Feni atmak. Bu g\u00FCzel aktar\u0131ma kar\u015F\u0131l\u0131k vasat kal\u0131yor hissiyat\u0131 olu\u015Fturuyor.(\u015Eahsen bende..) \uD83D\uDE00"
+      },
+      {
+        "Id": 142,
+        "VideoId": 53,
+        "Author": "@aligokdeniz4596",
+        "PublishedAt": "2024-04-30T23:18:38Z",
+        "Text": "Hocam Burada Kar\u0131\u015Fm\u0131\u015F i\u015Fler benim anlamad\u0131\u011F\u0131m Dal katman\u0131ndaki Repsoitory ayn\u0131s\u0131n\u0131 BLL katman\u0131nda ManagerServices de yazd\u0131n\u0131z kod tekrar\u0131 oluyor"
+      },
+      {
+        "Id": 141,
+        "VideoId": 53,
+        "Author": "@aligokdeniz4596",
+        "PublishedAt": "2024-04-30T23:19:33Z",
+        "Text": "public class AppUserManager : BaseManager\u003CAppUser\u003E, IAppUserManager k\u0131sm\u0131n\u0131n a\u00E7\u0131klamas\u0131 yeterli de\u011Fil"
+      }
+    ]
+  },
+  {
+    "Id": 54,
+    "VideoId": "sxIbfESjmGo",
+    "Title": "7 - .NET ile Eticaret Projesi (Ntier) - Dependency Resolvers",
+    "Description": "Bu videoda, projemizin temel altyap\u0131s\u0131n\u0131 olu\u015Fturmak i\u00E7in Dependency Resolvers\u0027\u0131 ele alaca\u011F\u0131z.\nDependency Resolvers, uygulamam\u0131z\u0131n farkl\u0131 bile\u015Fenlerini bir araya getirirken, kodumuzun daha temiz ve y\u00F6netilebilir olmas\u0131na yard\u0131mc\u0131 olan \u00F6nemli bir konsepttir. \nVideoda ayr\u0131ca, hangi Dependency Injection k\u00FCt\u00FCphanelerini kullanabilece\u011Finizi ve bu k\u00FCt\u00FCphaneleri nas\u0131l yap\u0131land\u0131raca\u011F\u0131n\u0131z\u0131 da g\u00F6sterece\u011Fiz. Bu sayede, projenizin b\u00FCy\u00FCd\u00FCk\u00E7e daha fazla esneklik ve \u00F6l\u00E7eklenebilirlik elde edebileceksiniz.\n\n*Projeyi \u0130ndirin ve \u0130zleyin:*\nhttps://github.com/softbreak/SoftbreakEcommerceProject\n\n*Toplulu\u011Fa Kat\u0131l*\nhttps://discord.com/invite/tkZBnuba8h\n\nSorular\u0131n\u0131z veya geri bildiriminiz varsa l\u00FCtfen yorumlarda payla\u015F\u0131n!\n\nVideoyu be\u011Fendiyseniz, abone olmay\u0131 ve bildirimleri a\u00E7may\u0131 unutmay\u0131n, b\u00F6ylece yeni i\u00E7eriklerimizi ka\u00E7\u0131rmazs\u0131n\u0131z. \uD83D\uDE80",
+    "PublishedAt": "2023-09-24T12:57:51Z",
+    "Tags": ".NET,E-Ticaret,Proje Geli\u015Ftirme,Dependency Resolvers,N-Tier,Dependency Injection,.NET Core,C#,Yaz\u0131l\u0131m Geli\u015Ftirme,Web Uygulamalar\u0131,Backend,Backend Geli\u015Ftirme,Veritaban\u0131 Y\u00F6netimi,E-Ticaret Projesi,Yaz\u0131l\u0131m Mimarisi,Yaz\u0131l\u0131m Geli\u015Ftirme Rehberi,Teknoloji,Kodlama,Yaz\u0131l\u0131m Geli\u015Ftirme E\u011Fitimi,Programlama D\u00FCnyas\u0131,.NET Geli\u015Ftirme,.NET Programlama,Yaz\u0131l\u0131m Geli\u015Ftirme \u0130pu\u00E7lar\u0131,.NET \u00D6\u011Frenme,Yaz\u0131l\u0131m Geli\u015Ftirme Pratikleri,katmanl\u0131 mimari",
+    "Comments": [
+      {
+        "Id": 148,
+        "VideoId": 54,
+        "Author": "@Muhammetelma24",
+        "PublishedAt": "2023-10-02T11:44:52Z",
+        "Text": "Kolay gelsin cok guzel anlatmisiniz insallah videolarin devami gelir"
+      },
+      {
+        "Id": 147,
+        "VideoId": 54,
+        "Author": "@bthndymz",
+        "PublishedAt": "2023-10-04T12:41:38Z",
+        "Text": "Ellerinize sa\u011Fl\u0131k hocam "
+      },
+      {
+        "Id": 145,
+        "VideoId": 54,
+        "Author": "@furkanogden4682",
+        "PublishedAt": "2023-10-28T10:06:19Z",
+        "Text": "Hocam 1 ayd\u0131r devam\u0131n\u0131 bekliyoruz"
+      },
+      {
+        "Id": 146,
+        "VideoId": 54,
+        "Author": "@abdullahkosten2742",
+        "PublishedAt": "2023-10-26T13:46:26Z",
+        "Text": "Devam\u0131 Gelecek mi?"
+      }
+    ]
+  },
+  {
+    "Id": 55,
+    "VideoId": "GAo-IU-007o",
+    "Title": "8-.NET ile Eticaret Projesi (Ntier) - WebAPI",
+    "Description": "Bu dersimizde projeye WebAPI katman\u0131n\u0131 dahil ederek \u0130stek (Request) ve Cevap (Response) modellerini tan\u0131mlad\u0131k. AppUser nesnesinin WebAPI katman\u0131na nas\u0131l dahil edilece\u011Fini, Api isteklerini nas\u0131l olu\u015Fturulaca\u011F\u0131n\u0131 anlatt\u0131k. Umar\u0131m faydal\u0131 olmu\u015Ftur. Takip etmeyi unutmay\u0131n!\n\n*Projeyi \u0130ndirin ve \u0130zleyin:* https://github.com/softbreak/SoftbreakEcommerceProject\n\n*Toplulu\u011Fa Kat\u0131l:* https://discord.com/invite/tkZBnuba8h\n\nSorular\u0131n\u0131z veya geri bildiriminiz varsa l\u00FCtfen yorumlarda payla\u015F\u0131n!",
+    "PublishedAt": "2023-10-29T20:30:02Z",
+    "Tags": ".Net,C #,E-ticaret,e-ticaret programlama,katmanl\u0131 mimari,C# proje,.net proje,webapi,api,application programming interface,ecommerce,csharp,\u00FCr\u00FCn i\u015Flemleri,kullan\u0131c\u0131 i\u015Flemleri,identityuser,.net7",
+    "Comments": [
+      {
+        "Id": 156,
+        "VideoId": 55,
+        "Author": "@-everything.",
+        "PublishedAt": "2023-10-29T21:08:21Z",
+        "Text": "Hocam merhabalar. Ben aylardir kanaliniza aboneyim. Ama videolarinizi izleyememistim.\nBen Azerbaycanda yasiyorum. Suanda back end c# kursuna gidiyorum. Bu hafta OOP ye girecegiz.\nBen C# dili uzerinde uzmanlasmak, back end developer olmak istiyorum. \nBana ne gibi tavsiyeler verirsiniz?\nSimdiden tesekkur ederim.\nBoyle yararli videolar icinde ayrica cok cok tesekkur ederim. Henuz videodan pek bir sey anlamiyorum ama muhtemelen gelecekte bana cok katkisi olacaktir."
+      },
+      {
+        "Id": 150,
+        "VideoId": 55,
+        "Author": "@muhammedaliduyar9711",
+        "PublishedAt": "2024-07-26T23:58:55Z",
+        "Text": "eme\u011Finizesa\u011Fl\u0131k videolar \u00E7ok g\u00FCzel ama sizinde belirtti\u011Finiz gibi karma\u015F\u0131k k\u0131s\u0131mlarda teorik bilgiyi daha \u00E7ok verseniz , daha a\u00E7\u0131klay\u0131c\u0131 ve basit \u00F6rneklerle anlatsan\u0131z muhte\u015Fem olur."
+      },
+      {
+        "Id": 151,
+        "VideoId": 55,
+        "Author": "@aligokdeniz4596",
+        "PublishedAt": "2024-05-01T21:36:43Z",
+        "Text": "Kafama Tak\u0131lan Sorular \u00C7ok oluyor umar\u0131m rahats\u0131zl\u0131kv ermiyorum ben projelerimde N-Tier kullanmad\u0131m farkl\u0131 bir sebeb den dolay\u0131 bu mimariyi \u00F6\u011Frenmek istiyorum teorik mant\u0131g\u0131n\u0131 biliyorum lakin pratikte hi\u00E7 proje geli\u015Ftirmedim Categori ekleme i\u015Flemleri admin panelinden yap\u0131lmal\u0131d\u0131r ama Areas olu\u015Fturulmad\u0131  ve DTO gibi neden Categories RequestModels ayr\u0131 model a\u00E7\u0131lm\u0131\u015F DTO tan\u0131malanmam\u0131\u015F Entities katman\u0131nda zaten mevcut Category class\u0131 DTO tan\u0131mlamas\u0131 g\u00F6rmeyince sormak istedim bilgi verebilirmisiniz"
+      },
+      {
+        "Id": 152,
+        "VideoId": 55,
+        "Author": "@aligokdeniz4596",
+        "PublishedAt": "2024-05-01T20:48:24Z",
+        "Text": "Sepet \u0130\u015Flemlerinde Neden Session da tutuluyor bu sunucadaki alana eri\u015Fmektir yava\u015F ve sunucuda daha fazla yer kaplamas\u0131na sebeb olmazm\u0131 cookie de tutulmas\u0131n\u0131 gerekiyor diye biliyorum bu konuda bilgi verebilirmisiniz"
+      },
+      {
+        "Id": 153,
+        "VideoId": 55,
+        "Author": "@swapkaan",
+        "PublishedAt": "2024-02-10T14:35:40Z",
+        "Text": "Merhabalar, Repository ve servisimizde GetById metodu tan\u0131mlamad\u0131k. Bunun yerine Action\u0027da Find(id) metodu kullanarak ayn\u0131 \u015Fekilde GetById gibi kullanabiliyor muyuz ?"
+      },
+      {
+        "Id": 154,
+        "VideoId": 55,
+        "Author": "@cemkoc4918",
+        "PublishedAt": "2023-11-03T17:32:54Z",
+        "Text": "Merhaba,  proje ka\u00E7\u0131nc\u0131 b\u00F6l\u00FCmde tamamlanacak ve API b\u00F6l\u00FCm\u00FC bitti\u011Finde API a ba\u011Flanarak WEBUI projesi olu\u015Fturacak m\u0131s\u0131n\u0131z ?"
+      },
+      {
+        "Id": 155,
+        "VideoId": 55,
+        "Author": "@burakcevik734",
+        "PublishedAt": "2023-10-29T23:55:52Z",
+        "Text": "Eme\u011Finize sa\u011Fl\u0131k \u00C7a\u011Fr\u0131 hocam. Fluent val. kullanmam\u0131z gerekti\u011Fini d\u00FC\u015F\u00FCnm\u00FC\u015Ft\u00FCm bende ama \u00E7ok emin olamam\u0131\u015Ft\u0131m do\u011Fru tahmin etmi\u015Fim :)"
+      },
+      {
+        "Id": 149,
+        "VideoId": 55,
+        "Author": "@suleymancelik1757",
+        "PublishedAt": "2024-08-02T12:39:34Z",
+        "Text": "Elinize sa\u011Fl\u0131k sitenizi yeni buldum abaone oldum e\u011Fitimlerini hayranl\u0131kla dinliyorum tarz\u0131n\u0131z harika te\u015Fekk\u00FCrler"
+      }
+    ]
+  },
+  {
+    "Id": 56,
+    "VideoId": "lmMWkF9cUVU",
+    "Title": "9-.NET ile Eticaret Projesi Ntier - Sepet \u0130\u015Flemleri",
+    "Description": "Bu video, .NET ile Eticaret Projesi (Ntier) e\u011Fitim serisinin sonuna gelmi\u015F bulunuyoruz. Serinin bu son videosunda, sepet i\u015Flemlerini ele alarak al\u0131\u015Fveri\u015F sepeti metotlar\u0131n\u0131 nas\u0131l ekleyece\u011Finizi, y\u00F6netece\u011Finizi ve optimize edece\u011Finizi \u00F6\u011Freneceksiniz.\n\n.NET d\u00FCnyas\u0131 her g\u00FCn geli\u015Fiyor ve biz de bu geli\u015Fmeleri takip ediyoruz. Bu nedenle, ilerleyen zamanlarda bu seriyi daha da zenginle\u015Ftirece\u011Fiz. Yeni konular, \u00F6zellikler ve projelerle kar\u015F\u0131n\u0131za \u00E7\u0131kmak i\u00E7in sab\u0131rs\u0131zlan\u0131yoruz.\n\nGeri bildirimleriniz ve sorular\u0131n\u0131z her zaman de\u011Ferlidir. \u0130htiya\u00E7 duydu\u011Funuz konular\u0131 veya projeleri belirtmekten \u00E7ekinmeyin.\n\n\n *GitHub Proje Linki:*https://github.com/softbreak/SoftbreakEcommerceProject\n\n*Toplulu\u011Fa Kat\u0131l:*https://discord.com/invite/tkZBnuba8h",
+    "PublishedAt": "2023-11-05T07:00:20Z",
+    "Tags": ".net,e-ticaret projesi,.net proje,C# proje,proje,ntier,ntier katmanl\u0131 mimari,katmanl\u0131 mimari,solid,.net mvc,eticaret,api,webapi,swagger,ntier project,.net project,.net cart,C# cart,al\u0131\u015F veri\u015F sepeti",
+    "Comments": [
+      {
+        "Id": 164,
+        "VideoId": 56,
+        "Author": "@omerucansu2569",
+        "PublishedAt": "2023-11-05T10:46:06Z",
+        "Text": "Emeklerinize sagl\u0131k,"
+      },
+      {
+        "Id": 162,
+        "VideoId": 56,
+        "Author": "@seckinsoygan",
+        "PublishedAt": "2023-11-05T20:07:44Z",
+        "Text": "Hocam ellerinize sa\u011Fl\u0131k sizin sayenizde \u00E7ok de\u011Ferli bilgilere sahip olabiliyoruz \u003C3"
+      },
+      {
+        "Id": 158,
+        "VideoId": 56,
+        "Author": "@sevgibahcemmm5540",
+        "PublishedAt": "2023-12-31T13:22:52Z",
+        "Text": "Devam\u0131 ne zaman gelecek"
+      },
+      {
+        "Id": 159,
+        "VideoId": 56,
+        "Author": "@Hellokagan",
+        "PublishedAt": "2023-12-25T09:14:24Z",
+        "Text": "Hocam kotrol veya y\u00F6netim paneli benzeri \u00E7al\u0131\u015Fma yapmay\u0131 planl\u0131yor musunuz ?"
+      },
+      {
+        "Id": 160,
+        "VideoId": 56,
+        "Author": "@serifcicek92",
+        "PublishedAt": "2023-11-20T16:16:44Z",
+        "Text": "buraya kadar izledim ger\u00E7ekten \u00E7ok emekle yap\u0131lm\u0131 eme\u011Finize sa\u011Fl\u0131k di\u011Fer videolar\u0131 sab\u0131rs\u0131zl\u0131kla bekliyorum. Sizden bir istek isteyebilirim bir katk\u0131m olabilsin diye s\u00F6yl\u00FCyorum. Proxy layer katman\u0131 da ekleyebilirmisiniz ui k\u0131sm\u0131 i\u00E7in \u00F6rne\u011Fin ben fatura takip program\u0131 yapaca\u011F\u0131 desktop app servisi direk statik metotlar olan bir proxy layer dan tetiklemek daha mant\u0131kl\u0131 gibi servisi tetiklerken hazaca\u011F\u0131m http responslar\u0131 bu\u0131radaki static metotda yaz\u0131p ui k\u0131sm\u0131nda sadece model g\u00F6nderip result model almak i\u015Flemi olsun gibi b\u00F6yle bir yap\u0131 ile \u00E7al\u0131\u015F\u0131yorum faydas\u0131n\u0131 g\u00F6r\u00FCyorum"
+      },
+      {
+        "Id": 161,
+        "VideoId": 56,
+        "Author": "@ertaneroglu3920",
+        "PublishedAt": "2023-11-13T13:54:46Z",
+        "Text": "Te\u015Fekk\u00FCrler hocam. Bir sonraki videoyu d\u00F6rt g\u00F6zle bekliyoruz bildirimler a\u00E7\u0131k.  \uD83D\uDE09"
+      },
+      {
+        "Id": 157,
+        "VideoId": 56,
+        "Author": "@Muhammetelma24",
+        "PublishedAt": "2024-01-09T05:41:43Z",
+        "Text": "Hocam kolay gelsin az\u0131c\u0131k tempo bitirelim bu projeyi :)"
+      },
+      {
+        "Id": 163,
+        "VideoId": 56,
+        "Author": "@omerucansu2569",
+        "PublishedAt": "2023-11-05T10:53:24Z",
+        "Text": "Httppost confimorder istek gonderildi\u011Finde, Order ve orderdetail tablasuna kay\u0131t gonderiliyor.Bu a\u015Famada transaction blogunda yap\u0131lmas\u0131 daha uygun olacag\u0131n\u0131 dusunuyorum. 1 table i\u015Fleyip di\u011Fer table i\u015Flememesi gibi durumlar\u0131 ortadan kald\u0131rabiliriz."
+      }
+    ]
+  },
+  {
+    "Id": 57,
+    "VideoId": "xH7Md7geuzc",
+    "Title": "9 Short2",
+    "Description": "",
+    "PublishedAt": "2023-11-07T17:53:43Z",
+    "Tags": "",
+    "Comments": []
+  },
+  {
+    "Id": 58,
+    "VideoId": "UJm6L33mTXI",
+    "Title": "C# Delegate \u0130\u015Flemleri - Temel Bilgiler ve Kullan\u0131m \u00D6rnekleri",
+    "Description": "Bu video, C# programlama dilindeki delegate kavram\u0131n\u0131 anlaman\u0131za ve kullanman\u0131za yard\u0131mc\u0131 olacak. Delegate nedir, nas\u0131l tan\u0131mlan\u0131r, nas\u0131l kullan\u0131l\u0131r; hepsini bu videoda detayl\u0131 bir \u015Fekilde g\u00F6receksiniz.\n\nC# programlama dilinde \u0022delegate\u0022, ba\u015Fka bir metodu temsil eden bir t\u00FCrd\u00FCr. Ba\u015Fka bir deyi\u015Fle, bir delegate, metotlar\u0131n referans\u0131n\u0131 tutabilen bir nesnedir. Bu, metotlar\u0131 parametre olarak iletebilmenizi, bir metodu bir de\u011Fi\u015Fkene atayabilmenizi ve bir metottan ba\u015Fka bir metoda geri \u00E7a\u011Fr\u0131 yapabilmenizi sa\u011Flar.\n\nGeri bildirimleriniz ve sorular\u0131n\u0131z her zaman de\u011Ferlidir. \u0130htiya\u00E7 duydu\u011Funuz konular\u0131 veya projeleri belirtmekten \u00E7ekinmeyin.\n\n*Toplulu\u011Fa Kat\u0131l:*https://discord.com/invite/tkZBnuba8h",
+    "PublishedAt": "2023-11-19T07:00:20Z",
+    "Tags": "C#,Delegate,Programlama,C# Delegate,C# Delegate Kullan\u0131m\u0131,Olay \u0130\u015Fleme,Asenkron Programlama,C# Tutorial,Programlama Dilleri,Yaz\u0131l\u0131m Geli\u015Ftirme,windows form application,windows masa\u00FCst\u00FC,csharp",
+    "Comments": [
+      {
+        "Id": 167,
+        "VideoId": 58,
+        "Author": "@furkanogden4682",
+        "PublishedAt": "2023-11-19T20:28:05Z",
+        "Text": "Devam\u0131n\u0131 bekliyoruz hocam, .Net Core e\u011Fitimlerindeki konular\u0131 daha da anla\u015F\u0131l\u0131r k\u0131lacak temel konular \u00FCzerinde durman\u0131z da \u00E7ok g\u00FCzel olmu\u015F ellerinize sa\u011Fl\u0131k"
+      },
+      {
+        "Id": 166,
+        "VideoId": 58,
+        "Author": "@oguzkeklikci9007",
+        "PublishedAt": "2024-05-07T17:16:18Z",
+        "Text": "cok iyi anlatim"
+      },
+      {
+        "Id": 165,
+        "VideoId": 58,
+        "Author": "@Bosbelesbisey-r6p",
+        "PublishedAt": "2024-06-09T10:09:12Z",
+        "Text": "Merhaba hocam bu namespace,public,private,static gibi \u015Feyleri hi\u00E7 anlatmad\u0131n\u0131z"
+      }
+    ]
+  },
+  {
+    "Id": 59,
+    "VideoId": "WPaW6qG6LvM",
+    "Title": "C# Action, Predicate ve Func \u0130\u015Flemleri",
+    "Description": "C# programlama dilinde s\u0131k\u00E7a kullan\u0131lan ve g\u00FC\u00E7l\u00FC i\u015Flevlere sahip olan Action, Predicate ve Func yap\u0131lar\u0131n\u0131 ke\u015Ffedece\u011Fiz. Action ile nas\u0131l belirli bir eylemi ger\u00E7ekle\u015Ftirebilece\u011Finizi, Predicate ile ko\u015Fullar belirleyerek elemanlar\u0131 filtreleyebilece\u011Finizi ve Func ile de\u011Fer d\u00F6nd\u00FCrebilece\u011Finiz fonksiyonlar\u0131 nas\u0131l olu\u015Fturabilece\u011Finizi ad\u0131m ad\u0131m \u00F6\u011Freneceksiniz.\n\nGeri bildirimleriniz ve sorular\u0131n\u0131z her zaman de\u011Ferlidir. \n\n*Abone olmay\u0131 unutmay\u0131n!*\n\n*Toplulu\u011Fa Kat\u0131l:*https://discord.com/invite/tkZBnuba8h",
+    "PublishedAt": "2023-11-26T07:00:11Z",
+    "Tags": "C#,Action,Predicate,Func,Void Metotlar\u0131,Ko\u015Fullu \u0130fadeler,Fonksiyonlar,Programlama Dili,Temel Kavramlar,\u0130leri Seviye Programlama,C# T\u00FCrk\u00E7e,C# Dersleri,C# Tutorial,Kod Yazma Pratikleri,Yaz\u0131l\u0131m Geli\u015Ftirme,C# \u00D6rnekleri,C# Fonksiyonel Programlama",
+    "Comments": [
+      {
+        "Id": 169,
+        "VideoId": 59,
+        "Author": "@ozanyuruk9806",
+        "PublishedAt": "2024-01-26T20:51:56Z",
+        "Text": "Muhte\u015Fem \u00F6tesi bir anlat\u0131m. Hocam a\u011Fz\u0131n\u0131za ve eme\u011Finize sa\u011Fl\u0131k \uD83D\uDE0A"
+      },
+      {
+        "Id": 168,
+        "VideoId": 59,
+        "Author": "@judgedev2789",
+        "PublishedAt": "2024-02-06T00:28:32Z",
+        "Text": "Mesela niye direkt Selamla(); demiyoruzda delegate ile invoke ediyoruz? Ne fark\u0131 var?\nZaman\u0131m tam olmad\u0131\u011F\u0131 i\u00E7in ka\u00E7\u0131rm\u0131\u015F olabilirim."
+      },
+      {
+        "Id": 170,
+        "VideoId": 59,
+        "Author": "@ertaneroglu3920",
+        "PublishedAt": "2023-11-26T16:23:30Z",
+        "Text": "Eme\u011Finize sa\u011Fl\u0131k hocam. Video y\u00FCkleme aral\u0131\u011F\u0131n\u0131 biraz daha k\u0131saltsak \u00E7ok ara koymasak \u00E7ok \u015Fey istemi\u015F olur muyuz ? \uD83D\uDE43"
+      }
+    ]
+  },
+  {
+    "Id": 60,
+    "VideoId": "IIltT8xqaiI",
+    "Title": "C# Asenkron ve Senkron Programlama",
+    "Description": "Bu videoda, C# programlama dilinde asenkron ve senkron programlaman\u0131n temellerini ele ald\u0131k.. Visual Studio 2022 \u00FCzerinde Windows Form Application kullanarak ad\u0131m ad\u0131m ilerleyece\u011Fiz.\n\nGeri bildirimleriniz ve sorular\u0131n\u0131z her zaman de\u011Ferlidir. \n\nAbone olmay\u0131 unutmay\u0131n!\n\nToplulu\u011Fa Kat\u0131l: https://discord.com/invite/tkZBnuba8h",
+    "PublishedAt": "2023-12-17T14:06:48Z",
+    "Tags": "csharp,c#,AsekronProgramlama,SenkronProgramlama,VisualStudio2022,WindowsFormApplication,wfa,asynchronous,synchronous,asynchronous method,synchronous method",
+    "Comments": [
+      {
+        "Id": 174,
+        "VideoId": 60,
+        "Author": "@volkanakdag3944",
+        "PublishedAt": "2024-02-12T05:20:34Z",
+        "Text": "Anlat\u0131\u015F tarz\u0131n\u0131z\u0131 \u00E7ok be\u011Fendim. \u0130nternette bu konuyu en anla\u015F\u0131l\u0131r siz anlat\u0131yorsunuz."
+      },
+      {
+        "Id": 173,
+        "VideoId": 60,
+        "Author": "@gokhanboyac7496",
+        "PublishedAt": "2024-03-13T13:30:08Z",
+        "Text": "\u00C7ok yal\u0131n bir anlat\u0131m\u0131n\u0131z var elinize sa\u011Fl\u0131k"
+      },
+      {
+        "Id": 172,
+        "VideoId": 60,
+        "Author": "@erneqs",
+        "PublishedAt": "2024-03-23T09:47:01Z",
+        "Text": "Hocam bilginiz ayr\u0131 bunu bize anlat\u0131\u015F ve bi\u00E7imlemeniz ayr\u0131 g\u00FCzel "
+      },
+      {
+        "Id": 171,
+        "VideoId": 60,
+        "Author": "@saidfaruk1477",
+        "PublishedAt": "2024-03-24T08:53:18Z",
+        "Text": "\u00C7ok iyi ... b\u00F6yle videolar gelsin"
+      },
+      {
+        "Id": 175,
+        "VideoId": 60,
+        "Author": "@seckinsoygan",
+        "PublishedAt": "2023-12-18T19:14:28Z",
+        "Text": "Yine \u00E7ok g\u00FCzel ve \u00F6nemli bir konu daha elinize a\u011Fz\u0131n\u0131za sa\u011Fl\u0131k hocam"
+      }
+    ]
+  },
+  {
+    "Id": 61,
+    "VideoId": "6lf1yeFDupA",
+    "Title": "C# Asenkron ve Senkron Programlama Nedir?",
+    "Description": "Senkron programlama, i\u015Flemlerin s\u0131rayla ve ad\u0131m ad\u0131m ger\u00E7ekle\u015Fti\u011Fi bir programlama yakla\u015F\u0131m\u0131d\u0131r. Yani, bir i\u015Flem tamamlanmadan di\u011Feri ba\u015Flamaz. Asenkron programlama, i\u015Flemlerin e\u015F zamanl\u0131 olarak ger\u00E7ekle\u015Febildi\u011Fi bir programlama yakla\u015F\u0131m\u0131d\u0131r. Bu, bir i\u015Flemin tamamlanmas\u0131n\u0131 beklemeden di\u011Fer i\u015Flemlerin devam edebilece\u011Fi anlam\u0131na gelir.",
+    "PublishedAt": "2023-12-17T15:16:34Z",
+    "Tags": "C#,csharp,.net,microsoft,yaz\u0131l\u0131m,programlama,kodlama,asenkron programlama,asynchronous method,synchronous method",
+    "Comments": [
+      {
+        "Id": 178,
+        "VideoId": 61,
+        "Author": "@bilalyalcn3032",
+        "PublishedAt": "2023-12-23T11:04:08Z",
+        "Text": "Anlat\u0131mlar\u0131n \u00E7ok g\u00FCzel, umar\u0131m daha \u00E7ok izlenirsin"
+      },
+      {
+        "Id": 176,
+        "VideoId": 61,
+        "Author": "@esbulbul1114",
+        "PublishedAt": "2024-07-20T22:41:06Z",
+        "Text": "Te\u015Fekk\u00FCrler."
+      },
+      {
+        "Id": 177,
+        "VideoId": 61,
+        "Author": "@eflani78.",
+        "PublishedAt": "2024-02-06T15:52:09Z",
+        "Text": "Tesekkurler"
+      }
+    ]
+  },
+  {
+    "Id": 62,
+    "VideoId": "ajqDr2JtzGk",
+    "Title": "AutoMapper ile Veri E\u015Fleme",
+    "Description": "Bu videoda, yaz\u0131l\u0131m geli\u015Ftirme s\u00FCre\u00E7lerinde veri e\u015Fleme i\u015Flemlerini kolayla\u015Ft\u0131ran ve h\u0131zland\u0131ran AutoMapper k\u00FCt\u00FCphanesine odaklanaca\u011F\u0131z.\n\nAutoMapper, .NET platformu i\u00E7in geli\u015Ftirilmi\u015F bir nesne e\u015Fleme k\u00FCt\u00FCphanesidir. Bu k\u00FCt\u00FCphane, bir nesne tipinin \u00F6zelliklerini ba\u015Fka bir nesne tipine otomatik olarak e\u015Fleme yetene\u011Fi sa\u011Flar. Yani, iki farkl\u0131 nesne aras\u0131ndaki veri transferini kolayla\u015Ft\u0131r\u0131r.\n\nAbone olmay\u0131 unutmay\u0131n!\n\nToplulu\u011Fa Kat\u0131l: https://discord.com/invite/tkZBnuba8h",
+    "PublishedAt": "2024-01-22T15:00:02Z",
+    "Tags": "AutoMapper,Veri E\u015Fleme,.NET,C#,Nesne E\u015Fleme,DTO,MVC,ViewModel,Ntier Katmanl\u0131 Mimarisi,Kod E\u015Fleme,AutoMapper Kullan\u0131m\u0131,Yaz\u0131l\u0131m Geli\u015Ftirme,Programlama,C# katmanl\u0131 mimari,katmanl\u0131 mimari,ntier",
+    "Comments": [
+      {
+        "Id": 181,
+        "VideoId": 62,
+        "Author": "@ertaneroglu3920",
+        "PublishedAt": "2024-01-22T17:27:14Z",
+        "Text": "Te\u015Fekk\u00FCrler hocam, devam\u0131n\u0131 bekliyoruz..."
+      },
+      {
+        "Id": 180,
+        "VideoId": 62,
+        "Author": "@mustafaarmaganask",
+        "PublishedAt": "2024-01-23T16:05:46Z",
+        "Text": "Tam da kendi e-ticaret projemi yazarken DTO ve AutoMapper i\u00E7in kaynak ararken kar\u015F\u0131ma \u00E7\u0131kt\u0131. Gayet a\u00E7\u0131klay\u0131c\u0131 bir giri\u015F olmu\u015F. Katmanl\u0131 mimaride bu yap\u0131y\u0131 uygulayaca\u011F\u0131n\u0131z sonraki videonuzu merakla bekliyoruz!"
+      },
+      {
+        "Id": 179,
+        "VideoId": 62,
+        "Author": "@osmanozturk8838",
+        "PublishedAt": "2024-03-24T16:03:54Z",
+        "Text": "\u00C7ok Te\u015Fekk\u00FCrler"
+      }
+    ]
+  },
+  {
+    "Id": 63,
+    "VideoId": "jBMf7g7UPuY",
+    "Title": "Ntier Mimari\u0027de Automapper Kullan\u0131m\u0131",
+    "Description": "Bu videoda, daha \u00F6nce olu\u015Fturdu\u011Fumuz Ntier Ecommerce projesine Automapper k\u00FCt\u00FCphanesini nas\u0131l entegre edece\u011Fimizi ad\u0131m ad\u0131m g\u00F6sterece\u011Fiz.\n\nAutomapper, yaz\u0131l\u0131m geli\u015Ftirme s\u00FCre\u00E7lerinde veri e\u015Fleme i\u015Flemlerini kolayla\u015Ft\u0131ran ve h\u0131zland\u0131ran bir k\u00FCt\u00FCphanedir. .NET platformu i\u00E7in \u00F6zel olarak geli\u015Ftirilmi\u015F olan bu k\u00FCt\u00FCphane, bir nesne tipinin \u00F6zelliklerini ba\u015Fka bir nesne tipine otomatik olarak e\u015Fleme yetene\u011Fi sunar. Bu da iki farkl\u0131 nesne aras\u0131nda veri transferini olduk\u00E7a basitle\u015Ftirir.\n\nBiz de bu videoda, Ntier Ecommerce projesinde Automapper\u0027\u0131 nas\u0131l kullanabilece\u011Fimizi \u00F6rneklerle a\u00E7\u0131klayaca\u011F\u0131z. Automapper\u0027\u0131n sa\u011Flad\u0131\u011F\u0131 kolayl\u0131k ve verimlilik ile projemizi nas\u0131l daha etkili hale getirebilece\u011Fimizi g\u00F6rece\u011Fiz.\n\nUnutmay\u0131n, herhangi bir sorunuz veya geri bildiriminiz varsa yorumlarda bizimle payla\u015Fabilirsiniz. Keyifli izlemeler! \n\nToplulu\u011Fa Kat\u0131l: https://discord.com/invite/tkZBnuba8h",
+    "PublishedAt": "2024-02-05T15:00:40Z",
+    "Tags": "AutoMapper,.net,.net core,dto,viewmodel,ntier,katmanl\u0131 mimari,ntier mimari,C# mimari,nesne y\u00F6nelimli programlama",
+    "Comments": [
+      {
+        "Id": 185,
+        "VideoId": 63,
+        "Author": "@ertaneroglu3920",
+        "PublishedAt": "2024-02-06T11:29:06Z",
+        "Text": "Hocam sesinizi \u00F6zl\u00FCyoruz l\u00FCtfen bizi uzun s\u00FCreli mahrum b\u0131rakmay\u0131n. :) Sayg\u0131lar..."
+      },
+      {
+        "Id": 186,
+        "VideoId": 63,
+        "Author": "@yunusk.8532",
+        "PublishedAt": "2024-02-05T19:34:40Z",
+        "Text": "\u00C7ok te\u015Fekk\u00FCrler hocam"
+      },
+      {
+        "Id": 182,
+        "VideoId": 63,
+        "Author": "@Dumah79",
+        "PublishedAt": "2024-08-03T05:40:09Z",
+        "Text": "\u00C7ok iyi bir backend cisin. Zevkle izledim. OOP taraf\u0131nda \u00E7ok g\u00FC\u00E7l\u00FC. Bende ORM kullan\u0131yorum ama entity framework kullanm\u0131yorum. Biraz uzun s\u00FCr\u00FCyor ama Database taraf\u0131n\u0131 kendim dizayn etmek daha \u00E7ok ho\u015Fuma gidiyor."
+      },
+      {
+        "Id": 183,
+        "VideoId": 63,
+        "Author": "@aligokdeniz4596",
+        "PublishedAt": "2024-05-01T22:49:27Z",
+        "Text": "Projenin Devam\u0131 Ne Zaman Gelecek Bilgi Verebilirmisniz"
+      },
+      {
+        "Id": 184,
+        "VideoId": 63,
+        "Author": "@mustafaarmaganask",
+        "PublishedAt": "2024-02-12T12:37:07Z",
+        "Text": "Olduk\u00E7a g\u00FCzel a\u00E7\u0131klam\u0131\u015Fs\u0131n\u0131z. Son derece yararl\u0131 bir video. Te\u015Fekk\u00FCr ederim!"
+      }
+    ]
+  },
+  {
+    "Id": 64,
+    "VideoId": "xCagCl0v1ts",
+    "Title": "ASP.NET Core\u0027da middleware, HTTP taleplerini i\u015Flemek ve yan\u0131tlamak i\u00E7in kullan\u0131lan bir kavramd\u0131r.",
+    "Description": "",
+    "PublishedAt": "2024-03-08T18:23:41Z",
+    "Tags": "",
+    "Comments": [
+      {
+        "Id": 187,
+        "VideoId": 64,
+        "Author": "@gorkemozyurt9868",
+        "PublishedAt": "2024-03-13T10:26:30Z",
+        "Text": "Kanal\u0131 yeni ke\u015Ffettim t\u00FCm oynatma listelerini kaydettim. Sistem analisti olarak i\u015Fe ba\u015Flad\u0131m ve a\u015F\u0131r\u0131 i\u015Fime yar\u0131yor \u00E7ok te\u015Fekk\u00FCr ederim"
+      }
+    ]
+  },
+  {
+    "Id": 65,
+    "VideoId": "6IlzbQRyO3k",
+    "Title": "ASP.NET Core Middleware: Nedir ve Nas\u0131l Kullan\u0131l\u0131r?",
+    "Description": "Bu videoda, ASP.NET Core\u0027daki middleware kavram\u0131n\u0131 detayl\u0131 bir \u015Fekilde ele ald\u0131k.Middleware asl\u0131nda bir sistemdir ve hayat\u0131m\u0131za .Net ile girmi\u015F bir kavram de\u011Fildir. Bu sistem, istemciler ve sunucular aras\u0131ndaki ili\u015Fkiyi d\u00FCzenler ve HTTP protokol\u00FCyle nas\u0131l \u00E7al\u0131\u015Ft\u0131\u011F\u0131n\u0131 anlamam\u0131za yard\u0131mc\u0131 olur.\n\n\u00D6rne\u011Fin, istemci bir talepte bulundu\u011Funda, bu talep sunucuya iletilir ve sunucu bir cevap d\u00F6nd\u00FCr\u00FCr. Ancak arada bir\u00E7ok i\u015Flem ger\u00E7ekle\u015Fir ve bu i\u015Flemleri kontrol etmek, yetkilendirme yapmak gibi s\u00FCre\u00E7ler \u0022Middleware\u0022 sistemi taraf\u0131ndan y\u00F6netilir.\n\nMiddleware, bir\u00E7ok teknolojide bulunan bir yap\u0131d\u0131r ancak .NET Core\u0027da daha mod\u00FCler bir yap\u0131ya sahiptir. Bu yap\u0131, sistemdeki i\u015Flemleri arayaz\u0131l\u0131mlarla y\u00F6netmemize olanak tan\u0131r ve sarmal bir \u015Fekilde \u00E7al\u0131\u015F\u0131r.\n\n00:00 Giri\u015F\n00:58 Middleware Nedir?\n06:47 Middleware Olu\u015Fturma\n15:30 Middleware Test\n\nAbone olmay\u0131 unutmay\u0131n!\n\nSorular\u0131n\u0131z\u0131 bekliyorum, g\u00F6r\u00FC\u015Fmek \u00FCzere!\n\nToplulu\u011Fa Kat\u0131l: https://discord.com/invite/tkZBnuba8h",
+    "PublishedAt": "2024-03-09T09:00:05Z",
+    "Tags": "asp.net core,.net,dotnet,middleware,middleware nedir?,middleware kullan\u0131m\u0131,ara katman,.net middleware,asp.net core middleware,http,request,response,.net 8",
+    "Comments": [
+      {
+        "Id": 191,
+        "VideoId": 65,
+        "Author": "@Lyvio1",
+        "PublishedAt": "2024-03-13T13:37:08Z",
+        "Text": "Merak ettigim konuydu kar\u015F\u0131ma \u00E7\u0131kmas\u0131 iyi oldu unutmu\u015Ftum"
+      },
+      {
+        "Id": 192,
+        "VideoId": 65,
+        "Author": "@batuhanakn8102",
+        "PublishedAt": "2024-03-12T07:51:28Z",
+        "Text": "Kanal\u0131n\u0131z \u00F6nerilenlerime \u00E7\u0131kt\u0131 i\u00E7eriklerinizi inceledim emek verilmi\u015F g\u00FCzel i\u00E7eriklere sahipsiniz ba\u015Far\u0131lar\u0131n\u0131z\u0131n devam\u0131n\u0131 dilerim"
+      },
+      {
+        "Id": 190,
+        "VideoId": 65,
+        "Author": "@osmanozturk8838",
+        "PublishedAt": "2024-03-24T17:47:15Z",
+        "Text": "\u00C7ok te\u015Fekk\u00FCrler"
+      },
+      {
+        "Id": 189,
+        "VideoId": 65,
+        "Author": "@GiraboluSatinAlcom",
+        "PublishedAt": "2024-07-25T17:30:31Z",
+        "Text": "Farkl\u0131 yerlerdende izlemi\u015Ftim ama burada uygulamal\u0131 olarak yap\u0131lmas\u0131 \u00E7ok iyi olmu\u015F \u00E7ok daha net oturdu kafamda.Te\u015Fekkur ederim kanal\u0131n\u0131za abone oldum ba\u015Far\u0131lar\u0131n\u0131z\u0131n devam\u0131n\u0131 dilerim."
+      },
+      {
+        "Id": 188,
+        "VideoId": 65,
+        "Author": "@turkoglunurullah",
+        "PublishedAt": "2024-08-08T08:02:02Z",
+        "Text": "Bir tane de Program.cs\u0027ye breakpoint koysayd\u0131n\u0131z daha iyi anla\u015F\u0131labilirdi. Invoke i\u00E7erisinde response\u0027a m\u00FCdahale etmeseydiniz ve requestDelegate.Invoke() methodunu \u00E7a\u011F\u0131rmasayd\u0131n\u0131z program ak\u0131\u015F\u0131na devam edip ikinci middleware\u0027\u0131 \u00E7al\u0131\u015Ft\u0131racakm\u0131yd\u0131 senaryosunu da g\u00F6sterebilirdiniz. Video i\u00E7in te\u015Fekk\u00FCrler."
+      },
+      {
+        "Id": 193,
+        "VideoId": 65,
+        "Author": "@ertaneroglu3920",
+        "PublishedAt": "2024-03-10T20:26:56Z",
+        "Text": "Te\u015Fekk\u00FCrler hocam, bi sonraki video konusu olan dependency injection konusunu d\u00F6rt g\u00F6zle bekliyorum. Hocam kanala video y\u00FCkleme s\u0131kl\u0131\u011F\u0131n\u0131 k\u0131saltmak veya art\u0131rmak i\u00E7in ne yapabiliriz ? SAYGILAR \u2764"
+      }
+    ]
+  },
+  {
+    "Id": 66,
+    "VideoId": "qFGbenUDJyQ",
+    "Title": ".NET Core \u0022Dependency Injection\u0022 Kullan\u0131m\u0131",
+    "Description": "Bu videoda, dependency injection konseptini ele al\u0131yoruz. Dependency injection\u0027\u0131n ne oldu\u011Funu, nas\u0131l \u00E7al\u0131\u015Ft\u0131\u011F\u0131n\u0131 ve neden bu kadar \u00F6nemli oldu\u011Funu birlikte ke\u015Ffediyoruz. AddScope, AddTransient ve AddSingleton gibi dependency injection y\u00F6ntemlerinin nas\u0131l kullan\u0131ld\u0131\u011F\u0131na dair pratik bilgiler de bu videoda yer al\u0131yor.\n\n00:00 Giri\u015F\n00:38 Dependency Inversion\n03:20 Dependency Injection\n14:45 AddScope, AddTransient, AddSingleton\n\nDependency injection\u0027\u0131n uygulama geli\u015Ftirme s\u00FCrecinde sa\u011Flad\u0131\u011F\u0131 esneklik, bak\u0131m kolayl\u0131\u011F\u0131 ve test edilebilirlik gibi avantajlar\u0131na de\u011Finiyoruz. \u00D6zellikle, .NET Core platformunda dependency injection\u0027\u0131n nas\u0131l kullan\u0131labilece\u011Fini ele al\u0131yor ve hangi durumlarda hangi injection y\u00F6nteminin tercih edilmesi gerekti\u011Fini inceliyoruz.\n\n\nSorular\u0131n\u0131z veya daha fazla bilgiye ihtiyac\u0131n\u0131z varsa, \u00E7ekinmeden yorumlarda payla\u015F\u0131n! \n\nToplulu\u011Fa Kat\u0131l: https://discord.com/invite/tkZBnuba8h",
+    "PublishedAt": "2024-03-16T17:30:06Z",
+    "Tags": "Dependency Injection,.NET Core,MVC,C#,Yaz\u0131l\u0131m Geli\u015Ftirme,Programlama,Web Geli\u015Ftirme,Ba\u011F\u0131ml\u0131l\u0131k Enjeksiyonu,Dependency Inversion,.NET Framework,SOLID",
+    "Comments": [
+      {
+        "Id": 195,
+        "VideoId": 66,
+        "Author": "@saidfaruk1477",
+        "PublishedAt": "2024-03-25T13:26:29Z",
+        "Text": "Hocam kanala abone oldum b\u00F6yle g\u00FCzel bilgilendirmeler i\u00E7in te\u015Fekk\u00FCrlerimi iletiyorum."
+      },
+      {
+        "Id": 196,
+        "VideoId": 66,
+        "Author": "@5ura_999",
+        "PublishedAt": "2024-03-21T20:34:45Z",
+        "Text": "Anlatma \u015Fekliniz \u00E7ok g\u00FCzel, yabanc\u0131 olmama re\u011Fmen anlayabildim. AOP videolar\u0131n\u0131 kanal\u0131n\u0131zda g\u00F6rmek isterim\uD83D\uDE4F"
+      },
+      {
+        "Id": 197,
+        "VideoId": 66,
+        "Author": "@erenilgun2097",
+        "PublishedAt": "2024-03-20T20:44:39Z",
+        "Text": "bildi\u011Fim bir teknolojinin en sade anlat\u0131m\u0131n\u0131 tekrar zevk ile dinledim. elinize sa\u011Fl\u0131k."
+      },
+      {
+        "Id": 198,
+        "VideoId": 66,
+        "Author": "@3N35",
+        "PublishedAt": "2024-03-20T17:29:48Z",
+        "Text": "Ben art\u0131k spagetti yazmak istiyorum abi ya. \u00D6mr\u00FCm gitti bu prensipleri d\u00FCzg\u00FCn uygulayaca\u011F\u0131m diye. Sonu yok bu i\u015Fin. Hatta single responsibility prensibine bile uymama konusunu d\u00FC\u015F\u00FCn\u00FCyorum. Yani d\u00FC\u015F\u00FCnsene login yapacak kullan\u0131c\u0131 ya. Login olacak. User, userdto bin tane class olu\u015Ftur. Yanl\u0131\u015F anla\u015F\u0131lma olmas\u0131n d\u00FCzg\u00FCn yazamad\u0131\u011F\u0131m i\u00E7in de\u011Fil ge\u00E7en bir video g\u00F6rd\u00FCm ufkum a\u00E7\u0131ld\u0131. Ge\u00E7en bir projeye ba\u015Flayacam, 2 g\u00FCn (g\u00FCnde 2 saat) ui kayman\u0131nda hello world yazd\u0131rd\u0131m. Backend \u00C7ok yorucu."
+      },
+      {
+        "Id": 199,
+        "VideoId": 66,
+        "Author": "@Berat-Ozmen",
+        "PublishedAt": "2024-03-18T18:50:30Z",
+        "Text": "\u0130\u00E7erikler ve anlat\u0131m g\u00FCzel, ddd, cqrs ile microservis mimarisinde bir proje serisi gelir mi? Bir de videolar\u0131n aral\u0131klar\u0131 \u00E7ok uzak biraz daha s\u0131k video gelse s\u00FCper olur \uD83D\uDE05"
+      },
+      {
+        "Id": 200,
+        "VideoId": 66,
+        "Author": "@Lyvio1",
+        "PublishedAt": "2024-03-18T02:22:10Z",
+        "Text": "Tamda ba\u011F\u0131ml\u0131l\u0131k hatas\u0131 alm\u0131\u015Fken \u00FCst\u00FCne gelmesi \uD83E\uDD23\uD83D\uDE01"
+      },
+      {
+        "Id": 201,
+        "VideoId": 66,
+        "Author": "@burakcevik734",
+        "PublishedAt": "2024-03-17T22:57:35Z",
+        "Text": "Hocam 2 adet repository s\u0131n\u0131f\u0131m\u0131z\u0131n oldu\u011Funu d\u00FC\u015F\u00FCn\u00FCrsek, CategoryRepository i\u00E7erisinde IProductRepository interface\u0027ini kullanmam\u0131z yanl\u0131\u015F bir d\u00FC\u015F\u00FCncemi olur? Anlat\u0131m\u0131n\u0131z i\u00E7in te\u015Fekk\u00FCrker JWT yi de d\u00F6rt g\u00F6zle bekliyorum \uD83D\uDE0A"
+      },
+      {
+        "Id": 202,
+        "VideoId": 66,
+        "Author": "@erneqs",
+        "PublishedAt": "2024-03-17T17:48:27Z",
+        "Text": "Hocam m\u00FCkemmel bir anlat\u0131m\u0131n\u0131z var. Hayat\u0131m boyunca bir e\u011Fitim videosuna yorum atmam\u0131\u015Ft\u0131m. Blazor e\u011Fitimi olacak m\u0131? Microsoft teknolojileri \u00FCzerine ne gibi e\u011Fitimler eklemeyi d\u00FC\u015F\u00FCn\u00FCyorsunuz? \u00C7ok te\u015Fekk\u00FCr ederiz."
+      },
+      {
+        "Id": 203,
+        "VideoId": 66,
+        "Author": "@tbt-show1527",
+        "PublishedAt": "2024-03-17T15:07:25Z",
+        "Text": "hocam \u00E7ok iyi anlat\u0131yorsunuz."
+      },
+      {
+        "Id": 204,
+        "VideoId": 66,
+        "Author": "@ertaneroglu3920",
+        "PublishedAt": "2024-03-17T12:08:08Z",
+        "Text": "K\u0131sa s\u00FCrede yeni videoyu yay\u0131nlad\u0131\u011F\u0131n\u0131z i\u00E7in te\u015Fekk\u00FCrler hocam. Sayg\u0131lar."
+      },
+      {
+        "Id": 205,
+        "VideoId": 66,
+        "Author": "@DevHuseyinOzcan",
+        "PublishedAt": "2024-03-17T08:10:21Z",
+        "Text": "Te\u015Fekk\u00FCrler sade ve anla\u015F\u0131l\u0131r . JWT\u0027yi merakla bekliyoruz \uD83D\uDE0A"
+      },
+      {
+        "Id": 206,
+        "VideoId": 66,
+        "Author": "@bthndymz",
+        "PublishedAt": "2024-03-17T01:00:02Z",
+        "Text": "K\u0131ymetli hocam selamlar.\nAddTransient ve AddSingleton daha \u00E7ok hangi seneryolar da tercih ediliyor? \n\n\u00C7ok te\u015Fekk\u00FCrler, sayg\u0131lar\u0131mla."
+      },
+      {
+        "Id": 194,
+        "VideoId": 66,
+        "Author": "@zeynepsalihoglu3533",
+        "PublishedAt": "2024-04-29T10:09:41Z",
+        "Text": "Sade, anla\u015F\u0131l\u0131r yeterince detayl\u0131 bir anlat\u0131m olmu\u015F. Te\u015Fekk\u00FCrler."
+      }
+    ]
+  },
+  {
+    "Id": 67,
+    "VideoId": "_H_D8f7ye6U",
+    "Title": "JWT Nedir ve .NET Core\u0027da Nas\u0131l Olu\u015Fturulur?",
+    "Description": "JWT (JSON Web Token) kavram\u0131n\u0131 detayl\u0131 bir \u015Fekilde ele ald\u0131k. JWT, bilgiyi g\u00FCvenli bir \u015Fekilde belirli \u015Fifreleme standartlar\u0131 kullanarak ta\u015F\u0131yan ve bu bilgiyi dijital olarak imzalayan bir yap\u0131d\u0131r.\n\n00:00 Giri\u015F\n01:28 Jwt kurulumu\n03:15 Jwt servis entegrasyonu\n10:00 Jwt olu\u015Fturma\n19:19 Jwt test\n\n\n\nArd\u0131ndan, .NET Core API projemize JWT\u0027nin nas\u0131l entegre edilece\u011Fini ad\u0131m ad\u0131m g\u00F6sterdik. Bu s\u00FCre\u00E7te, JWT Bearer k\u00FCt\u00FCphanesinin projeye eklenmesi, konfig\u00FCrasyon ayarlar\u0131n\u0131n yap\u0131lmas\u0131 ve JWT\u0027nin do\u011Frulanmas\u0131 gibi \u00F6nemli ad\u0131mlar\u0131 ele ald\u0131k.\n\nVideo boyunca, her ad\u0131m\u0131 a\u00E7\u0131klayarak, JWT\u0027nin nas\u0131l kullan\u0131ld\u0131\u011F\u0131n\u0131 ve .NET Core API projelerinde nas\u0131l entegre edildi\u011Fini detayl\u0131 bir \u015Fekilde inceledik. Bu sayede, JWT\u0027nin API g\u00FCvenli\u011Finde nas\u0131l etkili bir rol oynad\u0131\u011F\u0131n\u0131 anlama f\u0131rsat\u0131 bulduk.\n\nSorular\u0131n\u0131z veya daha fazla bilgiye ihtiyac\u0131n\u0131z varsa, \u00E7ekinmeden yorumlarda payla\u015F\u0131n! \n\nToplulu\u011Fa Kat\u0131l: https://discord.com/invite/tkZBnuba8h",
+    "PublishedAt": "2024-03-23T09:00:21Z",
+    "Tags": "JWT,JSON Web Token,.net,.net core api,crypto,jwt bearer",
+    "Comments": [
+      {
+        "Id": 212,
+        "VideoId": 67,
+        "Author": "@tarlanimanov2550",
+        "PublishedAt": "2024-03-23T11:58:26Z",
+        "Text": "Selam hocam jwt il\u0259  nasil permission base olarak ayarlaya bilirim. Mesela ayr\u0131 ayr\u0131 sayfalara h\u0259r bir kulanciya \u0027a useri\u0027 add yapa bilsin yaln\u0131z \u0027b useri\u0027 add yapa  bilm\u0259sin gibi"
+      },
+      {
+        "Id": 209,
+        "VideoId": 67,
+        "Author": "@osmanozturk8838",
+        "PublishedAt": "2024-03-25T12:28:19Z",
+        "Text": "\u00E7ok te\u015Fekk\u00FCrler"
+      },
+      {
+        "Id": 207,
+        "VideoId": 67,
+        "Author": "@emreylmaz2806",
+        "PublishedAt": "2024-04-09T12:56:25Z",
+        "Text": "Hocam selam benim anlamad\u0131\u011F\u0131m bir nokta var delege videolar\u0131n\u0131z\u0131 da izlememe ra\u011Fmen.\nBiz delegeleri methodlar\u0131 bir \u00E7at\u0131 alt\u0131nda tutan yap\u0131lar olarak bahsettik. Baz\u0131 durumlarda da direkt methodu vermek yerine kendimiz anonim bir tip tan\u0131mlayarak i\u00E7eride i\u015Flemleri yapabilece\u011Fimizden bahsettik.\n\nDakika 10:00\u0027da i\u00E7eride yer alan opt.RequireHttpsMetadata opt.TokenValidationParameters gibi bilgiler birer fonksiyon mu? Bunlar propertyler de\u011Filler mi kafam biraz bu noktada kar\u0131\u015Ft\u0131."
+      },
+      {
+        "Id": 208,
+        "VideoId": 67,
+        "Author": "@ertaneroglu3920",
+        "PublishedAt": "2024-03-25T14:15:41Z",
+        "Text": "Merhabalar hocam, yine \u00F6nemli bir konu ve g\u00FCzel bir video...  Hocam AutoMapper konusunda yapt\u0131\u011F\u0131n\u0131z gibi .NET ile Eticaret Projesi (Ntier) Oynatma Listesine JWT konusunu uyarlarsak daha somut bir \u00F6rnekle peki\u015Ftirilmi\u015F olaca\u011F\u0131 kanaatindeyim. Tabi burda kanaat \u00F6nderi olarak sizin tutumunuz \u00F6nemli olan :) Sayg\u0131lar."
+      },
+      {
+        "Id": 211,
+        "VideoId": 67,
+        "Author": "@engincankedik3604",
+        "PublishedAt": "2024-03-23T12:33:09Z",
+        "Text": "Hocam eme\u011Finize sa\u011Fl\u0131k, bu e\u011Fitimlerin de\u011Feri paha bi\u00E7ilemez."
+      },
+      {
+        "Id": 210,
+        "VideoId": 67,
+        "Author": "@theYusufPolat",
+        "PublishedAt": "2024-03-23T12:59:27Z",
+        "Text": "Eline Sa\u011Fl\u0131k Acaba Daha Detayl\u0131 Bir Video Daha Gelir mi Basit Bir Web Projesi \u00DCzerinden"
+      }
+    ]
+  },
+  {
+    "Id": 68,
+    "VideoId": "VAoJ-JnXS1I",
+    "Title": "JWT Nedir? Ve .Net Core\u2019da Nas\u0131l Olu\u015Fturulur?",
+    "Description": "",
+    "PublishedAt": "2024-03-23T11:22:40Z",
+    "Tags": "",
+    "Comments": []
+  },
+  {
+    "Id": 69,
+    "VideoId": "ngpz4m1K9r4",
+    "Title": "Identity ile Cookie Based Authentication: S\u0131f\u0131rdan Kurulum Rehberi",
+    "Description": "Bu video serisinde Authentication (Kimlik do\u011Frulama) ve Authorization (Yetki) konular\u0131n\u0131 ele al\u0131yoruz. \u0130lk olarak, Cookie Based Authentication y\u00F6ntemine ve bunu Identity ile nas\u0131l ger\u00E7ekle\u015Ftirece\u011Fimize odaklan\u0131yoruz. \nArd\u0131ndan, Identity sistemini s\u0131f\u0131rdan kurmay\u0131 g\u00F6steriyoruz, b\u00F6ylece eski videolara ba\u015Fvurmadan kendi kimlik y\u00F6netimimizi olu\u015Fturabilirsiniz.Ders boyunca, CodeFirst ve Identity sistemini kurmak i\u00E7in gerekli ad\u0131mlar\u0131 ad\u0131m ad\u0131m g\u00F6steriyoruz. \nMiddleware tan\u0131mlamalar\u0131ndan, Entity ve Configuration olu\u015Fturmaya kadar her a\u015Famay\u0131 detayl\u0131 olarak ele al\u0131yoruz. Ayr\u0131ca, IEntity ve BaseEntity gibi temel aray\u00FCzleri ve s\u0131n\u0131flar\u0131 nas\u0131l olu\u015Fturaca\u011F\u0131n\u0131z\u0131 da \u00F6\u011Freniyorsunuz.\n\n00:00 - Giri\u015F\n00:44 - Paketlerin Y\u00FCklenmesi\n01:29 - Altyap\u0131n\u0131n Olu\u015Fturulmas\u0131\n23:23 - \u00C7erez Tan\u0131mlanmas\u0131\n27:05 - Veritaban\u0131 Tan\u0131mlanmas\u0131\n30:59 - Kimlik Do\u011Frulama Nedir?\n33:12 - Kontrolc\u00FC Olu\u015Fturulmas\u0131\n34:24 - Yetkilendirme \u00D6zniteli\u011Fi\n35:47 - Kay\u0131t Eylemi\n49:30 - Oturum A\u00E7ma Eylemi\n01:03:06 - \u00C7erez Olu\u015Fturulmas\u0131\n\nSorular\u0131n\u0131z veya daha fazla bilgiye ihtiyac\u0131n\u0131z varsa, \u00E7ekinmeden yorumlarda payla\u015F\u0131n! Toplulu\u011Fa Kat\u0131l: https://discord.com/invite/tkZBnuba8h",
+    "PublishedAt": "2024-03-30T19:39:31Z",
+    "Tags": "authentication,authorization,identity,cookie based authentication,security,web development,coding tutorial,programming tutorial,software development,identity management,kimlik do\u011Frulama,yetkilendirme,kimlik y\u00F6netimi,\u00E7erez tabanl\u0131 kimlik do\u011Frulama,g\u00FCvenlik,web geli\u015Ftirme,kodlama rehberi,programlama rehberi,yaz\u0131l\u0131m geli\u015Ftirme",
+    "Comments": [
+      {
+        "Id": 218,
+        "VideoId": 69,
+        "Author": "@Huseyin-ty1qd",
+        "PublishedAt": "2024-03-30T23:42:02Z",
+        "Text": "Hi\u00E7 abartm\u0131yorum, sabahtan beridir projeme adam ak\u0131ll\u0131 identity yi \u00F6\u011Frenip y\u00FCklemeye \u00E7al\u0131\u015F\u0131yordum. \u015Eu an kalkt\u0131m bilgisayar\u0131n ba\u015F\u0131ndan, \u00E7ok g\u00FCzel denk geldi \u015Fimdi g\u00F6rd\u00FCm. \n\nAreas olu\u015Fturarak admin ile user\u0131 birbirinden ay\u0131ran paneller olu\u015Fturup bunu da identity roles ile yapt\u0131\u011F\u0131m\u0131z bir tutorial \u00E7ekersen \u00E7ok iyi olur."
+      },
+      {
+        "Id": 213,
+        "VideoId": 69,
+        "Author": "@pailmckinnon8580",
+        "PublishedAt": "2024-04-25T14:12:20Z",
+        "Text": "*promo sm*"
+      },
+      {
+        "Id": 214,
+        "VideoId": 69,
+        "Author": "@eray3147",
+        "PublishedAt": "2024-04-23T20:03:33Z",
+        "Text": "Hem yerli hem yabanc\u0131 kaynaklar i\u00E7in ortalaman\u0131n \u00E7ok \u00FCzerinde i\u00E7erikler, m\u00FCkemmel"
+      },
+      {
+        "Id": 215,
+        "VideoId": 69,
+        "Author": "@ertaneroglu3920",
+        "PublishedAt": "2024-04-06T11:15:35Z",
+        "Text": "M\u00FCkemmel. Eme\u011Finize sa\u011Fl\u0131k."
+      },
+      {
+        "Id": 216,
+        "VideoId": 69,
+        "Author": "@swapkaan",
+        "PublishedAt": "2024-04-04T01:02:45Z",
+        "Text": "Hocam merhabalar, Ger\u00E7ekten internette 3 panelli bir e\u011Fitim yok diyebilirim. Bir projeye Identity ekleyerek Teacher ve Student s\u0131n\u0131flar gibi ve bu s\u0131n\u0131flar\u0131 AppUser ile ili\u015Fkilendirebilirsek harika bir e\u011Fitim olur. Teacher ve Student aras\u0131nda da bire-\u00E7ok ili\u015Fkide kurabiliriz mesela. Ama i\u015Fte bu Teacher ve Student de asl\u0131nda kullanac\u0131 olaca\u011F\u0131 i\u00E7in bu 2 s\u0131n\u0131f ile bir AppUser s\u0131n\u0131f\u0131 nas\u0131l ili\u015Fkilendirilebilir ger\u00E7ekten anlatan bir e\u011Fitim yok."
+      },
+      {
+        "Id": 217,
+        "VideoId": 69,
+        "Author": "@mehmetozturk5483",
+        "PublishedAt": "2024-04-02T22:23:34Z",
+        "Text": "Hocam rica etsem jquery, ajax ile fileupload i\u015Flemleri hakk\u0131nda bir i\u00E7erik haz\u0131rlayabilir misiniz?  FileUpload,Download ve Display gibi. Te\u015Fekk\u00FCrler."
+      },
+      {
+        "Id": 219,
+        "VideoId": 69,
+        "Author": "@swapkaan",
+        "PublishedAt": "2024-03-30T20:01:41Z",
+        "Text": "Tam da projemde Identity k\u0131sm\u0131 ile ilgili problem ya\u015F\u0131yordum ne g\u00FCzel denk geldi :)\nBir de sorum olacakt\u0131, AppUser ve AppRole s\u0131n\u0131f\u0131n\u0131 string tan\u0131mlarsam ID de\u011Feri Guid olur mu yoksa AppUser\u003CGuid\u003E mi yapmak zorunday\u0131m ? :)"
+      }
+    ]
+  },
+  {
+    "Id": 70,
+    "VideoId": "5oxLlsQfSAM",
+    "Title": "Yaz\u0131l\u0131m D\u00FCnyas\u0131na Giri\u015F: Soru Cevap Oturumu",
+    "Description": "Merhaba arkada\u015Flar! Bu sefer soru cevap format\u0131nda kar\u015F\u0131n\u0131zday\u0131z! \u00D6\u011Frencilerimizden gelen sorular\u0131 titizlikle yan\u0131tlad\u0131k ve yaz\u0131l\u0131ma yeni ba\u015Flayanlar i\u00E7in kafa kar\u0131\u015F\u0131kl\u0131\u011F\u0131n\u0131 gidermeye \u00E7al\u0131\u015Ft\u0131k. \n\n00:33 Developer Nedir? \n03:00 Client ve Server Nedir?\n04:35 Frontend ve Backend Nedir?\n08:55 Herkesten Yaz\u0131l\u0131mc\u0131 Olur mu?\n17:42 Ne Kadar S\u00FCrede Yaz\u0131l\u0131mc\u0131 Olunur?\n24:27 Bir Yaz\u0131l\u0131mc\u0131 Ka\u00E7 Programlama Dili Bilmeli?\n\nGibi temel konular\u0131 ele ald\u0131k ve bu sorular\u0131n cevaplar\u0131n\u0131 sizinle payla\u015Ft\u0131k.\n\nYaz\u0131l\u0131m d\u00FCnyas\u0131na dair merak etti\u011Finiz her \u015Feyi bizimle payla\u015Fabilirsiniz! E\u011Fer sizin de akl\u0131n\u0131za tak\u0131lan sorular varsa, video alt\u0131na yorum olarak yazmay\u0131 unutmay\u0131n. \n\nBir sonraki videoda, daha fazla bilgi ve keyifli i\u00E7eriklerle tekrar g\u00F6r\u00FC\u015Fmek \u00FCzere!\n\nToplulu\u011Fa Kat\u0131l: https://discord.com/invite/tkZBnuba8h",
+    "PublishedAt": "2024-04-23T13:15:00Z",
+    "Tags": "yaz\u0131l\u0131m,yaz\u0131l\u0131m geli\u015Ftirme,yaz\u0131l\u0131mc\u0131,developer,frontend,backend,client,server,programlama dilleri,yaz\u0131l\u0131m e\u011Fitimi,bilgisayar bilimi,soru cevap,yeni ba\u015Flayanlar,\u00F6\u011Frenme,e\u011Fitim,teknoloji.,.net,csharp",
+    "Comments": [
+      {
+        "Id": 220,
+        "VideoId": 70,
+        "Author": "@sertunc-k5o",
+        "PublishedAt": "2024-04-30T23:18:23Z",
+        "Text": "nacizane dillerden ziyade \u00F6ncelikle \u0022algoritma ve programlama\u0022 mant\u0131\u011F\u0131n\u0131 iyice oturtun. algoritmadan kast\u0131mda s\u0131ralama algoritmas\u0131 vb. de\u011Fil istenilen yaz\u0131l\u0131mdaki i\u015Fin ak\u0131\u015F mant\u0131\u011F\u0131"
+      },
+      {
+        "Id": 222,
+        "VideoId": 70,
+        "Author": "@Chef47",
+        "PublishedAt": "2024-04-25T13:31:52Z",
+        "Text": "Bu zamana kadar kulland\u0131\u011F\u0131m i\u015Fletim sistemlerinin, game launcher\u0027lar\u0131n, oynad\u0131\u011F\u0131m oyunlar\u0131n ve hatta izledi\u011Fim videolar\u0131n hepsi sadece elektrik ak\u0131mlar\u0131ndan ibaret oldu\u011Funu \u00F6\u011Frendi\u011Fim de m\u00FChendisli\u011Fe ve matemati\u011Fe o kadar a\u015F\u0131k olup \u015Fa\u015F\u0131rm\u0131\u015Ft\u0131m ki anlatamam. Bunu ge\u00E7ti\u011Fimiz sene \u00F6\u011Frenmi\u015Ftim. Kaliteliyi bir kenara b\u0131rak, asgari d\u00FCzeyde bile bir e\u011Fitim vermeyen bir bilgisayar programc\u0131l\u0131\u011F\u0131 b\u00F6l\u00FCm\u00FCnde uzaktan okuyorum ve bu 2. y\u0131l\u0131m. \u015Euana kadar edindi\u011Fim bilgilerim b\u00F6l\u00FCmden \u00E7ok kendi gayretimle edindi\u011Fim bilgiler. Videoda bahsetti\u011Finiz k\u00F6t\u00FC/yetersiz kaynak s\u00FCre\u00E7lerinden de deneye yan\u0131la ge\u00E7tim :) \u00D6yle ya da b\u00F6yle g\u00FCzel kaynaklar\u0131 nas\u0131l bulaca\u011F\u0131m\u0131 \u00F6\u011Frendim. Bunlardan biri de 1.37k\u0027l\u0131k abonesi olan bu kanal :) \u0130kimizin de oyun ge\u00E7mi\u015Finin olmas\u0131 ayr\u0131ca ho\u015Fuma gitti. Te\u015Fekk\u00FCrler video i\u00E7in!"
+      },
+      {
+        "Id": 226,
+        "VideoId": 70,
+        "Author": "@mehmetyirtici5322",
+        "PublishedAt": "2024-04-23T13:49:45Z",
+        "Text": "Guzel sorular ve cok aciklayici cevaplar verilmis. Bu guzel video icin tesekkurler."
+      },
+      {
+        "Id": 225,
+        "VideoId": 70,
+        "Author": "@ahmetterzioglu1031",
+        "PublishedAt": "2024-04-23T14:44:50Z",
+        "Text": "Hocam a\u011Fz\u0131n\u0131za sa\u011Fl\u0131k yine harika bir video olmu\u015F\uD83D\uDC4F"
+      },
+      {
+        "Id": 223,
+        "VideoId": 70,
+        "Author": "@ekremgngr4866",
+        "PublishedAt": "2024-04-24T10:11:09Z",
+        "Text": "Bir \u00E7ok ki\u015Finin merak etti\u011Fi sorular\u0131 cevaplam\u0131\u015Fs\u0131n\u0131z izlemesi \u00E7ok keyifliydi. Soru-Cevap videolar\u0131n\u0131n devam\u0131n\u0131 bekliyoruz :)"
+      },
+      {
+        "Id": 224,
+        "VideoId": 70,
+        "Author": "@burakdinc8231",
+        "PublishedAt": "2024-04-23T23:12:13Z",
+        "Text": "Oo yeni videooo"
+      },
+      {
+        "Id": 221,
+        "VideoId": 70,
+        "Author": "@Chnsnl",
+        "PublishedAt": "2024-04-25T15:35:26Z",
+        "Text": "Hocam \u00E7ok bilgilendirici olmu\u015F, bu serinin devam\u0131n\u0131 isteriizzz \u003C3"
+      }
+    ]
+  },
+  {
+    "Id": 71,
+    "VideoId": "0KGOze3B14Y",
+    "Title": "Hangi Programlama Dili?",
+    "Description": "Yeni ba\u015Flayanlar i\u00E7in yaz\u0131l\u0131ma ad\u0131m atmak ger\u00E7ekten karma\u015F\u0131k bir se\u00E7enek yuma\u011F\u0131 olabilir. Hangi dilin se\u00E7ilmesi gerekti\u011Fi konusunda net bir fikir olu\u015Fturmak \u00F6nemlidir. \nBu videoda, yaz\u0131l\u0131ma s\u0131f\u0131rdan ba\u015Flayacak olanlara hangi dilin en uygun oldu\u011Funu belirlemelerine yard\u0131mc\u0131 olaca\u011F\u0131z. Python, C#, C\u002B\u002B gibi pop\u00FCler diller aras\u0131nda bir se\u00E7im yaparken nelere dikkat etmek gerekti\u011Fini detayl\u0131ca ele alaca\u011F\u0131z. Ayr\u0131ca, y\u00FCksek seviye ve d\u00FC\u015F\u00FCk seviye diller aras\u0131ndaki farklar ve hangi dilin hangi kariyer hedeflerine daha uygun oldu\u011Funu g\u00F6z \u00F6n\u00FCnde bulundurmak \u00F6nemlidir. Algoritma geli\u015Ftirme s\u00FCrecinin ve bu s\u00FCrecin yaz\u0131l\u0131m projelerindeki \u00F6neminin alt\u0131n\u0131 \u00E7izece\u011Fiz. \u0130zleyicilere sab\u0131r, disiplin ve s\u00FCrekli \u00F6\u011Frenme \u00FCzerine tavsiyeler sunarak, yaz\u0131l\u0131m d\u00FCnyas\u0131na ilk ad\u0131mlar\u0131n\u0131 atmaya cesaret edenlere rehberlik edece\u011Fiz. Unutmay\u0131n, yaz\u0131l\u0131m d\u00FCnyas\u0131na ad\u0131m atmak i\u00E7in asla ge\u00E7 de\u011Fildir!\n\nYaz\u0131l\u0131m d\u00FCnyas\u0131na dair merak etti\u011Finiz her \u015Feyi bizimle payla\u015Fabilirsiniz! E\u011Fer sizin de akl\u0131n\u0131za tak\u0131lan sorular varsa, video alt\u0131na yorum olarak yazmay\u0131 unutmay\u0131n. \n\nBir sonraki videoda, daha fazla bilgi ve keyifli i\u00E7eriklerle tekrar g\u00F6r\u00FC\u015Fmek \u00FCzere!\n\nToplulu\u011Fa Kat\u0131l: https://discord.com/invite/tkZBnuba8h",
+    "PublishedAt": "2024-05-16T09:00:01Z",
+    "Tags": "yaz\u0131l\u0131m,ba\u015Flang\u0131\u00E7,dil se\u00E7imi,Python,C#,C\u002B\u002B,y\u00FCksek seviye,d\u00FC\u015F\u00FCk seviye,kariyer hedefleri,algoritma geli\u015Ftirme,projeler,s\u00FCrekli \u00F6\u011Frenme,rehberlik,yaz\u0131l\u0131m d\u00FCnyas\u0131",
+    "Comments": [
+      {
+        "Id": 228,
+        "VideoId": 71,
+        "Author": "@sertunc-k5o",
+        "PublishedAt": "2024-05-17T15:55:12Z",
+        "Text": "nacizane dillerden ziyade \u00F6ncelikle \u0022algoritma ve programlama\u0022 mant\u0131\u011F\u0131n\u0131 iyice oturtun. algoritmadan kast\u0131mda s\u0131ralama algoritmas\u0131 vb. de\u011Fil istenilen yaz\u0131l\u0131mdaki i\u015Fin ak\u0131\u015F mant\u0131\u011F\u0131"
+      },
+      {
+        "Id": 227,
+        "VideoId": 71,
+        "Author": "@ahmetsuzer953",
+        "PublishedAt": "2024-06-24T22:45:38Z",
+        "Text": "g\u00FCzel Sohbetti  faydal\u0131 bilgiler \u00F6\u011Frendik Te\u015Fekk\u00FCrler"
+      },
+      {
+        "Id": 229,
+        "VideoId": 71,
+        "Author": "@Chnsnl",
+        "PublishedAt": "2024-05-16T10:20:33Z",
+        "Text": "su gibi akan bir yar\u0131m saat. g\u00FCzel sohbet. te\u015Fekk\u00FCrler hocam."
+      },
+      {
+        "Id": 230,
+        "VideoId": 71,
+        "Author": "@omerkaragoz514",
+        "PublishedAt": "2024-05-16T09:20:35Z",
+        "Text": "\u00C7a\u011Fr\u0131 hocam 1 numara yaa"
+      }
+    ]
+  },
+  {
+    "Id": 72,
+    "VideoId": "8wEkVRtBmjs",
+    "Title": "Yaz\u0131l\u0131m Kariyerine Ba\u015Flang\u0131\u00E7: \u0130pu\u00E7lar\u0131 ve Tavsiyeler",
+    "Description": "Bu videoda, yaz\u0131l\u0131m d\u00FCnyas\u0131na ad\u0131m atmay\u0131 d\u00FC\u015F\u00FCnenler ve kariyerine yeni ba\u015Flayanlar i\u00E7in \u00E7ok de\u011Ferli ipu\u00E7lar\u0131 ve tavsiyeler sunuyoruz.Yaz\u0131l\u0131m d\u00FCnyas\u0131nda i\u015F aray\u0131\u015F\u0131nda nelere dikkat etmeli, hangi becerilere sahip olmal\u0131 ve i\u015F g\u00F6r\u00FC\u015Fmelerinde nas\u0131l \u00F6ne \u00E7\u0131kmal\u0131y\u0131z gibi konular\u0131 samimi bir sohbet e\u015Fli\u011Finde detayl\u0131 bir \u015Fekilde ele al\u0131yoruz.\n\nAyr\u0131ca, tecr\u00FCbesiz yaz\u0131l\u0131mc\u0131lar\u0131n kar\u015F\u0131la\u015Ft\u0131\u011F\u0131 zorluklar ve bu zorluklar\u0131 a\u015Fmak i\u00E7in uygulanabilecek stratejiler hakk\u0131nda da konu\u015Fuyoruz. Hem e\u011Fitici hem de keyifli bir sohbet oldu!\n\nSiz de sorular\u0131n\u0131z\u0131 sormak isterseniz, abonelerimize \u00F6zel Discord sunucumuza kat\u0131lmay\u0131 unutmay\u0131n. \nhttps://discord.com/invite/tkZBnuba8h\n\nAbone olmay\u0131 unutmay\u0131n!",
+    "PublishedAt": "2024-05-31T07:00:04Z",
+    "Tags": "",
+    "Comments": [
+      {
+        "Id": 233,
+        "VideoId": 72,
+        "Author": "@bthndymz",
+        "PublishedAt": "2024-06-03T14:36:21Z",
+        "Text": "K\u0131ymetli \u00FCstat, payla\u015F\u0131mlar\u0131n\u0131n devam\u0131n\u0131 bekliyoruz! "
+      },
+      {
+        "Id": 231,
+        "VideoId": 72,
+        "Author": "@abcdeqwopdu",
+        "PublishedAt": "2024-08-02T21:11:39Z",
+        "Text": "Hocam, N-tier Mimari\u0027de yapm\u0131\u015F oldu\u011Funuz E-Ticaret uygulamas\u0131n\u0131 Onion Architecture i\u00E7inde bir oynatma listesi \u015Feklinde yapabilir misiniz? \u015Euan t\u00FCrk\u00E7e olarak youtubeda veya ba\u015Fka sosyal platformlarda anlatan olsada \u00C7OK AZ! Birde sizden g\u00F6rsek \u015Fu Onion Architecture\u0027u (\u0130\u00E7erisinde Identity, CQRS pattern, Automapper, DTO ve Validators gibi i\u015Flemler olsa m\u00FCkemmel olur.) \n\nTe\u015Fekk\u00FCrler \u015Fimdiden."
+      },
+      {
+        "Id": 232,
+        "VideoId": 72,
+        "Author": "@ahmetsuzer953",
+        "PublishedAt": "2024-06-24T22:21:55Z",
+        "Text": "Bu kanal de\u011Ferlenir. Anlat\u0131m \u00E7ok kaliteli Te\u015Fekk\u00FCrler."
+      },
+      {
+        "Id": 237,
+        "VideoId": 72,
+        "Author": "@Chnsnl",
+        "PublishedAt": "2024-05-31T07:58:08Z",
+        "Text": "yine \u00E7ok ak\u0131c\u0131 ho\u015F bir sohbet. a\u011Fz\u0131n\u0131za sa\u011Fl\u0131k hocam."
+      },
+      {
+        "Id": 236,
+        "VideoId": 72,
+        "Author": "@onur6253",
+        "PublishedAt": "2024-05-31T09:57:14Z",
+        "Text": "Hocam merhabalar gayet g\u00FCzel bir sohbet olmu\u015F. Yeni farkettim kanal\u0131n\u0131z\u0131 iyi ki de farkettim. Juniordan beklentiler i\u00E7in daha ge\u00E7en hafta girdi\u011Fim m\u00FClakattan bir kesit sunay\u0131m.\nBilgisayar M\u00FChendisli\u011Fi 2.S\u0131n\u0131f \u00F6\u011Frencisiyim bir i\u015F ilan\u0131 oldu ofise \u00F6\u011Frenci almak i\u00E7in ve bana unit testlerle \u00E7al\u0131\u015Ft\u0131n m\u0131 sorusu geldi. Ger\u00E7ekten juniorlardan hatta \u00F6\u011Frencilerden beklentilerin bu kadar fazla olmas\u0131 normal mi?"
+      },
+      {
+        "Id": 235,
+        "VideoId": 72,
+        "Author": "@YetenekBURADA",
+        "PublishedAt": "2024-05-31T11:14:36Z",
+        "Text": "Online yaz\u0131l\u0131m e\u011Fitimi planl\u0131yordunuz ne alemde e\u011Fitimler nezaman haz\u0131r olur ?"
+      },
+      {
+        "Id": 234,
+        "VideoId": 72,
+        "Author": "@sertunc-k5o",
+        "PublishedAt": "2024-05-31T13:41:01Z",
+        "Text": "nacizane dillerden ziyade \u00F6ncelikle \u0022algoritma ve programlama\u0022 mant\u0131\u011F\u0131n\u0131 iyice oturtun. algoritmadan kast\u0131mda s\u0131ralama algoritmas\u0131 vb. de\u011Fil istenilen yaz\u0131l\u0131mdaki i\u015Fin ak\u0131\u015F mant\u0131\u011F\u0131"
+      }
+    ]
+  },
+  {
+    "Id": 73,
+    "VideoId": "71236j6yu8M",
+    "Title": "Authentication ve Authorization:Rol Bazl\u0131 Oturum",
+    "Description": "Bu videomuzda, kimlik do\u011Frulama (Authentication) ve yetkilendirme (Authorization) s\u00FCre\u00E7lerini ele al\u0131yoruz. Bir \u00F6nceki dersimizde teorik olarak bahsetti\u011Fimiz bu kavramlar\u0131 \u015Fimdi prati\u011Fe d\u00F6kerek, admin panelinde kullan\u0131c\u0131 ekleme ve rol atama i\u015Flemlerini ad\u0131m ad\u0131m g\u00F6steriyoruz. Refakt\u00F6rleme ad\u0131mlar\u0131m\u0131z\u0131 da i\u00E7eren bu kapsaml\u0131 dersimizle, projelerinizde g\u00FCvenli ve etkili kullan\u0131c\u0131 y\u00F6netimi sa\u011Flayabileceksiniz.\n\nSiz de sorular\u0131n\u0131z\u0131 sormak isterseniz, abonelerimize \u00F6zel Discord sunucumuza kat\u0131lmay\u0131 unutmay\u0131n. \nhttps://discord.com/invite/tkZBnuba8h",
+    "PublishedAt": "2024-08-16T09:00:04Z",
+    "Tags": "Authentication,Authorization,Kimlik Do\u011Frulama,Yetkilendirme,Admin Paneli,Kullan\u0131c\u0131 Y\u00F6netimi,Yaz\u0131l\u0131m G\u00FCvenli\u011Fi,.NET Core,ASP.NET,C# Dersleri,Web G\u00FCvenli\u011Fi,Rol Y\u00F6netimi,Yaz\u0131l\u0131m E\u011Fitimi,Softbreak YouTube Kanal\u0131,Kodlama E\u011Fitimi,Yaz\u0131l\u0131m Geli\u015Ftirme,Proje G\u00FCvenli\u011Fi,Veritaban\u0131 G\u00FCvenli\u011Fi,Backend Development,Yaz\u0131l\u0131m Mimarisi",
+    "Comments": [
+      {
+        "Id": 238,
+        "VideoId": 73,
+        "Author": "@ertaneroglu3920",
+        "PublishedAt": "2024-08-16T09:02:47Z",
+        "Text": "The Return Of The King \uD83D\uDE43"
+      }
+    ]
+  },
+  {
+    "Id": 74,
+    "VideoId": "NN1mCK6GA4o",
+    "Title": "Single Responsibility Prensibi: Tek Sorumluluk Prensibi",
+    "Description": "Bu video, Youngling \u00FCyelerimiz i\u00E7in \u00F6zel olarak haz\u0131rland\u0131! \uD83D\uDE80 \u0027Single Responsibility\u0027 (Tek Sorumluluk) prensibini derinlemesine inceliyoruz. Yaz\u0131l\u0131m geli\u015Ftirme s\u00FCrecinde kar\u015F\u0131la\u015F\u0131lan karma\u015F\u0131k senaryolar\u0131 ve bu prensibin neden \u00F6nemli oldu\u011Funu \u00F6rneklerle a\u00E7\u0131kl\u0131yoruz. Kodu temiz, s\u00FCrd\u00FCr\u00FClebilir ve kolay test edilebilir hale getirmek i\u00E7in nas\u0131l kullanman\u0131z gerekti\u011Fini \u00F6\u011Frenin!\n\nVideomuzda, bu prensibin nas\u0131l bozulabilece\u011Fini ve do\u011Fru uygulama y\u00F6ntemlerini ad\u0131m ad\u0131m ke\u015Ffedeceksiniz. \u0027Single Responsibility\u0027 prensibini tam anlam\u0131yla \u00F6z\u00FCmseyerek, yaz\u0131l\u0131m projelerinizde sa\u011Flam bir temel olu\u015Fturabilirsiniz.\n\nDiscord sunucumuza kat\u0131larak sorular\u0131n\u0131z\u0131 payla\u015Fabilir ve toplulu\u011Fumuzla etkile\u015Fime ge\u00E7ebilirsiniz:\nhttps://discord.com/invite/tkZBnuba8h",
+    "PublishedAt": "2024-09-03T12:00:22Z",
+    "Tags": "Single Responsibility,SOLID prensipler,yaz\u0131l\u0131m geli\u015Ftirme,temiz kod,OOP,yaz\u0131l\u0131m m\u00FChendisli\u011Fi,kodlama,yaz\u0131l\u0131m dersleri,Object Oriented Programming,kod test etme,yaz\u0131l\u0131mda sorumluluk ayr\u0131m\u0131,yaz\u0131l\u0131m tasar\u0131m desenleri,yaz\u0131l\u0131mda best practices",
+    "Comments": [
+      {
+        "Id": 239,
+        "VideoId": 74,
+        "Author": "@ahmetbalaman8726",
+        "PublishedAt": "2024-09-03T14:31:59Z",
+        "Text": "\u00E7ok ba\u015Far\u0131l\u0131 bir video olmu\u015F. devam\u0131n\u0131 iple \u00E7ekiyorum"
+      }
+    ]
+  },
+  {
+    "Id": 75,
+    "VideoId": "dXqMXsDrqT8",
+    "Title": "SOLID Prensiplerine Giri\u015F",
+    "Description": "Bu videoda, yaz\u0131l\u0131m d\u00FCnyas\u0131n\u0131n temel ta\u015Flar\u0131ndan biri olan SOLID prensiplerine kapsaml\u0131 bir giri\u015F yap\u0131yoruz. \u0130lk b\u00F6l\u00FCm\u00FCm\u00FCzde, \u0027Single Responsibility\u0027 (Tek Sorumluluk) prensibini ele alarak, Object Oriented Programming (OOP) felsefesiyle nas\u0131l uyumlu bir \u015Fekilde kullan\u0131laca\u011F\u0131n\u0131 \u00F6\u011Freniyoruz.\n\nBu serinin devam\u0131nda, SOLID prensiplerinin her birini derinlemesine inceleyece\u011Fiz. Ancak, bu videonun ard\u0131ndan yaln\u0131zca *Youngling* \u00FCyelerimiz i\u00E7in haz\u0131rlanan \u00F6zel i\u00E7eriklere eri\u015Febileceksiniz! Yaz\u0131l\u0131m d\u00FCnyas\u0131nda uzmanla\u015Fmak ve projelerinizde daha sa\u011Flam yap\u0131lar olu\u015Fturmak i\u00E7in bu f\u0131rsat\u0131 ka\u00E7\u0131rmay\u0131n.\n\n\n*Youngling* seviyesine ge\u00E7erek (Kat\u0131l), bu ayr\u0131cal\u0131kl\u0131 i\u00E7eriklere ve toplulu\u011Fumuzun \u00F6zel etkinliklerine kat\u0131lma hakk\u0131 elde edebilirsiniz!\n\nAyr\u0131ca, Discord sunucumuza kat\u0131larak toplulu\u011Fumuzla etkile\u015Fimde bulunabilir, sorular\u0131n\u0131z\u0131 payla\u015Fabilir ve g\u00FCncel i\u00E7eriklerden haberdar olabilirsiniz: \nhttps://discord.com/invite/tkZBnuba8h\n\nBu video, yaz\u0131l\u0131m yolculu\u011Funuzda bir sonraki ad\u0131ma ge\u00E7mek i\u00E7in harika bir ba\u015Flang\u0131\u00E7!",
+    "PublishedAt": "2024-09-03T12:00:44Z",
+    "Tags": "SOLID prensipler,yaz\u0131l\u0131m geli\u015Ftirme,Single Responsibility,Tek Sorumluluk prensibi,Object Oriented Programming,OOP,yaz\u0131l\u0131m m\u00FChendisli\u011Fi,yaz\u0131l\u0131m dersleri,programlama prensipleri,gen\u00E7 yaz\u0131l\u0131mc\u0131lar,yaz\u0131l\u0131m e\u011Fitimi,kodlama,yaz\u0131l\u0131m toplulu\u011Fu,Softbreak,YouTube yaz\u0131l\u0131m kanal\u0131,yaz\u0131l\u0131m \u00F6rnekleri,yaz\u0131l\u0131mda best practices",
+    "Comments": [
+      {
+        "Id": 242,
+        "VideoId": 75,
+        "Author": "@bthndymz",
+        "PublishedAt": "2024-09-03T12:38:38Z",
+        "Text": "\u0130\u015Fe girmek isteyen izlemeli \uD83D\uDE02 te\u015Fekk\u00FCrler hocam \u2764"
+      },
+      {
+        "Id": 241,
+        "VideoId": 75,
+        "Author": "@HemzeCelilov",
+        "PublishedAt": "2024-09-04T09:07:54Z",
+        "Text": "Di\u011Fer videolar \u00FCyelere \u00F6zel yaziyor . Nas\u0131l izleniyor?"
+      },
+      {
+        "Id": 240,
+        "VideoId": 75,
+        "Author": "@emrahhakan5462",
+        "PublishedAt": "2024-09-10T05:37:37Z",
+        "Text": "\u2764\u2764\u2764"
+      }
+    ]
+  },
+  {
+    "Id": 76,
+    "VideoId": "clLSk2L394I",
+    "Title": "Open Closed Prensibi: A\u00E7\u0131k/Kapal\u0131 Prensibi",
+    "Description": "Bu b\u00F6l\u00FCmde, SOLID prensiplerinden \u0027Open-Closed\u0027 (A\u00E7\u0131k-Kapal\u0131) prensibini detaylar\u0131yla ele al\u0131yoruz. Projelerinizi geli\u015Ftirirken mevcut yap\u0131y\u0131 bozmadan nas\u0131l yeni \u00F6zellikler ekleyebilece\u011Finizi ve kodunuzu nas\u0131l esnek tutabilece\u011Finizi \u00F6\u011Freneceksiniz.\n\nOpen-Closed prensibini do\u011Fru anlamak ve uygulamak, yaz\u0131l\u0131m geli\u015Ftirme s\u00FCrecinde sizi bir ad\u0131m \u00F6ne ta\u015F\u0131yacak. Videomuzda, bu prensibin neden \u00F6nemli oldu\u011Funu, nas\u0131l uygulanmas\u0131 gerekti\u011Fini ve yanl\u0131\u015F uyguland\u0131\u011F\u0131nda hangi dezavantajlarla kar\u015F\u0131la\u015Fabilece\u011Finizi \u00F6rneklerle a\u00E7\u0131kl\u0131yoruz.\n\nDiscord sunucumuza kat\u0131larak sorular\u0131n\u0131z\u0131 payla\u015Fabilir ve toplulu\u011Fumuzla etkile\u015Fime ge\u00E7ebilirsiniz:\nhttps://discord.com/invite/tkZBnuba8h",
+    "PublishedAt": "2024-09-09T12:00:43Z",
+    "Tags": "Open-Closed prensibi,SOLID prensipler,yaz\u0131l\u0131m geli\u015Ftirme,temiz kod,OOP,yaz\u0131l\u0131m m\u00FChendisli\u011Fi,kod geni\u015Fletilebilirli\u011Fi,yaz\u0131l\u0131m tasar\u0131m desenleri,yaz\u0131l\u0131mda best practices",
+    "Comments": []
+  },
+  {
+    "Id": 77,
+    "VideoId": "W5pL7yl_bNg",
+    "Title": "Liskov\u0027s Substitution Prensibi: Liskov\u0027un Yer De\u011Fi\u015Ftirme Prensibi",
+    "Description": "Bu videoda, SOLID prensiplerinden \u0027Liskov Substitution\u0027 (Yerine Ge\u00E7me) prensibini detaylar\u0131yla inceliyoruz. Yaz\u0131l\u0131m d\u00FCnyas\u0131nda do\u011Fru inheritance kullan\u0131m\u0131 ve olas\u0131 hatalardan ka\u00E7\u0131nman\u0131n yollar\u0131n\u0131 \u00F6\u011Frenmek i\u00E7in Liskov Substitution\u0027\u0131 derinlemesine ke\u015Ffedece\u011Fiz.\n\nPrensibin temelini anlamak, yaz\u0131l\u0131m projelerinizde daha esnek ve s\u00FCrd\u00FCr\u00FClebilir bir yap\u0131 olu\u015Fturman\u0131za yard\u0131mc\u0131 olacakt\u0131r. Video boyunca, ger\u00E7ek d\u00FCnyadan \u00F6rnekler ve pratik uygulamalarla bu prensibin nas\u0131l kullan\u0131ld\u0131\u011F\u0131n\u0131 g\u00F6receksiniz. \n\nDiscord sunucumuza kat\u0131larak sorular\u0131n\u0131z\u0131 payla\u015Fabilir ve toplulu\u011Fumuzla etkile\u015Fime ge\u00E7ebilirsiniz:\nhttps://discord.com/invite/tkZBnuba8h",
+    "PublishedAt": "2024-09-16T12:00:27Z",
+    "Tags": "Liskov Substitution,SOLID prensipler,yaz\u0131l\u0131m geli\u015Ftirme,inheritance,yaz\u0131l\u0131m m\u00FChendisli\u011Fi,OOP,temiz kod,yaz\u0131l\u0131m tasar\u0131m desenleri,design patterns,solid,Liskovun yer de\u011Fi\u015Ftirme prensibi",
+    "Comments": []
+  },
+  {
+    "Id": 78,
+    "VideoId": "5qNmRMvo7yI",
+    "Title": "Interface Segregation: Aray\u00FCz Ayr\u0131m\u0131 Prensibi",
+    "Description": "SOLID serimizin bu videosunda, Interface Segregation prensibini ayr\u0131nt\u0131lar\u0131yla ele al\u0131yoruz. Interface Segregation, b\u00FCy\u00FCk ve \u015Fi\u015Fkin interface\u0027leri daha k\u00FC\u00E7\u00FCk ve odakl\u0131 hale getirerek kodunuzu daha mod\u00FCler ve s\u00FCrd\u00FCr\u00FClebilir yapman\u0131za yard\u0131mc\u0131 olur.\n\nVideoda, SOLID\u0027in di\u011Fer prensipleriyle olan ba\u011Flant\u0131lar\u0131, \u00F6zellikle Single Responsibility ve Open-Closed prensiplerine nas\u0131l etkide bulundu\u011Funu ke\u015Ffedeceksiniz. Ayr\u0131ca, Robert C. Martin\u0027in ger\u00E7ek hayatta kar\u015F\u0131la\u015Ft\u0131\u011F\u0131 bir sorundan ilham alarak geli\u015Ftirdi\u011Fi bu prensibi, printer modelleri ve ger\u00E7ek d\u00FCnya \u00F6rnekleri \u00FCzerinden daha somut hale getiriyoruz.\n\nInterface Segregation sayesinde projelerinize eklenen yeni \u00F6zellikler, mevcut yap\u0131y\u0131 bozmadan kolayca entegre edilebilecek. Videoda, bu prensibin yaz\u0131l\u0131m mimarisine nas\u0131l katk\u0131 sa\u011Flad\u0131\u011F\u0131n\u0131 ve neden \u00F6nemli oldu\u011Funu detayl\u0131 \u00F6rneklerle \u00F6\u011Freneceksiniz.\n\nDiscord sunucumuza kat\u0131larak sorular\u0131n\u0131z\u0131 payla\u015Fabilir ve toplulu\u011Fumuzla etkile\u015Fime ge\u00E7ebilirsiniz:\nhttps://discord.com/invite/tkZBnuba8h",
+    "PublishedAt": "2024-09-23T12:00:06Z",
+    "Tags": "Interface Segregation,SOLID prensipleri,yaz\u0131l\u0131m geli\u015Ftirme,mod\u00FCler kodlama,OOP,yaz\u0131l\u0131m m\u00FChendisli\u011Fi,temiz kod,interface segregation \u00F6rnekleri,yaz\u0131l\u0131m tasar\u0131m desenleri,yaz\u0131l\u0131m e\u011Fitimi",
+    "Comments": []
+  },
+  {
+    "Id": 79,
+    "VideoId": "Vli___1DEMY",
+    "Title": "Dependency Inversion: Ba\u011F\u0131ml\u0131l\u0131\u011F\u0131n Tersine \u00C7evrilmesi",
+    "Description": "SOLID serimizin son videosuna geldik ve Dependency Inversion prensibini inceliyoruz. Bu \u00F6nemli prensip, yaz\u0131l\u0131m projelerinizde alt ve \u00FCst seviye mod\u00FCller aras\u0131ndaki s\u0131k\u0131 s\u0131k\u0131ya ba\u011F\u0131ml\u0131l\u0131\u011F\u0131 gev\u015Feterek, kodunuzu daha esnek ve s\u00FCrd\u00FCr\u00FClebilir hale getirmenizi sa\u011Flar.\n\nVideomuzda, Robert C. Martin\u0027in bu prensibi nas\u0131l tan\u0131mlad\u0131\u011F\u0131n\u0131, s\u0131k\u0131 ba\u011Fl\u0131l\u0131k (tightly coupled) ve gev\u015Fek ba\u011Fl\u0131l\u0131k (loosely coupled) kavramlar\u0131n\u0131n projelerinize nas\u0131l etkide bulundu\u011Funu \u00F6\u011Freniyoruz. Ayr\u0131ca, pratik \u00F6rneklerle Dependency Inversion\u0027\u0131 ger\u00E7ek d\u00FCnya projelerinde nas\u0131l uygulayabilece\u011Finizi g\u00F6steriyoruz.\n\nBu video, yaln\u0131zca *Youngling* \u00FCyelerimize \u00F6zel olarak yay\u0131nlanm\u0131\u015Ft\u0131r. Yaz\u0131l\u0131m becerilerinizi geli\u015Ftirmek ve profesyonel d\u00FCnyada fark yaratmak i\u00E7in bu videoyu ka\u00E7\u0131rmay\u0131n!\n\nToplulu\u011Fumuzla etkile\u015Fime ge\u00E7mek ve g\u00FCncel i\u00E7eriklerden haberdar olmak i\u00E7in Discord sunucumuza kat\u0131l\u0131n:\nhttps://discord.com/invite/tkZBnuba8h",
+    "PublishedAt": "2024-09-30T12:00:38Z",
+    "Tags": "Dependency Inversion,SOLID prensipleri,yaz\u0131l\u0131m geli\u015Ftirme,gev\u015Fek ba\u011Fl\u0131l\u0131k,s\u0131k\u0131 ba\u011Fl\u0131l\u0131k,Robert C. Martin,object oriented programming,OOP,yaz\u0131l\u0131m m\u00FChendisli\u011Fi,temiz kod,yaz\u0131l\u0131m tasar\u0131m desenleri",
+    "Comments": [
+      {
+        "Id": 243,
+        "VideoId": 79,
+        "Author": "@BarknKahraman",
+        "PublishedAt": "2024-10-08T09:32:30Z",
+        "Text": "merhaba bu kurs unity oyun geli\u015Ftiricisinin i\u015Fine yarar m\u0131"
+      }
+    ]
+  },
+  {
+    "Id": 80,
+    "VideoId": "W4PKZypQ3P8",
+    "Title": "CQRS Pattern Nedir? - Okuma ve Yazma \u0130\u015Flemlerinin Ayr\u0131m\u0131",
+    "Description": "Sevgili arkada\u015Flar, bu videoda CQRS Pattern\u2019in ne oldu\u011Funu ve yaz\u0131l\u0131m projelerinde neden kullan\u0131ld\u0131\u011F\u0131n\u0131 anlatt\u0131k. CQRS, okuma (query) ve yazma (command) i\u015Flemlerini sorumluluk a\u00E7\u0131s\u0131ndan ay\u0131ran bir tasar\u0131m kal\u0131b\u0131d\u0131r. \u00D6zellikle veri taban\u0131nda yap\u0131lan sorgu ve g\u00FCncelleme i\u015Flemlerinin ayr\u0131\u015Ft\u0131r\u0131lmas\u0131, sistem performans\u0131n\u0131 art\u0131r\u0131r. Video boyunca, basit bir \u00FCr\u00FCn ve kategori listesini sorgulay\u0131p nas\u0131l ayr\u0131\u015Ft\u0131rabilece\u011Finizi \u00F6rneklerle g\u00F6sterdik. Bir sonraki videoda CQRS\u0027in daha karma\u015F\u0131k uygulamalardaki kullan\u0131m\u0131n\u0131 detayland\u0131raca\u011F\u0131z.",
+    "PublishedAt": "2024-10-23T12:00:45Z",
+    "Tags": "CQRS Pattern,command query segregation,yaz\u0131l\u0131m geli\u015Ftirme,veri taban\u0131 y\u00F6netimi,performans optimizasyonu,yaz\u0131l\u0131m mimarisi,Softbreak,query ve command i\u015Flemleri,CQRS \u00F6rne\u011Fi",
+    "Comments": []
+  },
+  {
+    "Id": 81,
+    "VideoId": "97vwRWysViE",
+    "Title": "B\u00F6l\u00FCm 1:Onion Mimari Nedir? Katmanl\u0131 Yaz\u0131l\u0131m Yap\u0131lar\u0131 | C# E\u011Fitimi",
+    "Description": "Onion Mimari ile yaz\u0131l\u0131m projelerinizde s\u00FCrd\u00FCr\u00FClebilirlik ve esneklik nas\u0131l sa\u011Flan\u0131r? Bu videoda, yaz\u0131l\u0131m mimarilerinde yeni bir perspektif sunan Onion Mimari\u0027nin temel prensiplerini ele al\u0131yoruz. Domain Driven Design yakla\u015F\u0131m\u0131n\u0131 anlamak, katmanl\u0131 yap\u0131lar\u0131 do\u011Fru bir \u015Fekilde kullanmak ve projelerinizi de\u011Fi\u015Fime dayan\u0131kl\u0131 hale getirmek i\u00E7in gerekli teorik temelleri ke\u015Ffedin.\nOnion Mimari\u0027nin Ntire Mimari ile farklar\u0131n\u0131 \u00F6\u011Frenerek projelerinizi nas\u0131l daha verimli ve esnek hale getirebilece\u011Finizi \u00F6\u011Freneceksiniz.\n\n\uD83D\uDCCC Videonun B\u00F6l\u00FCmleri:\n\n00:06 Onion Mimari Tan\u0131m\u0131\n00:43 Onion ve Ntire Mimari Kar\u015F\u0131la\u015Ft\u0131rmas\u0131\n03:22 Yaz\u0131l\u0131mda S\u00FCrd\u00FCr\u00FClebilirlik ve Esneklik\n14:40 Domain Driven Design (DDD) A\u00E7\u0131klamas\u0131\n\nSorular\u0131n\u0131z\u0131 yorumlara yazmay\u0131 unutmay\u0131n!\uD83C\uDF1F",
+    "PublishedAt": "2024-12-06T12:00:11Z",
+    "Tags": "Domain Driven Design,Katmanl\u0131 Mimari,ntier mimari,Yaz\u0131l\u0131m Projesi Tasar\u0131m\u0131,C# E\u011Fitimi,Yaz\u0131l\u0131m Geli\u015Ftirme Prensipleri,Solid Prensipleri,domain driven,jeffrey palermo,Onion Mimari,Onion Architecture,Yaz\u0131l\u0131m Mimarisi,Yaz\u0131l\u0131m Geli\u015Ftirme,Modern Yaz\u0131l\u0131m Prensipleri,S\u00FCrd\u00FCr\u00FClebilir Yaz\u0131l\u0131m,Yaz\u0131l\u0131mda Esneklik,Mimari Kar\u015F\u0131la\u015Ft\u0131rma,Onion vs Ntire,Yaz\u0131l\u0131m Projeleri,.NET Core,Katmanl\u0131 Yap\u0131lar,Proje Y\u00F6netimi,Yaz\u0131l\u0131m Tasar\u0131m\u0131",
+    "Comments": [
+      {
+        "Id": 244,
+        "VideoId": 81,
+        "Author": "@fikretakbass",
+        "PublishedAt": "2024-12-06T12:10:57Z",
+        "Text": "Emeklerinize sa\u011Fl\u0131k, bence anlat\u0131m yerine do\u011Frudan proje geli\u015Ftirme ile ba\u015Flaman\u0131z \u00E7ok daha iyi olacakt\u0131r. \u00C7\u00FCnk\u00FC piyasada bir s\u00FCr\u00FC bu mimariyi anlatan video var. \u00C7\u00FCnk\u00FC uygulayarak \u00F6\u011Frenmek en iyi \u00F6\u011Frenme yoludur. Vesselam."
+      }
+    ]
+  },
+  {
+    "Id": 82,
+    "VideoId": "evRBFPShuJA",
+    "Title": "B\u00F6l\u00FCm 2: Onion Mimari Proje Olu\u015Fturma ve Uygulamal\u0131 Tasar\u0131m | C# E\u011Fitimi",
+    "Description": "Onion Mimari\u0027nin temelini anlaman\u0131n ard\u0131ndan bu b\u00F6l\u00FCmde, ger\u00E7ek bir proje olu\u015Fturarak uygulamal\u0131 tasar\u0131m s\u00FCrecine giri\u015F yap\u0131yoruz. Yaz\u0131l\u0131m projelerinizi modern prensiplere uygun bir \u015Fekilde geli\u015Ftirmek i\u00E7in ihtiyac\u0131n\u0131z olan ad\u0131mlar\u0131 detayl\u0131 bir \u015Fekilde ele al\u0131yoruz.\n\n\uD83D\uDCCC Videonun B\u00F6l\u00FCmleri:\n\n00:31 Giri\u015F\n01:15 Klas\u00F6rler\n05:29 Domain\n08:00 Application\n10:10 Persistence\n12:14 Inner Infrastructure\n13:26 Presentation (API)\n17:20 Entities\n20:00 Prefer Auto Properties\n21:06 Concretes\n23:20 AspNetCore.Identity.EntityFrameworkCore\n24:01 AppUser\n26:10 Category\n26:34 Product\n27:44 AppUserProfile\n28:38 Order\n29:06 OrderDetail\n30:54 Scope to This\n\n\nSorular\u0131n\u0131z\u0131 yorumlara yazmay\u0131 unutmay\u0131n. \uD83C\uDF1F",
+    "PublishedAt": "2024-12-14T09:00:41Z",
+    "Tags": "Onion Mimari,Onion Architecture,C# E\u011Fitimi,Katmanl\u0131 Mimari,Domain Driven Design,API Tasar\u0131m\u0131,Entity Framework,Proje Geli\u015Ftirme,Yaz\u0131l\u0131m Mimari Prensipleri,Persistence Katman\u0131,Application Katman\u0131,API Katman\u0131,AspNetCore.Identity,Entity Framework Core,Uygulamal\u0131 C# E\u011Fitimi,Yaz\u0131l\u0131m M\u00FChendisli\u011Fi,Modern Yaz\u0131l\u0131m Prensipleri,Katmanl\u0131 Yaz\u0131l\u0131m,Yaz\u0131l\u0131m Geli\u015Ftirme,.NET Core,Onion",
+    "Comments": [
+      {
+        "Id": 245,
+        "VideoId": 82,
+        "Author": "@ayhanoztemel7915",
+        "PublishedAt": "2024-12-14T09:51:31Z",
+        "Text": "Kafam\u0131 kar\u0131\u015Ft\u0131ran bir nokta var, Onion mimari ile Ntier mimari mukayese edilirken sanki Ntier mimaride soyutlama yokmu\u015F gibi mukayese ediliyor. Benim bildi\u011Fim Ntier mimaride de katmanlar aras\u0131 ileti\u015Fim interface\u0027ler \u00FCzerinden yap\u0131l\u0131yor. Buda iki mimari aras\u0131ndaki fark ve  onion mimarinin Ntier mimariye g\u00F6re tercih edilme sebebini kafamda tam olarak oturtam\u0131yorum."
+      }
+    ]
+  },
+  {
+    "Id": 83,
+    "VideoId": "_9FiqFQrw4A",
+    "Title": "B\u00F6l\u00FCm 3: Onion Mimari Contract Katman\u0131ndan Somut S\u0131n\u0131flara Ge\u00E7i\u015F | C# E\u011Fitimi",
+    "Description": "Onion Mimari serimizin bu b\u00F6l\u00FCm\u00FCnde, Contract Katman\u0131 \u00FCzerinde yo\u011Funla\u015F\u0131yoruz. Contract katman\u0131n\u0131n tasar\u0131m\u0131nda dikkat edilmesi gereken noktalar\u0131 ele al\u0131yor ve bu katmandan somut s\u0131n\u0131flara nas\u0131l ge\u00E7ilece\u011Fini ad\u0131m ad\u0131m inceliyoruz. Yaz\u0131l\u0131m projelerinde esneklik ve s\u00FCrd\u00FCr\u00FClebilirlik sa\u011Flamak i\u00E7in katmanlar aras\u0131nda g\u00FC\u00E7l\u00FC bir soyutlama mekanizmas\u0131 kurmay\u0131 \u00F6\u011Frenin.\n\nBu videoda, DTO\u0027lar, servis s\u00F6zle\u015Fmeleri (service contracts) ve di\u011Fer \u00F6nemli unsurlar\u0131n tasar\u0131m\u0131na dair detayl\u0131 bir rehber sunuyoruz. Ayr\u0131ca, Contract katman\u0131n\u0131n Domain ve Application katmanlar\u0131yla olan ili\u015Fkisini anlaman\u0131z\u0131 sa\u011Flayacak pratik \u00F6rneklerle konuyu peki\u015Ftiriyoruz.\n\nSorular\u0131n\u0131z\u0131 yorumlara yazmay\u0131 unutmay\u0131n! \uD83C\uDF1F",
+    "PublishedAt": "2024-12-21T11:00:46Z",
+    "Tags": "Onion Architecture,Contract Layer,C# E\u011Fitimi,Katmanl\u0131 Mimari,Domain Driven Design,DTO Tasar\u0131m\u0131,Servis S\u00F6zle\u015Fmeleri,Yaz\u0131l\u0131m Mimarisi,Uygulamal\u0131 C#,Yaz\u0131l\u0131m Geli\u015Ftirme,Soyutlama,Interface Kullan\u0131m\u0131,Entity Katman\u0131,S\u00FCrd\u00FCr\u00FClebilir Yaz\u0131l\u0131m,Modern Yaz\u0131l\u0131m Prensipleri",
+    "Comments": [
+      {
+        "Id": 246,
+        "VideoId": 83,
+        "Author": "@fuatozer7813",
+        "PublishedAt": "2024-12-22T11:59:48Z",
+        "Text": "a\u011Fz\u0131n\u0131za sa\u011Fl\u0131k , projeyi githuba y\u00FCklerseniz \u00E7ok sevinirim \uD83D\uDE0D"
+      }
+    ]
+  }
+]
