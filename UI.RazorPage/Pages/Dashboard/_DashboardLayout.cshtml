@@ -1,0 +1,33 @@
+﻿<!-- meta tags and other links -->
+<!DOCTYPE html>
+<html lang="tr" data-theme="light">
+
+<partial name="~/Pages/Shared/Partials/AdminPartials/_Head.cshtml" />
+
+<body>
+    <partial name="~/Pages/Shared/Partials/AdminPartials/_Sidebar.cshtml" />
+
+    <main class="dashboard-main">
+        <partial name="~/Pages/Shared/Partials/AdminPartials/_Navbar.cshtml" />
+
+        <div class="dashboard-main-body">
+            @{
+                string BreadcrumbTitle = ViewData.ContainsKey("title") ? ViewData["title"] as string ?? "" : "";
+                string BreadcrumbSubTitle = ViewData.ContainsKey("subTitle") ? ViewData["subTitle"] as string ?? "" : "";
+            }
+            <partial name="~/Pages/Shared/Partials/AdminPartials/_Breadcrumb.cshtml" view-data='new ViewDataDictionary(ViewData) {{ "BreadcrumbTitle", BreadcrumbTitle }, { "BreadcrumbSubTitle", BreadcrumbSubTitle }}' />
+            @RenderBody()
+        </div>
+
+        <partial name="~/Pages/Shared/Partials/AdminPartials/_Footer.cshtml" />
+    </main>
+    <partial name="~/Pages/Shared/Partials/AdminPartials/_Scripts.cshtml" />
+
+    @* Render the script if it exists in ViewData *@
+    @if (ViewData.ContainsKey("script"))
+    {
+        @Html.Raw(ViewData["script"] as string)
+    }
+</body>
+
+</html>

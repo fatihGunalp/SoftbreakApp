@@ -59,7 +59,7 @@ namespace Infrastructure.ExternalServices
 
         public async Task<string> GenerateChatResponseAsync(string userInput, string videoId)
         {
-            const double SimilarityThreshold = 0.9; // Alaka eşiği (0 ile 1 arasında)
+            const double SimilarityThreshold = 0.7; // Alaka eşiği (0 ile 1 arasında)
 
             // 1. Videoyu ve yorumları veritabanından çek
             var video = await _context.YoutubeVideos
